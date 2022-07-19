@@ -3,7 +3,7 @@ import preprocesser
 import helper
 import seaborn as sns
 import matplotlib.pyplot as plt
-st.sidebar.title('Exploratory Data Analysis on WhatsApp Chats')
+st.sidebar.title("Exploratory Data Analysis on WhatsApp Chats")
 
 uploaded_file=st.sidebar.file_uploader("Enter a WhatsApp Chat text file")
 if uploaded_file is not None:
