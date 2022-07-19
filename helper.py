@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 18 12:13:09 2022
-
-@author: DELL
-"""
 import pandas as pd
 from urlextract import URLExtract
 from collections import Counter

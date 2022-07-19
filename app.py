@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 18 11:24:27 2022
-
-@author: DELL
-"""
-
 import streamlit as st
 import preprocesser
 import helper

@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 18 11:26:17 2022
-
-@author: DELL
-"""
 import re
 import pandas as pd
 def preprocess(data):
