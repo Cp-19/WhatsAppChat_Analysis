@@ -1,0 +1,4190 @@
+9/7/21, 8:13 PM - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Tap to learn more.
+9/7/21, 8:13 PM - Chinmay: Hi Chinmay this side
+9/7/21, 9:14 PM - Hemant Hostel J: Hi
+9/7/21, 9:34 PM - Chinmay: Bhai vo quess bhej diyo zara
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/7/21, 9:56 PM - Hemant Hostel J: <Media omitted>
+9/10/21, 6:20 PM - Chinmay: <Media omitted>
+9/10/21, 6:37 PM - Hemant Hostel J: This message was deleted
+9/10/21, 6:38 PM - Hemant Hostel J: 22min
+9/10/21, 6:38 PM - Hemant Hostel J: A lag raha hai
+9/10/21, 6:38 PM - Hemant Hostel J: Sure nhi hu yaar
+9/10/21, 7:32 PM - Chinmay: <Media omitted>
+9/10/21, 7:46 PM - Hemant Hostel J: #include<iostream>
+using namespace std;
+
+
+int answer(int n){
+
+
+    int y=(2*n+1);
+
+
+    int sum=0;
+
+    int temp=(y-1)/2;
+
+
+    int start=y-2;
+    while(temp>0){
+
+        sum=sum+start;
+        start=start-2;
+        temp--;
+    }
+
+
+    return sum;
+
+}
+
+
+int main(){
+
+    int n;
+    cin>>n;
+
+
+    int y=answer(n);
+
+    cout<<y<<endl;
+
+}
+9/10/21, 7:46 PM - Hemant Hostel J: bhai contraint bade hai
+9/10/21, 7:46 PM - Hemant Hostel J: toh long le aur
+9/10/21, 7:47 PM - Hemant Hostel J: modulo ki property laga mujhe pata nhi hai abhi
+9/10/21, 7:47 PM - Hemant Hostel J: multiply main kon si lagti hai aur divide main kon si lagti hai
+9/10/21, 8:00 PM - Hemant Hostel J: Bhai hoo gaya kya
+9/10/21, 8:02 PM - Hemant Hostel J: ?
+9/10/21, 8:03 PM - Chinmay: Thodi der mein batata hun
+9/10/21, 8:10 PM - Hemant Hostel J: Khanaa khane aa jaaa
+9/10/21, 8:47 PM - Hemant Hostel J: <Media omitted>
+9/10/21, 8:47 PM - Hemant Hostel J: <Media omitted>
+9/10/21, 8:47 PM - Hemant Hostel J: <Media omitted>
+9/10/21, 8:50 PM - Hemant Hostel J: This message was deleted
+9/10/21, 8:55 PM - Hemant Hostel J: <Media omitted>
+9/10/21, 8:56 PM - Hemant Hostel J: <Media omitted>
+9/11/21, 10:16 PM - Hemant Hostel J: Telegram par hi bhej
+9/11/21, 10:16 PM - Chinmay: Kya bheju?
+9/11/21, 10:16 PM - Hemant Hostel J: Hi
+9/11/21, 10:16 PM - Chinmay: Accha
+9/12/21, 8:19 AM - Hemant Hostel J: 9 se 10 timing hai
+9/12/21, 8:19 AM - Hemant Hostel J: Bhai
+9/12/21, 4:10 PM - Hemant Hostel J: O Hostel Cleaning.vcf (file attached)
+9/12/21, 9:01 PM - Hemant Hostel J: <Media omitted>
+9/12/21, 9:01 PM - Hemant Hostel J: <Media omitted>
+9/12/21, 9:01 PM - Hemant Hostel J: <Media omitted>
+9/12/21, 9:01 PM - Hemant Hostel J: <Media omitted>
+9/12/21, 9:04 PM - Chinmay: <Media omitted>
+9/13/21, 8:06 PM - Hemant Hostel J: <Media omitted>
+9/14/21, 2:27 PM - Hemant Hostel J: <Media omitted>
+9/14/21, 2:27 PM - Hemant Hostel J: <Media omitted>
+9/14/21, 2:27 PM - Hemant Hostel J: <Media omitted>
+9/20/21, 12:51 AM - Chinmay: if(root==NULL){
+            return;
+        }
+        
+        if(root->left==NULL && root->right==NULL && st.size()==0){
+            return;
+        }
+        else if(root->left==NULL && root->right==NULL){
+            
+            TreeNode* temp=st.top();
+            st.pop();
+            helper(temp,st);
+            root->left=temp;
+            
+            
+            
+        }
+        
+        
+        if(root->right!=NULL){
+            TreeNode* temp2=root->right;
+            st.push(temp2);
+        
+            root->right=NULL;
+        }
+        
+        
+       
+        
+        
+        
+        helper(root->left,st);
+        
+        
+        
+    }
+    
+    void flatten(TreeNode* root) {
+        
+        TreeNode* answer=root;
+        stack<TreeNode*> st;
+        helper(root,st);
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+9/20/21, 4:05 PM - Hemant Hostel J: <Media omitted>
+9/20/21, 7:28 PM - Hemant Hostel J: <Media omitted>
+9/20/21, 7:28 PM - Hemant Hostel J: <Media omitted>
+9/20/21, 7:28 PM - Hemant Hostel J: <Media omitted>
+9/20/21, 7:28 PM - Hemant Hostel J: <Media omitted>
+9/20/21, 7:28 PM - Hemant Hostel J: <Media omitted>
+9/20/21, 7:28 PM - Hemant Hostel J: <Media omitted>
+9/23/21, 11:05 PM - Hemant Hostel J: <Media omitted>
+9/23/21, 11:05 PM - Hemant Hostel J: <Media omitted>
+9/23/21, 11:05 PM - Hemant Hostel J: <Media omitted>
+9/24/21, 12:53 PM - Chinmay: *Trident Group* 
+
+For pre-final year students
+
+Registration Links: 
+Google Form: https://forms.gle/MWU6TLUJQrz2xXpR9
+
+Opportunities Offered: 2 month Internship
+Profiles Offered: Technical
+Locations: PAN India
+
+Compensation & Benefits: 
+CTC (in LPA): 15
+Internship Stipend (per month): 50000
+
+Eligibility: 
+Eligible Branches: 
+B.E.- CS, EE, EIC
+Minimum CGPA: 7
+Minimum 10th %: 60
+Minimum 12th %: 60
+
+Timeline: 
+Registration Closing Date: 26/09/2021 11:59 PM
+9/30/21, 5:52 PM - Hemant Hostel J: https://youtu.be/AtVv9N15O3s
+10/2/21, 2:55 PM - Chinmay: <Media omitted>
+10/4/21, 1:39 PM - Hemant Hostel J: Bhai
+10/4/21, 1:39 PM - Hemant Hostel J: Hostel kab aa raha hai
+10/4/21, 2:56 PM - Chinmay: Mein 5:15 pe aunga
+10/4/21, 3:32 PM - Hemant Hostel J: Bhai
+10/4/21, 3:32 PM - Hemant Hostel J: 5:15 baje tak pakka aa jaaiyo
+10/4/21, 3:44 PM - Hemant Hostel J: Please
+10/4/21, 3:44 PM - Hemant Hostel J: Bhai
+10/4/21, 5:17 PM - Hemant Hostel J: Aa jaa bhai
+10/6/21, 10:16 AM - Chinmay: Bhaii aj jiss company ka test hai uske ques bhej diyo
+10/6/21, 10:16 AM - Hemant Hostel J: Aacha
+10/6/21, 10:16 AM - Hemant Hostel J: Thik hai
+10/6/21, 10:16 AM - Hemant Hostel J: 2 baje hau
+10/6/21, 10:28 AM - Chinmay: Theek bhai
+Bhej diyo
+10/20/21, 7:56 PM - Hemant Hostel J: Sparsh.vcf (file attached)
+10/31/21, 3:55 PM - Hemant Hostel J: Bhai pahuch gaya
+10/31/21, 3:55 PM - Hemant Hostel J: ?
+10/31/21, 3:55 PM - Chinmay: Haan bhai
+Kal hi aa gya tha
+10/31/21, 3:55 PM - Hemant Hostel J: Bas ab toh coooodinggggg
+10/31/21, 3:56 PM - Chinmay: Haan bhaiiiii
+Kal se try karte hai
+10/31/21, 3:56 PM - Chinmay: Ab toh tu bhi coddiiiinggggg karegaaa
+10/31/21, 3:56 PM - Chinmay: Placement toh teri lag jaani hai
+Hame refer maarr diyo
+10/31/21, 3:56 PM - Hemant Hostel J: 🤣
+10/31/21, 3:57 PM - Hemant Hostel J: Abhi toh auxy ki tayari karni hai
+10/31/21, 3:57 PM - Chinmay: Arrey bc 🤣🤣🤣
+Kya pata auxo na aaye
+12/1/21, 11:16 PM - Chinmay: https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
+12/1/21, 11:16 PM - Chinmay: bhaii ye ques dekhio
+12/1/21, 11:33 PM - Hemant Hostel J: maine ye favourite  list main daal rakha hai
+12/1/21, 11:33 PM - Hemant Hostel J: bc pehele bhi nhi hua tha
+12/1/21, 11:33 PM - Hemant Hostel J: bc
+12/1/21, 11:38 PM - Chinmay: Bhai dekh
+12/1/21, 11:38 PM - Chinmay: Zara
+12/1/21, 11:38 PM - Chinmay: Agar ho jaaye
+12/1/21, 11:38 PM - Hemant Hostel J: Try kar raha hu
+12/1/21, 11:38 PM - Hemant Hostel J: Yrrr
+12/1/21, 11:38 PM - Hemant Hostel J: Gand hi fat gayi bc
+12/1/21, 11:38 PM - Chinmay: Bhai isme sliding window hi laga rha hai na?
+12/1/21, 11:39 PM - Hemant Hostel J: Variable length ka
+12/1/21, 11:39 PM - Hemant Hostel J: Shayad tak toh
+12/1/21, 11:39 PM - Hemant Hostel J: Sliding window
+12/1/21, 11:41 PM - Chinmay: Mein bhi try karta hun try
+12/1/21, 11:56 PM - Hemant Hostel J: Bhai nhi hoo raha yaar
+12/1/21, 11:56 PM - Hemant Hostel J: 😭
+12/2/21, 12:00 AM - Chinmay: Bhai mere test cases toh paas ho gye
+12/2/21, 12:00 AM - Chinmay: Lekin fir nahi chala jab submit maara
+12/2/21, 12:00 AM - Hemant Hostel J: aacha
+12/2/21, 12:00 AM - Hemant Hostel J: badhiya bhai kya lagaya waise tune
+12/2/21, 12:01 AM - Chinmay: abey meine lagay toh variable sliding window hi
+12/2/21, 12:01 AM - Chinmay: lekin 2 unordered_map use kiye
+12/2/21, 12:01 AM - Chinmay: int n=s.length()-1;
+        unordered_map<char,int>mp;
+        unordered_map<char,int>temp;
+        for(int i=0;i<=n;i++)
+        {
+            mp[s[i]]+=1;
+            temp[s[i]]=0;
+        }
+        
+        string t="";
+        int a=0;
+        for(int i=0;i<=n;i++)
+        {
+            if(mp[s[i]]+temp[s[i]]>=k)
+            {
+                t=t+s[i];
+                mp[s[i]]--;
+                temp[s[i]]++;
+            }
+            else
+            {
+                mp[s[i]]--;
+                for(int j=0;j<t.length();j++)
+                {
+                    if(temp[t[j]]<k)
+                    {
+                        temp.clear();
+                        t="";
+                    }
+                    
+                }
+                if(a<t.length())
+                {
+                    a=t.length();
+                }
+               // a=max(a,t.length());
+                if(temp.size()>0)
+                {
+                     temp.clear();
+                     t="";    
+                }
+                
+            }
+            
+        }
+        for(int j=0;j<t.length();j++)
+        {
+            if(temp[t[j]]<k)
+            {
+                temp.clear();
+                t="";
+            }
+                    
+        }
+        if(a<t.length())
+        {
+            a=t.length();
+        }
+       // a=max(a,t.length());
+        return a;
+12/2/21, 12:01 AM - Chinmay: aisa sa hai
+12/2/21, 12:01 AM - Hemant Hostel J: complexity cross nhi hoga?
+12/2/21, 12:02 AM - Chinmay: haan ho jaana chahiye
+12/2/21, 12:02 AM - Chinmay: brute force hi try karra abi
+12/2/21, 12:02 AM - Chinmay: lekin salla ye nhi chalra
+12/2/21, 12:02 AM - Hemant Hostel J: vansh se hua
+12/2/21, 12:02 AM - Chinmay: mujhe pata hai kaha problem hai
+12/2/21, 12:02 AM - Hemant Hostel J: kaha chala gaya bc wo
+12/2/21, 12:02 AM - Hemant Hostel J: reply bhi nhi de raha
+12/2/21, 12:02 AM - Chinmay: haan bhai usse bi bheja
+12/2/21, 12:03 AM - Chinmay: uske laptop mein kuch chakkar aa rha hai
+12/2/21, 12:03 AM - Hemant Hostel J: aaj ka daily kiya
+12/2/21, 12:03 AM - Hemant Hostel J: ?
+12/2/21, 12:03 AM - Hemant Hostel J: tune
+12/2/21, 12:03 AM - Chinmay: haan
+12/2/21, 12:03 AM - Chinmay: kuch dinn pehle hi kiya tha vo
+12/2/21, 12:03 AM - Hemant Hostel J: badhiya bhai
+12/2/21, 12:03 AM - Chinmay: 30 nov wala nahi hua
+12/2/21, 12:03 AM - Chinmay: kuch union find karke cheeze hai
+12/2/21, 12:04 AM - Chinmay: smjh nahi aati mujhe
+12/2/21, 12:04 AM - Hemant Hostel J: main toh aaj se dekha hai
+12/2/21, 12:04 AM - Hemant Hostel J: aaj se karunga
+12/2/21, 12:04 AM - Hemant Hostel J: college main coding kar leta tha thodi
+12/2/21, 12:04 AM - Hemant Hostel J: bc ghar aa kar dimag kharab hoo raha mera
+12/2/21, 12:04 AM - Hemant Hostel J: bahut time waste hota hai bc
+12/2/21, 12:04 AM - Chinmay: Bhai vahi
+Salla college mein ho jaati thi
+12/2/21, 12:04 AM - Chinmay: Jab vansh ko dekhta tha karte hue
+12/2/21, 12:04 AM - Chinmay: Fir tujhe dekhta tha
+12/2/21, 12:04 AM - Hemant Hostel J: haa bhai
+12/2/21, 12:04 AM - Hemant Hostel J: same
+12/2/21, 12:05 AM - Chinmay: Abi salla mann nahi karta 😂😂
+12/2/21, 12:05 AM - Hemant Hostel J: main khud usse dekh ke karta tha
+12/2/21, 12:05 AM - Chinmay: College Jan mein khulenge
+12/2/21, 12:05 AM - Hemant Hostel J: chale kya college
+12/2/21, 12:05 AM - Hemant Hostel J: le lete hai
+12/2/21, 12:05 AM - Hemant Hostel J: bc hostel
+12/2/21, 12:05 AM - Hemant Hostel J: bole
+12/2/21, 12:05 AM - Chinmay: 😂😂😂
+Haan bhai tujhe abi ghusne denge jaise 🤣
+12/2/21, 12:05 AM - Chinmay: Jan mein ek Saath le lenge
+12/2/21, 12:05 AM - Hemant Hostel J: bhai bahut se dost gaye
+12/2/21, 12:05 AM - Hemant Hostel J: society ke naam se
+12/2/21, 12:06 AM - Hemant Hostel J: haa chal ye bhi thik hai
+12/2/21, 12:06 AM - Chinmay: Pel ke coding karenge
+12/2/21, 12:06 AM - Chinmay: Salla masti Marr rhe honge
+12/2/21, 12:06 AM - Hemant Hostel J: abhi se bhai
+12/2/21, 12:06 AM - Hemant Hostel J: 45 din hai abhi
+12/2/21, 12:06 AM - Hemant Hostel J: bahut kuch ho sakta hai ismain
+12/2/21, 12:06 AM - Chinmay: Harr roz kam se kam 2 sawal karte hai
+12/2/21, 12:06 AM - Chinmay: 90 tak ho jayenge
+12/2/21, 12:06 AM - Hemant Hostel J: bhai abhi tak 126 solve hoo rakhe hai
+12/2/21, 12:06 AM - Hemant Hostel J: 300 tak le jaate hai
+12/2/21, 12:07 AM - Hemant Hostel J: leetcode ke
+12/2/21, 12:07 AM - Hemant Hostel J: bole
+12/2/21, 12:07 AM - Chinmay: Haan vhiii
+12/2/21, 12:07 AM - Chinmay: 300 zyada ho gya 😂😂
+12/2/21, 12:07 AM - Chinmay: 250
+12/2/21, 12:07 AM - Hemant Hostel J: 300-126=174
+12/2/21, 12:07 AM - Hemant Hostel J: 3 - 4 question
+12/2/21, 12:07 AM - Hemant Hostel J: daily sahi hai
+12/2/21, 12:07 AM - Hemant Hostel J: chal 250 maan le
+12/2/21, 12:07 AM - Chinmay: Haan ye bhi sahi hai vaise
+12/2/21, 12:08 AM - Chinmay: Meine toh graph bhi start karna hai abi
+12/2/21, 12:08 AM - Chinmay: Aur salla project bhi
+12/2/21, 12:08 AM - Hemant Hostel J: bas ye lode quesion ek aadha hi hoo
+12/2/21, 12:08 AM - Chinmay: Hamara SE ka kaam aa gaya hai ab
+12/2/21, 12:08 AM - Hemant Hostel J: 3-4 main se
+12/2/21, 12:08 AM - Chinmay: Vahiii 🤣🤣🤣🤣🤣🤣🤣🤣
+12/2/21, 12:08 AM - Chinmay: Ajeeb hi bakchodi hai ye
+12/2/21, 12:08 AM - Chinmay: Abi quiz bhi deni hai
+12/2/21, 12:08 AM - Chinmay: Aur viva bhi
+12/2/21, 12:09 AM - Chinmay: Salla Jaan kha kar rkhi hai abi bhi
+12/2/21, 12:09 AM - Hemant Hostel J: haa wo toh hai
+12/2/21, 12:10 AM - Hemant Hostel J: bhai jab bhi question kar raha hoo toh mujhe batana
+12/2/21, 12:10 AM - Hemant Hostel J: gmeet kar lenge
+12/2/21, 12:10 AM - Hemant Hostel J: dono ek hi question kar lenge
+12/2/21, 12:10 AM - Chinmay: Abe salle 😂😂😂
+Mujhse akele mein thode bohot ho paate hai
+12/2/21, 12:10 AM - Chinmay: Aise meet pe nahi
+12/2/21, 12:10 AM - Chinmay: Vaise mein
+12/2/21, 12:10 AM - Chinmay: Vo wale kar rha hun aajkal
+12/2/21, 12:10 AM - Hemant Hostel J: thoda company mil jayegi
+12/2/21, 12:10 AM - Chinmay: Leetcode pe
+12/2/21, 12:10 AM - Chinmay: Top liked
+12/2/21, 12:10 AM - Hemant Hostel J: mute kar ke baithe rehena
+12/2/21, 12:11 AM - Hemant Hostel J: bc kuch puchna hoga toh sahi reheta hai
+12/2/21, 12:11 AM - Chinmay: 😂😂😂😂😂
+Salle mein ques bhejta rahunga jo mushkil hoga
+Toh bhi bhejte rhe
+Ye wale kaam try kiye hai
+12/2/21, 12:11 AM - Chinmay: Hota nahi hai
+12/2/21, 12:11 AM - Hemant Hostel J: aacha aisa hai kya
+12/2/21, 12:12 AM - Chinmay: Haan bhai
+Kal se mein full force mein
+12/2/21, 12:12 AM - Chinmay: Kam se kam 3 ghante coding karunga
+12/2/21, 12:12 AM - Chinmay: Toh doubt hi doubt honge
+12/2/21, 12:12 AM - Chinmay: Tujhe bhejta rahunga
+12/2/21, 12:12 AM - Chinmay: Tu bhi bhejte rahio
+12/2/21, 12:12 AM - Hemant Hostel J: haa bhai
+12/2/21, 12:12 AM - Hemant Hostel J: bhar dena hai leetcode saaala
+12/2/21, 12:13 AM - Chinmay: Vahiiii bc
+12/2/21, 12:13 AM - Chinmay: Salla ye madarchod dp karni hai acche se vapis
+12/2/21, 12:14 AM - Chinmay: Kal se bc padhna start
+12/2/21, 9:32 AM - Hemant Hostel J: Hmmm
+12/3/21, 3:36 PM - Chinmay: https://leetcode.com/problems/reverse-words-in-a-string/
+12/3/21, 3:37 PM - Chinmay: bhai isse O(1) space mein kaise karenge
+12/17/21, 2:22 PM - Hemant Hostel J: Bro
+12/17/21, 2:23 PM - Hemant Hostel J: Bhai
+12/17/21, 2:42 PM - Chinmay: Yus my biro
+12/17/21, 2:43 PM - Hemant Hostel J: Bhai hostel main dsa karna hai pel ke
+12/17/21, 2:43 PM - Hemant Hostel J: Bhai
+12/17/21, 2:43 PM - Chinmay: Bhai bilkul bhai
+Mein Tere saath hun bhai
+12/17/21, 2:43 PM - Chinmay: Mujhse ghar pe kuch nahi hua
+12/17/21, 2:43 PM - Hemant Hostel J: Abhi project nipta le
+12/17/21, 2:43 PM - Chinmay: Aur ab mein bahar aa gya hun
+12/17/21, 2:43 PM - Hemant Hostel J: Aacha
+12/17/21, 2:43 PM - Hemant Hostel J: Kaha
+12/17/21, 2:43 PM - Hemant Hostel J: ?
+12/17/21, 2:43 PM - Chinmay: Bhai project pe mein apne SE ka kaam daal rha hun
+12/17/21, 2:44 PM - Chinmay: Noida hun abi
+Fir vrindavan wagera
+12/17/21, 2:44 PM - Hemant Hostel J: Aacha
+12/17/21, 2:44 PM - Chinmay: Agra
+12/17/21, 2:44 PM - Hemant Hostel J: Ohhh
+12/17/21, 2:44 PM - Hemant Hostel J: Sahi hai
+12/17/21, 2:44 PM - Chinmay: Toh ek hafta mera bekar jayega
+12/17/21, 2:44 PM - Hemant Hostel J: Bhai hostel main dsa hi katni hai subhe sham
+12/17/21, 2:44 PM - Chinmay: Bhai hostel mein classes maachudaye
+12/17/21, 2:44 PM - Chinmay: Sirf baith ke dsa karenge
+12/17/21, 2:45 PM - Chinmay: Aur kuch nahi
+12/17/21, 2:45 PM - Hemant Hostel J: Hope fully yaar
+12/17/21, 2:45 PM - Hemant Hostel J: Attendence ka lafda naaa hoo
+12/17/21, 2:45 PM - Chinmay: Apna haal dikh rha hun mujhe
+Aisa chalta rha
+Toh TCS hi lagega
+12/17/21, 2:45 PM - Hemant Hostel J: Haaa bhai
+12/17/21, 2:45 PM - Chinmay: Vahi birooooo
+12/17/21, 2:46 PM - Hemant Hostel J: Main toh project ka drkg raha abhi
+12/17/21, 2:46 PM - Hemant Hostel J: Chote mote bana leta hu
+12/17/21, 2:46 PM - Chinmay: Mein bhi bhai
+Thoda
+12/17/21, 2:46 PM - Chinmay: Ml wagera ka chalra kaam
+12/17/21, 2:46 PM - Hemant Hostel J: Hmmm
+12/17/21, 2:46 PM - Chinmay: Text processing wagera
+12/17/21, 2:47 PM - Hemant Hostel J: Tune mere se wo course le liya tha?
+12/17/21, 2:47 PM - Chinmay: Kaunsa?
+12/17/21, 2:47 PM - Hemant Hostel J: Usmain project the 3-4
+12/17/21, 2:47 PM - Hemant Hostel J: Hard drive main cn ka
+12/17/21, 2:47 PM - Chinmay: Na bhai
+Mein khud dekh rha hun
+12/17/21, 2:47 PM - Chinmay: Thoda
+12/17/21, 2:47 PM - Hemant Hostel J: Aacha
+12/17/21, 2:47 PM - Chinmay: Jaise
+Spam not spam
+12/17/21, 2:47 PM - Hemant Hostel J: Sahi hai
+12/17/21, 2:48 PM - Chinmay: Haan bhai
+Matlab sab aasan sa hai
+12/17/21, 2:48 PM - Chinmay: Accha hai hostel mein thoda ML kar liya tah
+12/17/21, 2:48 PM - Chinmay: Tha
+12/17/21, 2:48 PM - Hemant Hostel J: Hmmm
+12/17/21, 2:48 PM - Hemant Hostel J: Bhai dsa toh saala karte raho utna kaam hai
+12/17/21, 2:49 PM - Hemant Hostel J: Ladkiyo ka bina dsa kare bhi hoo jata hai
+12/17/21, 2:49 PM - Hemant Hostel J: Bx
+12/17/21, 2:49 PM - Hemant Hostel J: Bc
+12/17/21, 2:49 PM - Hemant Hostel J: Bhai eshneet shortlist hoo gayi interview ke liye
+12/17/21, 2:49 PM - Chinmay: Vahiiiii I bhaiiiiiiiiii
+12/17/21, 2:49 PM - Hemant Hostel J: Dsa loda kuch nhi kar rakha
+12/17/21, 2:49 PM - Hemant Hostel J: Usne
+12/17/21, 2:50 PM - Chinmay: Bhai Tejal Pata Hai tumhe?
+12/17/21, 2:50 PM - Hemant Hostel J: Nhi
+12/17/21, 2:50 PM - Chinmay: Vo interview mein Roa di thi
+12/17/21, 2:50 PM - Chinmay: Uska selection ho gya tha
+12/17/21, 2:50 PM - Chinmay: Company optum thi lekin
+12/17/21, 2:50 PM - Hemant Hostel J: Bhai ladkiyo ka kaam ham kar rahe gand maaarne ka
+12/17/21, 2:50 PM - Chinmay: Fir bhi bhai 15 lakh de rhi hai optum
+12/17/21, 2:50 PM - Hemant Hostel J: Oh bhai
+12/17/21, 2:51 PM - Hemant Hostel J: Bhai rone ke baad bhi
+12/17/21, 2:51 PM - Chinmay: Vahi bhai
+Ye batao. Tres ho gya tumhara?
+12/17/21, 2:51 PM - Hemant Hostel J: Tree hoo gaya tha tab
+12/17/21, 2:51 PM - Hemant Hostel J: Phir web dev start kar di
+12/17/21, 2:52 PM - Hemant Hostel J: Maine wapas
+12/17/21, 2:52 PM - Hemant Hostel J: Bore hoo gaya akele dsa karte karte
+12/17/21, 2:52 PM - Chinmay: Vahi bhai 😂😂😂😂
+12/17/21, 2:52 PM - Chinmay: Meine November mein acche se ki thi
+12/17/21, 2:53 PM - Chinmay: Matlab 5 ghanta type
+Fir ek mahine mein bore ho gya
+12/17/21, 2:53 PM - Chinmay: Ab ab chor di
+12/17/21, 2:53 PM - Hemant Hostel J: Bhai hoo hi jaate hai
+12/17/21, 2:53 PM - Chinmay: Vahi yaar
+Hostel mein Vansh ko dekhkar mera bana rehta tha karna
+12/17/21, 2:54 PM - Hemant Hostel J: Mera bhi
+12/17/21, 2:54 PM - Hemant Hostel J: 6th sem main karni hi hai dsa
+12/17/21, 2:54 PM - Chinmay: Bhai mein thodi der mein baat karta hun. Sab relative hai abi yha
+12/17/21, 2:55 PM - Hemant Hostel J: Hmmm
+12/18/21, 10:20 PM - Hemant Hostel J: <Media omitted>
+12/18/21, 10:21 PM - Hemant Hostel J: Vansh bhai ka
+12/18/21, 10:29 PM - Chinmay: Bhai vansh ne O kyu bhar diya?
+12/18/21, 10:34 PM - Hemant Hostel J: Kyoki bhai apan jaa rahe
+12/18/21, 10:34 PM - Hemant Hostel J: Isliye
+12/18/21, 10:34 PM - Chinmay: Bhai lekin ye mann kaise gya?
+12/18/21, 10:34 PM - Chinmay: Mujhe laga nahi tha
+12/18/21, 10:35 PM - Hemant Hostel J: Bhai maine bola
+12/18/21, 10:35 PM - Hemant Hostel J: Thoda
+12/18/21, 10:35 PM - Chinmay: Sahi hai bhai
+Mein pehle hi keh rha tha O hostel ke liye
+12/18/21, 10:35 PM - Chinmay: Masti ki masti
+Padhai ki padhai
+12/18/21, 10:35 PM - Hemant Hostel J: Hmmm
+12/18/21, 10:35 PM - Hemant Hostel J: Aur kya bhai
+12/18/21, 10:36 PM - Chinmay: Vahi bhaiiii
+Mein bata rha hu. O BEST hai
+12/18/21, 10:36 PM - Hemant Hostel J: Bhai sab ka placement hoo jaye
+12/18/21, 10:36 PM - Hemant Hostel J: Bas
+12/18/21, 10:36 PM - Chinmay: Bhai ho jayega
+12/18/21, 10:36 PM - Chinmay: Bhaiya ka ho gya
+12/18/21, 10:36 PM - Chinmay: Hamara bhi ho jayega
+12/18/21, 10:36 PM - Hemant Hostel J: Phir pel ke randape karenge
+12/18/21, 10:36 PM - Hemant Hostel J: Hostel main
+12/18/21, 10:36 PM - Chinmay: Yesssssssssssssss
+12/18/21, 10:36 PM - Chinmay: Yessss
+12/18/21, 10:36 PM - Chinmay: Bhai Goa chalenge fir
+12/18/21, 10:36 PM - Hemant Hostel J: Haaa bhai
+12/18/21, 10:36 PM - Chinmay: Abi bas placement lag jaye
+12/18/21, 10:36 PM - Hemant Hostel J: Bas ussi ka intazar hai
+12/18/21, 10:37 PM - Hemant Hostel J: Dsa karni hai bhai jaa kar aache se
+12/18/21, 10:37 PM - Chinmay: Haan bhai karenege
+Bilkul karenege
+12/18/21, 10:37 PM - Chinmay: Mein thodi der baat karta  hun
+12/18/21, 10:37 PM - Chinmay: Abi Sabi relatives hai yha
+12/18/21, 10:37 PM - Hemant Hostel J: Haaa bhai
+12/18/21, 10:38 PM - Hemant Hostel J: Rishtedaar bc
+12/18/21, 11:25 PM - Chinmay: Bhai ye aadhar pdf form mein dena hai kya?
+12/18/21, 11:43 PM - Hemant Hostel J: Haaa bhai maine ussi main dunga
+12/18/21, 11:43 PM - Hemant Hostel J: 20 hai naa last date?
+12/19/21, 9:46 AM - Chinmay: Haan bhai
+12/19/21, 9:46 AM - Chinmay: 20 hai last date
+2/8/22, 10:56 AM - Chinmay: Bhai tu 12 ko ayega ya 13 ko?
+2/8/22, 11:00 AM - Hemant Hostel J: Tu bata
+2/8/22, 11:01 AM - Hemant Hostel J: Main kabhi bhi aa sakta hu
+2/8/22, 11:01 AM - Chinmay: Bhai mein toh central ke saath decide karunga
+2/8/22, 11:01 AM - Hemant Hostel J: 12 ko aa jaye toh bhi chalega
+2/8/22, 11:01 AM - Hemant Hostel J: Vansh se pucha hai
+2/8/22, 11:03 AM - Chinmay: Haan bhai. Ek hi floor pe lena hai
+2/8/22, 11:58 AM - Hemant Hostel J: Haaa
+2/11/22, 12:17 AM - Hemant Hostel J: Aur bhai
+2/11/22, 12:17 AM - Hemant Hostel J: Kab aa raha hai
+2/11/22, 12:23 AM - Chinmay: Bhai 12 ko
+2/11/22, 12:23 AM - Chinmay: Tu?
+2/11/22, 12:23 AM - Hemant Hostel J: 12
+2/11/22, 12:23 AM - Hemant Hostel J: Central 15 ko aa raha hai
+2/11/22, 12:23 AM - Chinmay: Arrey Mast
+2/11/22, 12:23 AM - Chinmay: Haan bataya usne
+Uski vajah se mein 12 ko aara tha
+2/11/22, 12:24 AM - Hemant Hostel J: Phir tera roommate?
+2/11/22, 12:24 AM - Chinmay: Ab change bhi nahi kar sakta
+2/11/22, 12:24 AM - Chinmay: Bhai akela rahunga
+Usne bola hai bol diyo ki ek dost baad mein ayega
+2/11/22, 12:24 AM - Hemant Hostel J: Aacha sahi hai
+2/11/22, 12:25 AM - Chinmay: Haan
+Sparsh aara kya?
+2/11/22, 12:25 AM - Hemant Hostel J: Haaa aa raha hai
+2/11/22, 12:26 AM - Chinmay: Usne kaunsa hostel liya?
+2/11/22, 12:26 AM - Hemant Hostel J: O
+2/12/22, 1:02 PM - Hemant Hostel J: Kon saa room hai tera
+2/12/22, 1:02 PM - Hemant Hostel J: ?
+2/13/22, 6:11 PM - Chinmay: https://leetcode.com/problems/diameter-of-binary-tree/
+2/13/22, 6:11 PM - Chinmay: ye kar aur smjha
+2/13/22, 6:36 PM - Hemant Hostel J: Bhai
+2/13/22, 6:37 PM - Chinmay: Bol bhai
+2/13/22, 6:37 PM - Hemant Hostel J: Hostel main nhi hu
+2/13/22, 6:37 PM - Chinmay: Kaha hai bc
+2/13/22, 6:40 PM - Hemant Hostel J: Cricket khelne gaya tha
+2/13/22, 6:40 PM - Hemant Hostel J: Dinner baad padhte hai bhai
+2/14/22, 6:36 PM - Chinmay: bhai vo ques toh karde
+2/14/22, 8:02 PM - Hemant Hostel J: Bhai
+2/14/22, 8:02 PM - Hemant Hostel J: Kaha hai tu
+2/14/22, 8:08 PM - Chinmay: Kamre mein
+2/14/22, 9:22 PM - Hemant Hostel J: Yaha aa jaa bhai
+2/15/22, 12:32 AM - Hemant Hostel J: class Solution {
+public:
+    
+    int helper(TreeNode* root,int &maxdia){
+        
+        if(root==NULL){
+            return 0;
+        }
+        
+        
+        int x=helper(root->left,maxdia);
+        int y=helper(root->right,maxdia);
+        
+        maxdia=max(maxdia,x+y);
+        
+        return max(x,y)+1;
+        
+        
+    }
+    
+    
+    int diameterOfBinaryTree(TreeNode* root) {
+        
+        
+        
+        int maxdia=0;
+        
+        int y=helper(root,maxdia);
+        
+        return maxdia;
+        
+    }
+};
+2/15/22, 12:56 AM - Hemant Hostel J: https://leetcode.com/problems/reveal-cards-in-increasing-order/
+2/15/22, 12:56 AM - Hemant Hostel J: ??
+2/15/22, 12:57 AM - Chinmay: try karta hun
+2/22/22, 8:26 PM - Hemant Hostel J: Bhai pizza order kar diyo mere liye tu kar raha hoo toh
+2/22/22, 8:27 PM - Chinmay: Idhar aa madarchod
+2/22/22, 8:27 PM - Hemant Hostel J: Pizza pasta main se kuch bhi
+2/22/22, 8:27 PM - Hemant Hostel J: Tere room le bahar hu gandu
+2/22/22, 8:28 PM - Chinmay: Mein Tere room mein hun
+2/22/22, 8:28 PM - Chinmay: Chutiye
+2/22/22, 8:28 PM - Hemant Hostel J: Aacha
+2/22/22, 8:29 PM - Hemant Hostel J: Tu manga le
+2/22/22, 8:29 PM - Hemant Hostel J: Main thoda mess main kha kar aa raha hu
+2/22/22, 8:29 PM - Chinmay: Theek bhai
+2/22/22, 10:56 PM - Hemant Hostel J: https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/
+2/22/22, 10:56 PM - Hemant Hostel J: ye question dekhiyo ek baar
+2/22/22, 11:56 PM - Chinmay: <Media omitted>
+2/22/22, 11:56 PM - Chinmay: Bsdk mein kuch nahi Padhra abhi
+2/27/22, 2:33 AM - Hemant Hostel J: Bhai sexy saa hai lintcode
+2/27/22, 2:33 AM - Hemant Hostel J: Maine 2 ques kiye jitna aapan ne padha abhi usmain se
+2/27/22, 2:34 AM - Hemant Hostel J: Hoo rahe hai ques
+2/27/22, 2:34 AM - Hemant Hostel J: Joins padh ke ques kar lenge
+2/27/22, 2:34 AM - Chinmay: Yesss birooo
+2/27/22, 2:34 AM - Chinmay: Madarchod Kitna padhega
+2/27/22, 2:34 AM - Chinmay: Soa ja ab
+2/27/22, 8:45 PM - Hemant Hostel J: Kaha hai bhai
+2/27/22, 8:52 PM - Chinmay: 3rd floor
+3/5/22, 8:35 PM - Hemant Hostel J: int helper(vector<int> &mapping,int n){
+        
+        int multiplier=1;
+        int sum=0;
+        
+        
+        while(n>0){
+            int rem=n%10;
+            
+            sum=sum+mapping[rem]*multiplier;
+            multiplier=multiplier*10;
+            n=n/10;
+        }
+        
+        return sum;
+    }
+3/5/22, 8:37 PM - Chinmay: bool static calc(pair<int,int>&p1,pair<int,int>&p2)
+{
+        if(p1.first<p2.first)
+            return p1.first<p2.first;
+        else if(p1.first==p2.first)
+        {
+            return p1.second>p2.second;
+        }
+        return false;
+}
+3/5/22, 8:41 PM - Hemant Hostel J: [9,8,7,6,5,4,3,2,1,0]
+[0,1,2,3,4,5,6,7,8,9]
+3/5/22, 8:46 PM - Hemant Hostel J: [9,8,7,6,5,4,3,2,1,0]
+[9,99,999,9999,999999999]
+3/5/22, 8:46 PM - Hemant Hostel J: [9,8,7,6,5,4,3,2,1,0]
+[9,99,999,9999,999999999]
+3/5/22, 8:56 PM - Hemant Hostel J: int helper(vector<int> &mapping,int n){
+        
+        if(n==0){
+            return mapping[0];
+        }
+        
+        int multiplier=1;
+        int sum=0;
+        
+        
+        while(n>0){
+            int rem=n%10;
+            
+            sum=sum+mapping[rem]*multiplier;
+            multiplier=multiplier*10;
+            n=n/10;
+        }
+        
+        return sum;
+    }
+    
+    bool static calc(pair<int,int>&p1,pair<int,int>&p2)
+    {
+        if(p1.first==p2.first)
+        {
+            return p1.second>p2.second;
+        }
+       
+        return p1.first<p2.first;
+        
+        
+    }
+    
+    
+    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
+        
+        
+        
+        map<int,vector<int>> mymap;
+        
+        
+        for(int i=0;i<nums.size();i++){
+            
+            
+            int temp1=helper(mapping,nums[i]);
+            
+            
+            if(mymap.find(temp1)==mymap.end()){
+                
+                vector<int> tem;
+                tem.push_back(nums[i]);
+                
+                mymap[temp1]=tem;
+            }
+            else{
+                mymap[temp1].push_back(nums[i]);
+            }
+            
+            
+        }
+        
+        
+        
+        
+        
+        vector<int> ans;
+        
+        for(auto it=mymap.begin();it!=mymap.end();it++){
+            
+            vector<int> an=it->second;
+            
+            
+            for(int i=0;i<an.size();i++){
+                ans.push_back(an[i]);
+            }
+        }
+        return ans;
+3/18/22, 10:54 PM - Hemant Hostel J: Bhai tere dosto se puch le
+3/18/22, 10:54 PM - Hemant Hostel J: Agar aaye hai toh
+3/18/22, 10:54 PM - Hemant Hostel J: Kisi pe
+3/18/22, 11:11 PM - Hemant Hostel J: bhai tu bhi mangwa le kahi se mile toh
+3/29/22, 12:51 AM - Hemant Hostel J: Missed voice call
+3/30/22, 8:33 PM - Chinmay: <Media omitted>
+4/6/22, 10:39 PM - Chinmay: Building my dream houses across India on Google Pay will be more fun and rewarding with you around! https://gpay.app.goo.gl/tYpCZq
+4/15/22, 8:49 PM - Hemant Hostel J: <Media omitted>
+4/15/22, 8:49 PM - Hemant Hostel J: Bhai 2nd job mil gayi
+4/15/22, 8:49 PM - Hemant Hostel J: Pehele oyo main gaya tha
+4/15/22, 8:49 PM - Hemant Hostel J: Yaad hai
+4/15/22, 8:50 PM - Hemant Hostel J: Apne clusterain hi the
+4/15/22, 8:50 PM - Chinmay: Bc
+Kaise bhai
+Yaha ek nahi lagri
+4/15/22, 8:50 PM - Chinmay: Sahi mein?
+4/15/22, 8:50 PM - Chinmay: Jaanta hai tu?
+4/15/22, 8:50 PM - Hemant Hostel J: Haaa
+4/15/22, 8:50 PM - Chinmay: Baat karo inse
+4/15/22, 8:50 PM - Chinmay: Pucho kya kya kiya
+4/15/22, 8:51 PM - Hemant Hostel J: Bhai dsa ki thi
+4/15/22, 8:51 PM - Chinmay: Bas?
+4/15/22, 8:51 PM - Hemant Hostel J: Aur extracarricular bhi badhiya tha
+4/15/22, 8:52 PM - Hemant Hostel J: Frosh
+4/15/22, 8:52 PM - Chinmay: Vo toh apne mein hai hi nahi
+4/15/22, 8:52 PM - Hemant Hostel J: Ha
+4/15/22, 8:52 PM - Hemant Hostel J: Bsdk teri lag jayegi
+4/15/22, 8:52 PM - Chinmay: Koini bhai
+Apan bhi kar lenge
+4/15/22, 8:52 PM - Chinmay: Kaash 😂😂😂
+4/15/22, 8:53 PM - Hemant Hostel J: Kaise chal rahi
+4/15/22, 8:53 PM - Hemant Hostel J: Code pairing ki tatari
+4/15/22, 8:53 PM - Hemant Hostel J: Tayari
+4/15/22, 8:53 PM - Chinmay: Kuch nahi padta
+Bas daily karta hun
+4/15/22, 8:54 PM - Chinmay: Tera kaisa chalra
+4/15/22, 8:54 PM - Hemant Hostel J: Main toh core padg raha
+4/15/22, 8:54 PM - Hemant Hostel J: Os oops
+4/15/22, 8:54 PM - Chinmay: Hame bhi padha liya
+4/15/22, 8:55 PM - Hemant Hostel J: Sahi hai
+4/15/22, 8:55 PM - Chinmay: Diyo
+4/15/22, 8:55 PM - Hemant Hostel J: 😂
+4/15/22, 8:55 PM - Chinmay: Tu padha diyo
+4/15/22, 8:55 PM - Chinmay: Tera interview kaisa chalra
+4/15/22, 8:55 PM - Hemant Hostel J: Pata nhi kab hoga
+4/15/22, 8:55 PM - Chinmay: Hamara bhi pata nahi code pairing kab hoga
+4/15/22, 8:56 PM - Hemant Hostel J: Roj intazar karta hu
+4/15/22, 8:56 PM - Chinmay: 😂😂😂
+Mein bhi
+4/17/22, 3:38 PM - Chinmay: I had fun building a house in Darjeeling! Join me on Indi-Home. https://gpay.app.goo.gl/vwZVDc
+4/17/22, 3:40 PM - Chinmay: Building my dream houses across India on Google Pay will be more fun and rewarding with you around! https://gpay.app.goo.gl/Rx4nQb
+4/30/22, 8:53 PM - Chinmay: vector<vector<int>>graph(m,vector<int>(n,0));
+4/30/22, 9:23 PM - Chinmay: void helper(vector<vector<int>>&graph,int i,int j,int n,int m)
+    {
+        
+        
+        if(i+1<n )
+        {
+            for(int row=i+1;row<n;row++)
+            {
+                if(row<0 or j<0 or row>=n or j>=m or graph[row][j]==1 or graph[row][j]==2)
+                   break;
+              //  cout<<"a"<<endl;
+                graph[row][j]=3;
+            }
+        }
+        if(i-1>=0 )
+        {
+             for(int row=i-1;row>=0;row--)
+            {
+                if(row<0 or j<0 or row>=n or j>=m or graph[row][j]==1 or graph[row][j]==2 )
+                   break;
+                 // cout<<"a"<<endl;
+                graph[row][j]=3;
+            }
+        }
+        if(j+1<m )
+        {
+            for(int col=j+1;col<m;col++)
+            {
+                if(i<0 or col<0 or i>=n or col>=m or graph[i][col]==1 or graph[i][col]==2 )
+                   break;
+                // cout<<"a"<<endl;
+                graph[i][col]=3;
+            }
+        }
+        if(j-1>=0 )
+        {
+            for(int col=j-1;col>=0;col--)
+            {
+                if(i<0 or col<0 or i>=n or col>=m or graph[i][col]==1 or graph[i][col]==2 )
+                   break;
+                 //cout<<"a"<<endl;
+                graph[i][col]=3;
+            }
+        }
+        
+        
+    }
+    
+    
+    int countUnguarded(int m, int n, vector<vector<int>>& guards, vector<vector<int>>& walls) {
+        
+        vector<vector<int>>graph(m,vector<int>(n,0));
+        //walls=1 , guards=2
+        
+        for(auto x:guards)
+        {
+            graph[x[0]][x[1]]=2;
+        }
+        for(auto x:walls)
+        {
+            graph[x[0]][x[1]]=1;
+        }
+       
+        for(int i=0;i<m;i++)
+        {
+            for(int j=0;j<n;j++)
+            {
+                if(graph[i][j]==2)
+                {
+                    helper(graph,i,j,m,n);
+                   // cout<<"a"<<endl;
+                }
+            }
+        }
+         int ans=0;
+         for(int i=0;i<m;i++)
+        {
+            for(int j=0;j<n;j++)
+            {
+                 if(graph[i][j]==0)
+                 {  ans+=1;
+                //    cout<<graph[i][j]<<" ";
+                 }
+            }
+          //  cout<<endl;
+        }
+       
+        return ans;
+4/30/22, 9:23 PM - Hemant Hostel J: void helper(vector<int> guard,vector<vector<int>> &grid,int &count){
+        
+        
+        int x=guard[0];
+        int y=guard[1];
+        
+        
+        if(grid[x][y]==0){
+            count++;
+            grid[x][y]=1;
+        }
+        
+        int dir=x-1;
+        
+        while(dir>=0 && grid[dir][y]!=2){
+            
+            if(grid[dir][y]==0){
+                count++;
+                grid[dir][y]=1;
+            }
+            
+            
+            
+            dir--;
+        }
+        
+        
+        dir=x+1;
+        
+         while(dir<grid.size() && grid[dir][y]!=2){
+            
+           if(grid[dir][y]==0){
+                count++;
+                grid[dir][y]=1;
+            }
+            dir++;
+        }
+        
+        dir=y-1;
+         while(dir>=0 && grid[x][dir]!=2){
+            
+           if(grid[x][dir]==0){
+                count++;
+                grid[x][dir]=1;
+            }
+            dir--;
+        }
+        
+        dir=y+1;
+        while(dir<grid[0].size() && grid[x][dir]!=2){
+            
+           if(grid[x][dir]==0){
+                count++;
+                grid[x][dir]=1;
+            }
+            dir++;
+        }
+        
+        
+    }
+    
+    
+    
+    int countUnguarded(int m, int n, vector<vector<int>>& guards, vector<vector<int>>& walls) {
+        
+        
+        int count=0;
+        
+        vector<vector<int>> grid(m,vector<int> (n,0));
+        
+        for(int i=0;i<walls.size();i++){
+            
+            vector<int> temp=walls[i];
+            
+            count++;
+            
+            grid[temp[0]][temp[1]]=2;
+        }
+        
+        
+        for(int i=0;i<guards.size();i++){
+            
+            
+            helper(guards[i],grid,count);
+            
+            
+        }
+        
+        cout<<count<<endl;
+       
+        
+        int totel=m*n-count;
+        return totel;
+        
+    }
+};
+5/10/22, 11:31 PM - Chinmay: class Solution {
+public:
+    int mod=1e9+7;
+    
+    int calc(string &s,int n,int index,vector<int>&dp)
+    {
+        if(index>=n)
+            return 1;
+        
+        if(dp[index]!=-1)
+            return dp[index];
+        long second=0;
+        long first=calc(s,n,index+1,dp);
+        if(index+1<n)
+        {
+            string sec=s.substr(index,2);
+            if(sec[0]==sec[1])
+            {
+                second=calc(s,n,index+2,dp);
+            }
+           
+        }
+        long third=0;
+        long forth=0;
+        if(index+2<n)
+        {
+            string th=s.substr(index,3);
+            if(th[0]==th[1] and th[1]==th[2])
+            {
+                 third=calc(s,n,index+3,dp);
+            }
+           
+        }
+         if(index+3<n)
+        {
+            string fr=s.substr(index,4);
+            if(fr[0]==fr[1] and fr[1]==fr[2] and fr[2]==fr[3] and (fr[0]=='7' or fr[0]=='9'))
+            {
+                forth=calc(s,n,index+4,dp);
+            }
+           
+        }
+        return dp[index]=(int)((first+second+third+forth)%mod);
+    }
+    int countTexts(string sum) {
+        
+        int n=sum.length();
+        vector<int>dp(1e5+1,-1);
+        return calc(sum,n,0,dp);
+        
+        
+        
+        
+    }
+};
+5/11/22, 11:25 AM - Hemant Hostel J: bhai
+5/11/22, 11:25 AM - Hemant Hostel J: yaha ki delivery location bhej
+5/11/22, 11:25 AM - Hemant Hostel J: ek baar
+5/11/22, 11:26 AM - Chinmay: <Media omitted>
+5/11/22, 11:27 AM - Hemant Hostel J: pincode?
+5/11/22, 11:28 AM - Chinmay: Likha toh hua hai
+5/11/22, 11:28 AM - Chinmay: 147004
+5/11/22, 11:28 AM - Hemant Hostel J: ok
+5/11/22, 11:28 AM - Hemant Hostel J: tera number daal dunga delivery aayegi tu utha liyo phone
+5/11/22, 11:28 AM - Chinmay: Naah mera mat daal
+Mein phone nahi uthata
+5/11/22, 11:28 AM - Chinmay: Central ka daal
+5/11/22, 11:28 AM - Hemant Hostel J: aacha
+5/11/22, 11:28 AM - Chinmay: Vo kabhi silent pe nahi rkhta
+5/11/22, 11:29 AM - Hemant Hostel J: ayush ka daal dunga phir
+5/11/22, 11:29 AM - Chinmay: Haan uska bhi sahi hai
+5/11/22, 8:43 PM - Hemant Hostel J: bhai address ek dum sahi hai naa?
+5/11/22, 8:48 PM - Chinmay: Haan
+5/11/22, 8:48 PM - Hemant Hostel J: O 111
+5/11/22, 8:48 PM - Chinmay: Haan bhai
+5/11/22, 9:47 PM - Hemant Hostel J: Assignment 1 : Attempt regression / clustering for the following data set
+
+household electric power consumption Data Set 
+https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption
+
+
+Assignment 2 : Attempt the regression for the following forecasting data set
+
+Forecasting data set
+
+https://www.kaggle.com/saurabhshahane/electricity-load-forecasting?select=continuous+dataset.csv
+
+The revised dates for submitting these assignments with proper explanation, flowchart, program and output are 02nd May and 09th May. There will be submission on drive with group size limited to maximum four students. There will be viva-voce evaluation on these assignments as well.
+5/11/22, 9:48 PM - Hemant Hostel J: <Media omitted>
+5/13/22, 1:59 AM - Hemant Hostel J: https://www.youtube.com/watch?v=ayZppqJAUcc
+5/13/22, 1:59 AM - Hemant Hostel J: bhai
+5/13/22, 1:59 AM - Hemant Hostel J: ye karna hai apan ko
+5/13/22, 1:59 AM - Hemant Hostel J: next 90 days placement paaki hai phir apni
+5/13/22, 2:00 AM - Hemant Hostel J: aur ye live denge apan
+5/13/22, 2:35 AM - Hemant Hostel J: bhai pramp use karenge
+5/13/22, 2:35 AM - Hemant Hostel J: ek pramp par de ke dekh le interview free hai
+5/13/22, 10:34 AM - Chinmay: Bilkul bhai
+5/15/22, 2:37 PM - Hemant Hostel J: Bhai
+5/15/22, 2:37 PM - Hemant Hostel J: Central aa gaya kya
+5/15/22, 2:37 PM - Hemant Hostel J: ?
+5/15/22, 3:13 PM - Chinmay: Naah bhai
+5/15/22, 3:13 PM - Chinmay: Kamre mein hai vo
+Aaja
+5/15/22, 3:14 PM - Hemant Hostel J: aacha
+5/15/22, 3:14 PM - Hemant Hostel J: hoo gaya kya
+5/15/22, 3:14 PM - Hemant Hostel J: interview
+5/15/22, 3:14 PM - Chinmay: Haan
+5/15/22, 3:15 PM - Hemant Hostel J: aa raha
+5/15/22, 3:15 PM - Chinmay: Oki
+5/21/22, 10:31 PM - Hemant Hostel J: int helper(vector<int> &ans,vector<int> &temp){
+
+    if(temp.size()==0){
+        return 0;
+    }
+
+    int changes=0;
+
+
+
+    sort(temp.begin(),temp.end());
+
+    if(temp[0]!=0){
+        return 0;
+    }
+
+    int i=0;
+    int mex=INT_MAX;
+    while(i+1<temp.size()){
+
+        if(temp[i]==temp[i+1] || temp[i]+1==temp[i+1]){
+            i++;
+        }
+        else{
+            mex=temp[i]+1;
+            break;
+        }
+
+    }
+
+
+    if(mex==INT_MAX){
+        mex=i+1;
+    }
+
+    set<int> myset;
+    for(int i=0;i<ans.size();i++){
+
+        if(ans[i]<mex && myset.find(ans[i])==myset.end()){
+
+            myset.insert(ans[i]);
+
+        }
+    }
+
+    return myset.size();
+
+
+}
+5/22/22, 4:25 PM - Hemant Hostel J: https://reactle.herokuapp.com/
+5/22/22, 10:48 PM - Hemant Hostel J: https://youtu.be/t_omcJmOQ_k
+5/22/22, 10:53 PM - Hemant Hostel J: Link mat bhejna mc usse website ka
+5/22/22, 10:53 PM - Hemant Hostel J: Joo apan ne banaya hai
+5/22/22, 10:53 PM - Chinmay: Chutiya nahi hun mein
+5/22/22, 10:53 PM - Hemant Hostel J: Haa ye bhej de
+5/22/22, 10:54 PM - Hemant Hostel J: Gand fat jayengi
+5/22/22, 10:54 PM - Hemant Hostel J: Follow karne main
+5/22/22, 10:54 PM - Chinmay: Sahi hai
+5/28/22, 2:03 PM - Hemant Hostel J: Bole bhai
+6/4/22, 9:45 AM - Hemant Hostel J: Soo raha vansh ghode bech ke
+6/4/22, 9:46 AM - Chinmay: Accha theek
+6/4/22, 9:46 AM - Chinmay: Tu aaja room pe
+6/4/22, 9:46 AM - Hemant Hostel J: Aa raha
+6/4/22, 12:07 PM - Hemant Hostel J: Bhai
+6/4/22, 12:07 PM - Hemant Hostel J: Ek min
+6/4/22, 12:07 PM - Hemant Hostel J: Hag ke aa raha
+6/4/22, 12:08 PM - Chinmay: Theek
+6/4/22, 12:28 PM - Chinmay: https://eazypay.icicibank.com/eazypayLink?P1=/QXDwbDYmH8fJlaL4JBpvw==
+6/4/22, 12:28 PM - Chinmay: https://eps.eshiksa.net/DirectFeesv3/ThaparAdmission
+6/4/22, 12:48 PM - Hemant Hostel J: <Media omitted>
+6/4/22, 3:43 PM - Hemant Hostel J: Kon saath floor mila
+6/6/22, 12:15 PM - Hemant Hostel J: Bhai
+6/6/22, 12:15 PM - Hemant Hostel J: Striver ka dp graph aur tree padh lu toh
+6/6/22, 12:15 PM - Hemant Hostel J: Placement lag jayegi
+6/6/22, 12:15 PM - Hemant Hostel J: ?
+6/6/22, 1:24 PM - Chinmay: Haan bhai
+6/6/22, 1:24 PM - Chinmay: Vaise start kar diya tune karna?
+6/6/22, 1:36 PM - Hemant Hostel J: Bhai aaj se start kar raha dp
+6/6/22, 1:36 PM - Hemant Hostel J: Aur os padhna
+6/6/22, 1:37 PM - Hemant Hostel J: Gate smasher se kar raha os toh
+6/6/22, 1:59 PM - Hemant Hostel J: Have you reached your home?
+6/6/22, 2:34 PM - Chinmay: Yes bro
+Thanks for asking
+6/6/22, 2:34 PM - Chinmay: And how are u improving ur English bro?
+6/6/22, 2:34 PM - Chinmay: Yeahhh
+Going for 20+ lakh packageee
+6/6/22, 2:34 PM - Hemant Hostel J: Per decade
+6/6/22, 2:35 PM - Hemant Hostel J: 🥳🥳
+6/6/22, 2:35 PM - Chinmay: 😂😂😂
+6/7/22, 4:46 PM - Hemant Hostel J: Bhai
+6/7/22, 4:46 PM - Hemant Hostel J: Kya kar raha hai
+6/7/22, 4:47 PM - Chinmay: Daily challenge jo miss huye vo
+6/7/22, 4:47 PM - Chinmay: Abhi 5:30 gym jaunga
+6/7/22, 4:47 PM - Hemant Hostel J: Aacha
+6/7/22, 4:47 PM - Hemant Hostel J: Bhai dp laga li naa tune striver ki?
+6/7/22, 4:48 PM - Chinmay: Naah poori nahi dekhi
+Vo bhi dekh rha hun
+6/7/22, 4:48 PM - Chinmay: 20 videos hi dekhi hai meine abhi tak
+6/7/22, 4:48 PM - Hemant Hostel J: Aacha
+6/7/22, 4:48 PM - Chinmay: Aaj hi 20th dekhi
+Dheere dheer kaam hora bahi mujhse
+6/7/22, 4:48 PM - Hemant Hostel J: Main bhi wo dekh raha
+6/7/22, 4:48 PM - Hemant Hostel J: 6th complete ki hai mc
+6/7/22, 4:48 PM - Hemant Hostel J: Abhi
+6/7/22, 4:49 PM - Hemant Hostel J: Os ki 7 video dekhi
+6/7/22, 4:49 PM - Chinmay: OS meine bhi start kar diya hai
+6/7/22, 4:49 PM - Hemant Hostel J: Kaha se
+6/7/22, 4:49 PM - Hemant Hostel J: ?
+6/7/22, 4:49 PM - Chinmay: Gate smashers
+6/7/22, 4:50 PM - Hemant Hostel J: Maine uske notes nikalva liye
+6/7/22, 4:50 PM - Hemant Hostel J: Print out
+6/7/22, 4:50 PM - Chinmay: Mein chutiyo ki tarah likh rha hun 😂
+6/7/22, 4:50 PM - Hemant Hostel J: 60rupee main kharide
+6/7/22, 4:50 PM - Hemant Hostel J: Mere se likha nhi jaata
+6/7/22, 4:51 PM - Hemant Hostel J: <Media omitted>
+6/7/22, 4:51 PM - Hemant Hostel J: Tu bhi nikalva le
+6/7/22, 4:51 PM - Hemant Hostel J: Likhne se badhiya hai
+6/7/22, 4:51 PM - Chinmay: Naah mein shyd likhunga hi
+Yaad rehta hai likh ke
+6/7/22, 4:52 PM - Hemant Hostel J: Ohh sahi hai bhai
+6/7/22, 4:52 PM - Chinmay: Yusss
+6/7/22, 5:13 PM - Chinmay: https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/
+6/7/22, 5:13 PM - Chinmay: ye O(N) mein kaise hoga??
+6/7/22, 5:23 PM - Hemant Hostel J: Substr ki complexity kitni hoti hai
+6/7/22, 5:23 PM - Hemant Hostel J: ?
+6/7/22, 5:23 PM - Hemant Hostel J: O(N)?
+6/7/22, 5:30 PM - Chinmay: Substring wale se worst case n Square jayega
+6/7/22, 5:30 PM - Hemant Hostel J: Haa wo dikh raha
+6/7/22, 5:30 PM - Hemant Hostel J: Bhai erase kar ke bhi nhi hoo raha
+6/7/22, 5:31 PM - Chinmay: Haan
+N Square ka toh aasan hai
+6/7/22, 5:31 PM - Hemant Hostel J: Maine set bana ke kiya
+6/7/22, 5:31 PM - Chinmay: Mein bhi
+6/7/22, 5:32 PM - Hemant Hostel J: Ek char ko first wala usse o(1) main kaise hatau ?
+6/7/22, 5:32 PM - Hemant Hostel J: Ye bata de
+6/7/22, 5:32 PM - Chinmay: You deleted this message
+6/7/22, 5:33 PM - Chinmay: Usme koi aisa char daal de jaise #
+6/7/22, 5:33 PM - Chinmay: Taaki pata chale ki Yeh process ho chuka hai?
+6/7/22, 5:33 PM - Hemant Hostel J: bool hasAllCodes(string s, int k) {
+        
+        
+        set<string> mymap;
+        
+        
+        if(k>s.size()){
+            return false;
+        }
+        
+       int i=0;
+        int j=0;
+        string temp="";
+        while(j<s.size()){
+            temp+=s[j];
+            if(j-i+1<k){
+                j++;
+            }
+            else{
+                
+                mymap.insert(temp);
+                cout<<temp<<" ";
+                temp.erase(0,1);
+                i++;
+                j++;
+                
+                
+            }
+        }
+        
+        
+        long long temp1=pow(2,k);
+        
+        if(mymap.size()==temp1){
+            return true;
+        }
+        else{
+            return false;
+        }
+        
+    }
+6/7/22, 5:34 PM - Hemant Hostel J: stirng badi hoo jayegi set main bhi push karni hai string
+6/7/22, 5:34 PM - Chinmay: Ye submit toh ho rha hai na?
+6/7/22, 5:34 PM - Hemant Hostel J: nhi hoo raha
+6/7/22, 5:34 PM - Hemant Hostel J: bc
+6/7/22, 5:34 PM - Hemant Hostel J: ek char hatana hai erase ki complexity bhi wo hi hoti hai
+6/7/22, 5:34 PM - Chinmay: Chutiye meine toh sliding window bhi nahi lagaya tha
+6/7/22, 5:35 PM - Chinmay: Seedha shuruat se k length ki substring daalte rhe
+6/7/22, 5:35 PM - Chinmay: Set mein
+6/7/22, 5:35 PM - Hemant Hostel J: haa par usse se bancne ke liye ye kiya
+6/7/22, 5:35 PM - Chinmay: Fir dekh map ka size pow (2,k) ke equal hai ya nahi
+6/7/22, 5:35 PM - Hemant Hostel J: mujhe pehele char hatana hai
+6/7/22, 5:35 PM - Hemant Hostel J: optimise way main ye bata kaise karu
+6/7/22, 5:38 PM - Hemant Hostel J: Vansh se puch
+6/7/22, 5:38 PM - Hemant Hostel J: Ek baar
+6/7/22, 5:50 PM - Chinmay: Gym mein hun
+6/7/22, 5:52 PM - Hemant Hostel J: Bhai decimal main badal le
+6/7/22, 5:56 PM - Hemant Hostel J: bool hasAllCodes(string s, int k) {
+        
+        
+        unordered_set<int> mymap;
+        
+        
+        if(k>s.size()){
+            return false;
+        }
+        
+       int i=0;
+        int j=0;
+        int val=0;
+        while(j<s.size()){
+            val=2*val+(s[j]-'0');
+          
+            if(j-i+1<k){
+                j++;
+            }
+            else{
+                
+                mymap.insert(val);
+                
+                val=val-(s[i]-'0')*pow(2,k-1);
+                cout<<val<<" ";
+                
+                i++;
+                j++;
+                
+                
+            }
+        }
+        
+        
+        long long temp1=pow(2,k);
+        
+        if(mymap.size()==temp1){
+            return true;
+        }
+        else{
+            return false;
+        }
+        
+    }
+6/7/22, 6:16 PM - Chinmay: Ye O(n) mein hai?
+6/7/22, 6:19 PM - Hemant Hostel J: yes
+6/8/22, 10:18 AM - Chinmay: Bhai English ka kya kar rha hai?
+6/8/22, 11:10 AM - Hemant Hostel J: bhai abhi tak toh kuch jyada nhi kiya
+6/8/22, 11:10 AM - Hemant Hostel J: tu bata
+6/8/22, 11:11 AM - Hemant Hostel J: bhai sune dp graph aur tree ke list solve kare kya?
+6/8/22, 11:11 AM - Hemant Hostel J: codestudio wali
+6/8/22, 11:11 AM - Hemant Hostel J: ?
+6/8/22, 11:11 AM - Chinmay: Naah codestudio use nahi kiya abhi
+6/8/22, 11:11 AM - Hemant Hostel J: abe khole ke dekh
+6/8/22, 11:11 AM - Chinmay: Aisa kya hai usme.
+6/8/22, 11:11 AM - Hemant Hostel J: usmain company oriented question hote hai
+6/8/22, 11:12 AM - Hemant Hostel J: joo recent tag ke sath
+6/8/22, 11:12 AM - Hemant Hostel J: puche gaye hai companies main
+6/8/22, 11:12 AM - Chinmay: Tu codestudio kar rha hai aajkal?
+6/8/22, 11:12 AM - Hemant Hostel J: haa striver codestudio wale karvata hai
+6/8/22, 11:12 AM - Hemant Hostel J: toh uss par hi submit maarta hu
+6/8/22, 11:13 AM - Hemant Hostel J: graph dp tree main se hi bante hai question jyadatar
+6/8/22, 11:13 AM - Chinmay: Accha
+Codestudio bhi dekh lete hai
+Mein toh Leetcode pe hi hun abhi bhi
+6/8/22, 11:13 AM - Hemant Hostel J: are leetcode main bahut random hai sab
+6/8/22, 11:13 AM - Hemant Hostel J: tu khole ke dekh ek baar codestudio
+6/8/22, 11:13 AM - Chinmay: Haan dekhta hun
+6/8/22, 11:14 AM - Chinmay: Ispe kaunse topic ke question karu
+6/8/22, 11:14 AM - Chinmay: Pehle
+6/8/22, 11:14 AM - Hemant Hostel J: bhai dp kar raha main list hai 100 question ki
+6/8/22, 11:14 AM - Hemant Hostel J: pehele round main 40 karunga
+6/8/22, 11:14 AM - Hemant Hostel J: dp ke
+6/8/22, 11:14 AM - Hemant Hostel J: aur phir graph ke 60 hai
+6/8/22, 11:14 AM - Chinmay: Arrey launde masttt
+6/8/22, 11:14 AM - Hemant Hostel J: usmain kar lunga 30 35
+6/8/22, 11:14 AM - Chinmay: Top problem list mein hai kya ques
+6/8/22, 11:14 AM - Hemant Hostel J: aur tree ke 50 usmain 20 kar lunga
+6/8/22, 11:15 AM - Hemant Hostel J: haaa
+6/8/22, 11:15 AM - Chinmay: Arrey isme toh you tubers ki list hai
+6/8/22, 11:15 AM - Hemant Hostel J: wo nhi karni
+6/8/22, 11:15 AM - Hemant Hostel J: striver hi hai ek aacha aadmi
+6/8/22, 11:15 AM - Hemant Hostel J: joo sahi bata rha hai
+6/8/22, 11:16 AM - Hemant Hostel J: bhai kya dp padha raha hai ye londa
+6/8/22, 11:16 AM - Chinmay: Haan strive ki dekhta hun
+6/8/22, 11:16 AM - Chinmay: Maze se aa gye padhke
+6/8/22, 11:16 AM - Chinmay: Chal mein OS continue kar rha
+6/8/22, 11:16 AM - Hemant Hostel J: kar bhai tu topper hai
+6/8/22, 11:16 AM - Hemant Hostel J: coe wala
+6/8/22, 11:16 AM - Chinmay: Lawda mera
+6/8/22, 11:16 AM - Chinmay: 10 tak ki lag jaye bas
+6/8/22, 11:16 AM - Hemant Hostel J: aacha
+6/8/22, 11:18 AM - Hemant Hostel J: ismain operating system ka track bhi hai
+6/8/22, 11:18 AM - Hemant Hostel J: usmain mcq hai
+6/8/22, 11:18 AM - Hemant Hostel J: wo bhi dekh liyo
+6/8/22, 11:18 AM - Chinmay: Arrey ye toh gazab cheez hai
+6/8/22, 11:19 AM - Chinmay: Isme contents bhi hai?
+6/8/22, 11:19 AM - Chinmay: Contest.
+6/8/22, 11:19 AM - Hemant Hostel J: haa hai
+6/8/22, 11:19 AM - Chinmay: Koi scholarship test hai aaj
+6/8/22, 11:19 AM - Chinmay: Dena hai?
+6/8/22, 11:19 AM - Hemant Hostel J: denge leetcode aur codestudio ke contest
+6/8/22, 11:19 AM - Hemant Hostel J: nhi bhai
+6/8/22, 11:20 AM - Hemant Hostel J: course karne ka time nhi hia
+6/8/22, 11:20 AM - Hemant Hostel J: intervie experience bhi hai bahut saare
+6/8/22, 11:20 AM - Chinmay: Ye toh gazab cheez hai
+6/8/22, 11:20 AM - Chinmay: Bc yahi se karunga ab
+6/8/22, 11:20 AM - Hemant Hostel J: american express ka tag laga
+6/8/22, 11:20 AM - Hemant Hostel J: aur chod de amex
+6/8/22, 11:20 AM - Chinmay: Yussss
+6/8/22, 11:33 AM - Hemant Hostel J: apti ka kya kar raha hai
+6/8/22, 11:33 AM - Hemant Hostel J: ?
+6/8/22, 12:28 PM - Chinmay: Uska toh kuch nahi kiya abhi
+6/8/22, 12:29 PM - Chinmay: Karunga vo bhi jab time milega
+6/8/22, 7:47 PM - Hemant Hostel J: <Media omitted>
+6/8/22, 7:47 PM - Hemant Hostel J: Ye dekh bc
+6/8/22, 7:48 PM - Chinmay: Bhai mein Sahi keh rha hun
+6/8/22, 7:49 PM - Chinmay: Mera dost merchant navy mein hai
+Vo abhi USA se aaya
+6/8/22, 7:49 PM - Chinmay: Vo khud bata rha hai
+6/8/22, 7:49 PM - Chinmay: Ki halat tight hai recession aane wala hai
+Keh rha gov ki taiyaari karle
+6/8/22, 7:49 PM - Hemant Hostel J: Bhai  😭😭
+6/8/22, 7:49 PM - Hemant Hostel J: Main toh electrical main hu
+6/8/22, 7:49 PM - Hemant Hostel J: Bc main rehe jaunga
+6/8/22, 7:50 PM - Chinmay: Ham bhi bhai
+Sabko chali jayegi
+6/8/22, 7:51 PM - Chinmay: Kuch nahi kar sakte isme
+6/8/22, 9:42 PM - Chinmay: Bhai Tera e litmus ka kuch update aaya?
+6/8/22, 9:43 PM - Hemant Hostel J: Nhi
+6/8/22, 9:43 PM - Hemant Hostel J: Tere dost kaa aaya kya?
+6/8/22, 9:43 PM - Chinmay: Naah
+6/8/22, 9:43 PM - Chinmay: Vo hi puch rha tha
+6/8/22, 9:44 PM - Hemant Hostel J: Usko bole placement ki tyari kar
+6/8/22, 9:44 PM - Hemant Hostel J: Ab nhi aana lagta
+6/8/22, 9:44 PM - Chinmay: Theek 😂
+6/8/22, 10:05 PM - Chinmay: Bhai thodi padhne ki motivation de de
+6/8/22, 10:33 PM - Hemant Hostel J: Bhai tera hoo jaayega
+6/8/22, 10:34 PM - Hemant Hostel J: 12lakh tak aaram se
+6/8/22, 11:44 PM - Chinmay: chup bsdk
+6/9/22, 12:01 AM - Hemant Hostel J: Bhai aaj os Bilkul nhi padha main
+6/9/22, 12:03 AM - Chinmay: Coding kar rha hoga tu
+6/9/22, 12:04 AM - Chinmay: Topper toh hai hi
+6/9/22, 4:40 PM - Hemant Hostel J: Bhai linkdin khola gand fat gayi bhai
+6/9/22, 4:41 PM - Chinmay: Kyu aisa kya dekh liya
+6/9/22, 5:44 PM - Hemant Hostel J: Bhai sab ne post daal rakhi hai
+6/9/22, 5:44 PM - Hemant Hostel J: Intern ki badhiya badhiya company main
+6/9/22, 7:36 PM - Chinmay: Haan vo toh dekha meine
+6/9/22, 7:36 PM - Chinmay: Koi nahi bhai ham acchi full time fodenge
+6/9/22, 7:42 PM - Hemant Hostel J: Hopefully
+6/9/22, 10:38 PM - Chinmay: Arrey electrical walo ki lag jaati hai acchi placements
+6/9/22, 10:57 PM - Hemant Hostel J: Aacha
+6/10/22, 1:18 AM - Hemant Hostel J: Kya padha bhai aaj
+6/10/22, 1:18 AM - Hemant Hostel J: ?
+6/10/22, 9:25 AM - Chinmay: OS, striver aur thodi coding kar rha hun roz
+3 se 4 ghante hi padh pa rha
+6/10/22, 9:28 AM - Chinmay: Aur thoda gym aur khaane peene pe vapis Dhyaan dena shuru kiya hai
+6/10/22, 10:24 AM - Hemant Hostel J: Aacha
+6/10/22, 11:21 AM - Chinmay: Bhai yaad dila diyo ki kal Leetcode ka contest hai shaam 8 baje
+6/10/22, 11:31 AM - Hemant Hostel J: Aacha thik hai
+6/11/22, 8:31 PM - Chinmay: Tu aaj ka contest de rha hai?
+6/11/22, 10:56 PM - Hemant Hostel J: Bhai major movie dekhne aa gaya
+6/11/22, 10:56 PM - Hemant Hostel J: Virtual de lunga
+6/12/22, 7:52 AM - Hemant Hostel J: bhai kal wale contest ka ques 3 hoo gaya tha tere se?
+6/12/22, 9:10 AM - Hemant Hostel J: Bhai 3rd question hua
+6/12/22, 9:10 AM - Hemant Hostel J: ?
+6/12/22, 9:53 AM - Chinmay: Naah bhai
+6/12/22, 9:54 AM - Chinmay: Lekin jab soln dekha toh laga itbi aasan cheez nahi hui
+Kafi bura laga
+6/12/22, 9:54 AM - Hemant Hostel J: Aaj ka diya
+6/12/22, 9:54 AM - Hemant Hostel J: <Media omitted>
+6/12/22, 9:54 AM - Hemant Hostel J: Ye padh bc
+6/12/22, 9:54 AM - Hemant Hostel J: ?
+6/12/22, 9:54 AM - Chinmay: Naah
+Abhi utha
+6/12/22, 9:54 AM - Chinmay: Ye toh abhi bohot hone wala hai 😂
+6/12/22, 9:55 AM - Chinmay: Soch IIT mein aisa hora
+6/12/22, 9:55 AM - Chinmay: Apna toh thapar hai
+6/12/22, 9:55 AM - Hemant Hostel J: Wohi bhai
+6/12/22, 9:55 AM - Chinmay: Hamare mein toh kafi offers revoke honge abhi
+6/12/22, 9:55 AM - Hemant Hostel J: Inko offcampus bhi mil jayegi
+6/12/22, 9:56 AM - Chinmay: Wahi
+Kahi vo AI wali company ne issi chakkar mein toh offer revoke nahi Marr liya
+6/12/22, 9:56 AM - Hemant Hostel J: Pata nhi bhai
+6/12/22, 9:56 AM - Chinmay: Kya tha uss company ka Naam jisme toh gya tha last round
+6/12/22, 9:56 AM - Hemant Hostel J: Applicate ai
+6/12/22, 9:56 AM - Chinmay: Haan whi.
+Iss sem toh lawde lagne wale hai
+6/12/22, 9:56 AM - Chinmay: Agar lag bhi gyi
+6/12/22, 9:57 AM - Chinmay: Tab bhi koi guarantee nahi
+6/12/22, 9:57 AM - Hemant Hostel J: Soch lag gayi starting main
+6/12/22, 9:57 AM - Chinmay: Kyunki kabhi bhi revoke kar sakte hai
+6/12/22, 9:57 AM - Hemant Hostel J: Usne sab chod diya padhna
+6/12/22, 9:57 AM - Hemant Hostel J: Phir company revoke kar de offer
+6/12/22, 9:57 AM - Hemant Hostel J: Gand hu mar jaayegi
+6/12/22, 9:57 AM - Chinmay: Hoga bhai ye sab
+6/12/22, 9:57 AM - Chinmay: Tabhi padhna bhi nahi chor sakte
+6/12/22, 9:57 AM - Chinmay: Varna hamare lawde lag jayenge
+6/12/22, 9:58 AM - Hemant Hostel J: Bhai sarkari hi badhiya hai
+6/12/22, 9:58 AM - Chinmay: Vo toh hai hi
+6/12/22, 9:58 AM - Chinmay: Bol iss sem sarkari ki taiyaari kare
+6/12/22, 9:59 AM - Hemant Hostel J: Pehele job uthate hai
+6/12/22, 9:59 AM - Hemant Hostel J: Phir karte hai ssc ki tayari
+6/12/22, 9:59 AM - Chinmay: Naah IS ki karenege
+6/12/22, 9:59 AM - Hemant Hostel J: Bc
+6/12/22, 9:59 AM - Hemant Hostel J: Ias?
+6/12/22, 10:00 AM - Chinmay: Haan
+6/12/22, 10:00 AM - Hemant Hostel J: Bhai syllabus dekha hai?
+6/12/22, 10:00 AM - Chinmay: Naah
+6/12/22, 10:00 AM - Chinmay: Kar lenge
+Engineering bhi toh karli
+6/12/22, 10:01 AM - Hemant Hostel J: Bhai engineering toh lakho log karte hai
+6/12/22, 10:01 AM - Chinmay: Baat toh theek hai
+6/12/22, 10:01 AM - Chinmay: Koini bhai nikal lenge ias
+6/12/22, 10:01 AM - Chinmay: Thoda zyada padh lenge
+6/12/22, 10:01 AM - Hemant Hostel J: Bhai main nhi kar paunga
+6/12/22, 10:02 AM - Hemant Hostel J: Ies phir bhi try kar sakta hu
+6/12/22, 10:02 AM - Chinmay: Tu cheetah hai kar lega
+6/12/22, 10:02 AM - Hemant Hostel J: Par ias main history geography pata nhi kya kya padhna padta hai
+6/12/22, 10:02 AM - Chinmay: Sab padh lega tera bhai
+Job toh vaise bhi nahi lagni
+6/12/22, 10:02 AM - Chinmay: Yahi karenge
+Maa baap ka Naam Roshan karenege
+6/12/22, 10:03 AM - Hemant Hostel J: Bhai main apni jindgi chudvana nhi chahata
+6/12/22, 10:03 AM - Hemant Hostel J: Yrr tu kar
+6/12/22, 10:03 AM - Hemant Hostel J: Tu kar lega hai bhi toh topper
+6/12/22, 10:03 AM - Chinmay: Chud gyi hai bhai
+Naukari agle 1 saal mein jaani hi hai sabki
+6/12/22, 10:04 AM - Hemant Hostel J: Dehradun wale nikal lete hai
+6/12/22, 10:04 AM - Hemant Hostel J: Ias
+6/12/22, 10:04 AM - Chinmay: Lawda mera
+6/12/22, 10:04 AM - Hemant Hostel J: 10 main aache marks aa gaye toh khud topper samjh ke science le li
+6/12/22, 10:05 AM - Chinmay: 😂😂😂😂😂
+6/12/22, 10:05 AM - Hemant Hostel J: Uske baad toh sab kuch chud gaya
+6/12/22, 10:05 AM - Chinmay: Bhai
+Tu koi badi company nikal
+6/12/22, 10:05 AM - Chinmay: Maang type
+6/12/22, 10:05 AM - Chinmay: Usme job security fir bhi hai
+6/12/22, 10:06 AM - Hemant Hostel J: Ab main wapas engineering ki cg ko dekh ke khud ko topper nhi samjhna cahata
+6/12/22, 10:06 AM - Hemant Hostel J: Aacha
+6/12/22, 10:06 AM - Chinmay: Tu nikal lega
+Offcampus
+Sab aata hai tujhe
+Dsa
+Web dev
+Core
+Apti
+Aur kya chahiye
+Bas ladki ki kami hai
+6/12/22, 10:07 AM - Hemant Hostel J: Aacha
+6/12/22, 10:07 AM - Chinmay: Yussss
+6/12/22, 10:08 AM - Hemant Hostel J: Ek gand fati wala aadmi dusre gandfati aadmi ko samjha raha dar mat sab sahi hoo jayega
+6/12/22, 10:08 AM - Hemant Hostel J: 🥲
+6/12/22, 10:19 AM - Chinmay: 😂😂😂
+6/13/22, 10:29 PM - Chinmay: Bhai ye madarchod dp
+Salla iski vajah se ab har chutiya se chutiya ques mein dp lagane ki sochta hun
+6/13/22, 10:41 PM - Hemant Hostel J: kyo bhai kya hoo gaya
+6/13/22, 10:41 PM - Hemant Hostel J: ?
+6/13/22, 10:41 PM - Hemant Hostel J: aisa kyo sochta hai
+6/13/22, 10:42 PM - Chinmay: Pata nahi bhai
+Kafi samay se dp kar rha tha
+6/13/22, 10:42 PM - Chinmay: Ab salla har cheez mein vahi ghusa rha hun
+6/13/22, 10:42 PM - Hemant Hostel J: bhai meri strategy se padh
+6/13/22, 10:42 PM - Chinmay: Sliding window wagera wall concept vapis padhne padgene
+6/13/22, 10:42 PM - Chinmay: Bata
+6/13/22, 10:42 PM - Hemant Hostel J: thoda dp thoda tree thoda contest thoda graph thoda os
+6/13/22, 10:43 PM - Hemant Hostel J: swithing karta rehe round robin ke tareh
+6/13/22, 10:43 PM - Hemant Hostel J: tune padh li os ?
+6/13/22, 10:43 PM - Chinmay: Naah abhi paging wali bakchodi pe hun
+6/13/22, 10:43 PM - Chinmay: Haan ye bhi theek hai
+Ek ek ghanta harr topic ko
+6/13/22, 10:44 PM - Chinmay: Salla Lekin questions ek ghante mein hote nahi hai
+6/13/22, 10:44 PM - Hemant Hostel J: nhi nhi
+6/13/22, 10:44 PM - Hemant Hostel J: ek ek ghanta nhi
+6/13/22, 10:45 PM - Hemant Hostel J: saale jeetna man hoo pura din ek topic ko mat de
+6/13/22, 10:45 PM - Chinmay: Bsdk 2 ghanta nahi padh sakta
+6/13/22, 10:45 PM - Hemant Hostel J: bas
+6/13/22, 10:45 PM - Chinmay: Accha accha
+6/13/22, 10:45 PM - Chinmay: Ye bhi sahi hai
+Code studio pe question karna padega
+6/13/22, 10:45 PM - Chinmay: Harr koi ab gaand ghiskar padh rha hai ya hum chutiye hai
+6/13/22, 10:45 PM - Hemant Hostel J: https://www.codingninjas.com/codestudio/guided-paths/operating-system-track
+6/13/22, 10:45 PM - Hemant Hostel J: ye dekh aacha hai
+6/13/22, 10:46 PM - Hemant Hostel J: bhai vishwas kar sab padh rahe hai
+6/13/22, 10:46 PM - Chinmay: Haan ye bhi karunga
+6/13/22, 10:46 PM - Chinmay: Bas yahi motivation chahiye thi
+6/13/22, 10:46 PM - Chinmay: Pencho sab padh dalenge
+Salla Lekin 3 ghante se zyada padha nahi jaara
+6/13/22, 10:46 PM - Hemant Hostel J: bhai mere electrical walo ne bhi coding start kar di
+6/13/22, 10:46 PM - Chinmay: Ohh bc
+6/13/22, 10:47 PM - Chinmay: Bhai Dinn mein 6 ghante kaise padhu
+6/13/22, 10:47 PM - Hemant Hostel J: bhai main khud 4-5 muskil se padh paata hu
+6/13/22, 10:47 PM - Hemant Hostel J: aaj dsa ki hi nhi
+6/13/22, 10:47 PM - Hemant Hostel J: ek do question kiye bas
+6/13/22, 10:48 PM - Chinmay: Meine bas thoda OS
+Thode 4 se 5 ques lagaye
+6/13/22, 10:48 PM - Chinmay: Ab bc paging aur round Robin scheduling karna padega
+6/13/22, 10:48 PM - Chinmay: Time ko divide karna hai pages pe
+Aur uspe RR lagana padega
+Harr topic pe
+6/13/22, 10:48 PM - Hemant Hostel J: kon se lecture par hai os ke tu?
+6/13/22, 10:48 PM - Chinmay: 5.9
+6/13/22, 10:48 PM - Chinmay: Gate smashers
+6/13/22, 10:48 PM - Hemant Hostel J: oh bc
+6/13/22, 10:49 PM - Hemant Hostel J: mera toh 2nd chapter complete nhi hua
+6/13/22, 10:49 PM - Chinmay: Meine OS ek baar pehle padha tha toh thoda yaad bhi tha
+6/13/22, 10:49 PM - Chinmay: 2nd year mein
+6/13/22, 10:49 PM - Hemant Hostel J: aacha sahi hai
+6/13/22, 10:49 PM - Hemant Hostel J: badhiya padha raha hai waise
+6/13/22, 10:49 PM - Chinmay: Wahi saala smjh aa ja rha hai
+Bhai bas kisi tarah dsa karra de tu
+6/13/22, 10:50 PM - Chinmay: Ek dam chutiya ho rkhi hai
+6/13/22, 10:50 PM - Hemant Hostel J: hat bc
+6/13/22, 10:50 PM - Hemant Hostel J: saale tere ko aati hai mc
+6/13/22, 10:50 PM - Hemant Hostel J: tu sikha de mere ko
+6/13/22, 10:50 PM - Chinmay: Bhai Saturday wale contest mein 2 hi ques hoye
+6/13/22, 10:51 PM - Chinmay: Salla motivation gir gya
+6/13/22, 10:51 PM - Hemant Hostel J: aacha 2 hard the usmain wo wala?
+6/13/22, 10:51 PM - Chinmay: Haa
+6/13/22, 10:51 PM - Hemant Hostel J: sunday main 4 hoo gaye the kya?
+6/13/22, 10:51 PM - Chinmay: Karra nhi
+6/13/22, 10:51 PM - Chinmay: Vo wala
+6/13/22, 10:51 PM - Hemant Hostel J: bhai mera ek 5min baad hua
+6/13/22, 10:51 PM - Hemant Hostel J: alas kar raha tha tab
+6/13/22, 10:52 PM - Hemant Hostel J: 2 hi submit hue
+6/13/22, 10:52 PM - Hemant Hostel J: usmain bhi backchodi hui bahut
+6/13/22, 10:52 PM - Hemant Hostel J: kya batao
+6/13/22, 10:52 PM - Chinmay: Sunday wale mein?
+6/13/22, 10:52 PM - Hemant Hostel J: haa
+6/13/22, 10:52 PM - Chinmay: Subah utha tha tu?
+6/13/22, 10:52 PM - Hemant Hostel J: bhai haa
+6/13/22, 10:52 PM - Chinmay: Yeahh launde
+6/13/22, 10:52 PM - Chinmay: Kitne kiye
+6/13/22, 10:52 PM - Hemant Hostel J: aadha ghanta soo gaya bich main
+6/13/22, 10:52 PM - Chinmay: 😂😂😂😂
+6/13/22, 10:52 PM - Hemant Hostel J: baithe baithe neend aa gayi
+6/13/22, 10:53 PM - Chinmay: Mere saath bhi yhi hota 😂
+6/13/22, 10:53 PM - Hemant Hostel J: phir aankh khuli toh 3rd wala submit kiya
+6/13/22, 10:53 PM - Hemant Hostel J: 5min late hoo gaya
+6/13/22, 10:53 PM - Chinmay: Aasan ques the?
+6/13/22, 10:53 PM - Hemant Hostel J: theek the sunday wale main
+6/13/22, 10:53 PM - Chinmay: Dena padega lagta hai
+6/13/22, 10:53 PM - Hemant Hostel J: haa de le
+6/13/22, 10:53 PM - Hemant Hostel J: dp lagegi usmain
+6/13/22, 10:54 PM - Chinmay: Chal mein paging khatam karu pehle
+6/13/22, 10:54 PM - Chinmay: Arrey Mast
+6/13/22, 10:54 PM - Hemant Hostel J: graph start kiya?
+6/13/22, 10:54 PM - Hemant Hostel J: striver ki kitni puri kar li?
+6/13/22, 10:55 PM - Chinmay: Graph college mein dekhi thi
+Striver wali
+6/13/22, 10:55 PM - Chinmay: Uske note bana rkhe hai
+6/13/22, 10:55 PM - Chinmay: Pepcoding se bhi dekhi thi graph toh
+6/13/22, 10:55 PM - Hemant Hostel J: <Media omitted>
+6/13/22, 10:55 PM - Hemant Hostel J: ye dekh bc
+6/13/22, 10:55 PM - Hemant Hostel J: vansh ko
+6/13/22, 10:55 PM - Chinmay: Bc
+6/13/22, 10:56 PM - Chinmay: Code studio hai ye?
+6/13/22, 10:56 PM - Hemant Hostel J: haaa
+6/13/22, 10:56 PM - Chinmay: Salla vansh dsa pel rha hai khatarnak
+6/13/22, 10:56 PM - Hemant Hostel J: bhai sab pel chuka hai wo
+6/13/22, 10:56 PM - Chinmay: Kitna pelega
+Salla Leetcode pe bhi 800 paar
+Isme bhi first
+6/13/22, 10:57 PM - Hemant Hostel J: bhai codestodio hi kar loo bhai
+6/13/22, 10:57 PM - Hemant Hostel J: company ke question hote hai
+6/13/22, 10:57 PM - Chinmay: Haan bhai Kal se code studio pe acche se karunga
+6/13/22, 10:58 PM - Hemant Hostel J: uski biwi hai kya niche wali
+6/13/22, 10:58 PM - Chinmay: Leetcode ka sirf daily
+6/13/22, 10:58 PM - Hemant Hostel J: dono sehegal ne gand faad rakhi hai
+6/13/22, 10:58 PM - Chinmay: 😂😂😂
+Usse bol ke dikha ye
+6/13/22, 10:58 PM - Chinmay: Vahi salla meri gaand fatt gyi abhi abhi mein
+6/13/22, 10:59 PM - Chinmay: Kitne question karega vansh
+Ab toh isse ratt bhi gye honge
+6/13/22, 10:59 PM - Hemant Hostel J: bhai kushi chutiya hai
+6/13/22, 10:59 PM - Hemant Hostel J: saali easy question kar ke aage aayi hai
+6/13/22, 11:00 PM - Chinmay: Vansh ke toh medium mein honge
+6/13/22, 11:00 PM - Hemant Hostel J: par wo ladki hai easy main bhi pahuch jayegi maang
+6/13/22, 11:00 PM - Chinmay: Vahii toh
+6/13/22, 11:00 PM - Hemant Hostel J: aur kya bhai
+6/13/22, 11:00 PM - Chinmay: Salla ham toh kuch bhi karke vha na jaa pahe
+6/13/22, 11:00 PM - Chinmay: Vansh salla harr cheez mein aage nikal jaata hai
+Sirf padhta hi rehta hai kya
+Aur kuch zi dagi mein nahi hai iski
+6/13/22, 11:01 PM - Hemant Hostel J: bhai tera pata nhi main toh nhi jaa paunga
+6/13/22, 11:01 PM - Chinmay: Mein bhi nahi bhai 😢
+6/13/22, 11:01 PM - Hemant Hostel J: ab kal chinmay ka naam bhi aa raha hoga
+6/13/22, 11:01 PM - Hemant Hostel J: codestudio main
+6/13/22, 11:01 PM - Hemant Hostel J: top par
+6/13/22, 11:02 PM - Chinmay: Kaash 😂😂😂
+6/13/22, 11:02 PM - Chinmay: Salla best central hai
+6/13/22, 11:02 PM - Chinmay: Na coding karke bhi last round tak chala jata hai
+6/13/22, 11:02 PM - Hemant Hostel J: abhi phone aaya tha uska
+6/13/22, 11:02 PM - Chinmay: Yha coding ke baad kuch nahi hota
+6/13/22, 11:02 PM - Chinmay: Mujhe bhi
+6/13/22, 11:02 PM - Hemant Hostel J: bole raha tha kismat se pahuch gaya tha last round
+6/13/22, 11:02 PM - Hemant Hostel J: nhi aati coding
+6/13/22, 11:03 PM - Hemant Hostel J: main bola tujhe aati hai tujhe pata nhi
+6/13/22, 11:03 PM - Hemant Hostel J: par tujhe aati hai
+6/13/22, 11:03 PM - Chinmay: Vahii 😂😂😂😂
+6/13/22, 11:03 PM - Chinmay: Abhi kya padhne ka irada hai tera?
+6/13/22, 11:03 PM - Hemant Hostel J: bhai os hi padhunga
+6/13/22, 11:03 PM - Chinmay: Sahi hai. Mein toh ab game khel Unga
+6/13/22, 11:04 PM - Hemant Hostel J: sahi main
+6/13/22, 11:04 PM - Hemant Hostel J: main din main khelta reheta hu
+6/13/22, 11:04 PM - Hemant Hostel J: jab bore hoo jata hu
+6/13/22, 11:04 PM - Hemant Hostel J: cod
+6/13/22, 11:04 PM - Chinmay: Bhai vansh kaise padh leta hai
+Mujhe janana hai
+6/13/22, 11:04 PM - Chinmay: Salla yha dost wagera hi bulate rehte hai
+6/13/22, 11:04 PM - Chinmay: Kabhi gym chale gye
+Kabhi Gedi marne
+6/13/22, 11:05 PM - Hemant Hostel J: bhai tum dono kas same saa lagega package
+6/13/22, 11:05 PM - Hemant Hostel J: dono 20 paar
+6/13/22, 11:05 PM - Chinmay: Lawda mera
+Vo mujhse bohot upar hai
+6/13/22, 11:05 PM - Chinmay: Mein 12 tak pe khush hun ab
+6/13/22, 11:05 PM - Hemant Hostel J: bhai ye itna toh main expect kar raha hu
+6/13/22, 11:06 PM - Hemant Hostel J: tujhe thoda uper jana padega
+6/13/22, 11:06 PM - Hemant Hostel J: 15 kar tum coe wale hoo
+6/13/22, 11:06 PM - Chinmay: 😂😂😂
+Ham vo coe wale honge jo December tak unplaced rehenge
+6/13/22, 11:06 PM - Hemant Hostel J: aacha bhaiya nhi dec tak toh
+6/13/22, 11:06 PM - Hemant Hostel J: tum rahoge
+6/13/22, 11:07 PM - Chinmay: Bhaiya ki kismat acchi thi
+Apni nahi
+6/13/22, 11:07 PM - Hemant Hostel J: ayush kya kar raha hai aaj kal
+6/13/22, 11:07 PM - Hemant Hostel J: aur ambala?
+6/13/22, 11:07 PM - Chinmay: Ambala thoda bohot coding
+Aur dbms
+6/13/22, 11:07 PM - Chinmay: Ayush ka pata nahi
+Lekin vo bhi vansh ka bhai hai
+6/13/22, 11:08 PM - Chinmay: Core toh ratt li hogi abhi tak usne
+6/13/22, 11:08 PM - Hemant Hostel J: haa ye baat toh hai
+6/13/22, 11:08 PM - Chinmay: Aur ek major project shyd vo apni behen ka internship wala dalega
+6/13/22, 11:08 PM - Chinmay: Toh usse padh rha hoga
+Uski behen sikha rhi hogi usss
+6/13/22, 11:08 PM - Hemant Hostel J: aacha
+6/13/22, 11:08 PM - Hemant Hostel J: sahi hai yrr
+6/13/22, 11:09 PM - Chinmay: Uspe toh internship ka bhi experience hai
+6/13/22, 11:09 PM - Chinmay: Uski lagegi 20 paar
+6/13/22, 11:09 PM - Hemant Hostel J: bhai pata nhi
+6/13/22, 11:10 PM - Hemant Hostel J: apna kya hoga
+6/13/22, 11:10 PM - Chinmay: Lag jayega pata
+Agle sem 😂😂
+6/13/22, 11:10 PM - Chinmay: Kuch na kuch toh ho jii jata hai. Itna toh hs bawa ne bhi kaha tha abhi orientation mein
+6/13/22, 11:10 PM - Chinmay: Ki 10 tak toh lag jaata hai
+6/13/22, 11:10 PM - Hemant Hostel J: oh bhai sahi hai
+6/13/22, 11:11 PM - Chinmay: Bc 200 se zyada company aayi thi 9 ke upar
+6/13/22, 11:11 PM - Chinmay: 10 tak pe
+6/13/22, 11:11 PM - Hemant Hostel J: aur avg kitne bache uthaye the?
+6/13/22, 11:11 PM - Hemant Hostel J: ek company ne?
+6/13/22, 11:11 PM - Chinmay: Vo yaad nahi
+6/13/22, 11:11 PM - Chinmay: Abhi tune dekha hai
+6/13/22, 11:11 PM - Chinmay: 86 percent employee resign karde
+6/13/22, 11:11 PM - Chinmay: Recession se pehle
+6/13/22, 11:11 PM - Hemant Hostel J: 4 mane avg toh bhi 100 bache toh hoo gaye honge
+6/13/22, 11:11 PM - Chinmay: Taki aur kuch kar sake
+6/13/22, 11:12 PM - Hemant Hostel J: matlab?
+6/13/22, 11:12 PM - Hemant Hostel J: tcs rewoke nhi karti offer
+6/13/22, 11:12 PM - Chinmay: Matlab ek report aayi thi
+6/13/22, 11:12 PM - Hemant Hostel J: bhai main nhi padh raha itni report
+6/13/22, 11:12 PM - Hemant Hostel J: maaa chuda gayi
+6/13/22, 11:12 PM - Chinmay: Usme likha tha ki 86 percent employees agle 3 mahine mein resign kar skate hao
+6/13/22, 11:12 PM - Hemant Hostel J: saala inti intern lagi hai 3rd year main
+6/13/22, 11:12 PM - Hemant Hostel J: bhai wo america main hoo raha hai
+6/13/22, 11:13 PM - Chinmay: Haan vo toh hai
+Meine linkedin band kar diya hai ab
+6/13/22, 11:13 PM - Hemant Hostel J: waha ke employee mahenge padte hai
+6/13/22, 11:13 PM - Chinmay: India pe bhi asar ayega
+6/13/22, 11:13 PM - Hemant Hostel J: yaha par saste mil jaate hai
+6/13/22, 11:13 PM - Hemant Hostel J: toh samjh baat
+6/13/22, 11:13 PM - Chinmay: 1 dollar ab 78 rupees ka ho gya hai
+6/13/22, 11:13 PM - Chinmay: Lowest abhi ka
+6/13/22, 11:13 PM - Hemant Hostel J: pata hai bhai
+6/13/22, 11:13 PM - Chinmay: Toh ek aisi job pakad
+6/13/22, 11:13 PM - Chinmay: Jisme security ho Thodi
+6/13/22, 11:14 PM - Chinmay: Bure samay aane wale hai
+6/13/22, 11:14 PM - Hemant Hostel J: tcs bharte hai phir
+6/13/22, 11:14 PM - Hemant Hostel J: wo private main government hai
+6/13/22, 11:14 PM - Chinmay: Itne bure samay bhi nahi aare ki tcs bharu
+6/13/22, 11:14 PM - Chinmay: Nalla rhe lunga
+6/13/22, 11:14 PM - Chinmay: Tcs nahi jaunga
+6/13/22, 11:14 PM - Hemant Hostel J: aacha
+6/13/22, 11:14 PM - Chinmay: Padh le lode
+6/13/22, 11:14 PM - Chinmay: Mein game khelra
+6/13/22, 11:14 PM - Hemant Hostel J: wohi soch raha hu
+6/13/22, 11:15 PM - Hemant Hostel J: bye kal baat karte hai
+6/13/22, 11:15 PM - Chinmay: Bye
+6/14/22, 11:49 AM - Chinmay: https://www.codingninjas.com/codestudio/problems/duplicate-subtrees_920530?topList=top-trees-interview-questions&leftPanelTab=2
+6/14/22, 12:12 PM - Hemant Hostel J: ye kaise hoga bhai
+6/14/22, 12:12 PM - Hemant Hostel J: ?
+6/14/22, 12:22 PM - Chinmay: Mujhe khud nahi smjh aaya
+6/14/22, 12:44 PM - Hemant Hostel J: bhai 7 test case hi chale
+6/14/22, 12:45 PM - Hemant Hostel J: 10 main se
+6/14/22, 12:45 PM - Chinmay: Ek bhi nahi chala 😢
+6/14/22, 12:45 PM - Chinmay: Sigved error kuch likha aara
+6/14/22, 12:45 PM - Hemant Hostel J: kya kiya tune?
+6/14/22, 12:46 PM - Hemant Hostel J: mauine brutforce lagaya hai
+6/14/22, 12:46 PM - Chinmay: Harr node pe check karta rha ki same structure aur value hai ya nahi
+6/14/22, 12:46 PM - Chinmay: Agar dono ek saath null tak aate hai
+6/14/22, 12:46 PM - Chinmay: Toh true return kar diya
+6/14/22, 1:14 PM - Hemant Hostel J: bhai maine map se kiya pehele vector se kiya
+6/14/22, 1:15 PM - Hemant Hostel J: level order traversal nikal liya har node se
+6/14/22, 1:15 PM - Hemant Hostel J: par uss se galat aaya
+6/14/22, 1:15 PM - Hemant Hostel J: phir inorder nikal liya
+6/14/22, 1:15 PM - Hemant Hostel J: usse se sahi aa raha hai
+6/14/22, 1:15 PM - Hemant Hostel J: bheju?
+6/14/22, 1:16 PM - Hemant Hostel J: map main store kar liyo
+6/14/22, 1:16 PM - Hemant Hostel J: ek baar repeat hoo toh answer vector main daal liyo
+6/14/22, 1:19 PM - Chinmay: Tu store kya kar rha hai?
+6/14/22, 1:19 PM - Chinmay: Map mein
+6/14/22, 1:19 PM - Hemant Hostel J: usse node se inorder traversal ki frequency
+6/14/22, 1:20 PM - Hemant Hostel J: string bana le
+6/14/22, 1:20 PM - Hemant Hostel J: aur uski frequency
+6/14/22, 1:22 PM - Hemant Hostel J: bheju code
+6/14/22, 1:22 PM - Hemant Hostel J: ?
+6/14/22, 1:41 PM - Hemant Hostel J: Chinmay bhai
+6/14/22, 1:41 PM - Hemant Hostel J: Sune
+6/14/22, 1:42 PM - Hemant Hostel J: maine vansh ko bheja tha code
+6/14/22, 1:42 PM - Hemant Hostel J: main bhi try kar raha tha
+6/14/22, 1:42 PM - Hemant Hostel J: maine usko bola wo question hoo gaya
+6/14/22, 1:42 PM - Hemant Hostel J: wo iss chiz main naraj hoo gaya
+6/14/22, 1:43 PM - Hemant Hostel J: <Media omitted>
+6/14/22, 1:49 PM - Chinmay: Abe chutiya hai itna mat soch
+6/14/22, 1:49 PM - Chinmay: Aisa hota rehta hai uske saath
+6/14/22, 1:49 PM - Chinmay: 2 - 3 dinn mein apne aap Sahi ho jayega
+6/14/22, 1:49 PM - Chinmay: Naah meine soln dekh liya
+Usme bhi aise hi karna tha
+6/14/22, 1:49 PM - Hemant Hostel J: hmmm
+6/14/22, 1:49 PM - Chinmay: Mere dimag mein bilkul nahi aaya ki aise bhi kar sakte hai
+6/14/22, 1:49 PM - Hemant Hostel J: maine level order se kiya tha
+6/14/22, 1:50 PM - Chinmay: Ussi se soln mein bhi hua
+6/14/22, 1:50 PM - Hemant Hostel J: usmain 3test case atak gaye the
+6/14/22, 1:50 PM - Hemant Hostel J: phir comment dekha
+6/14/22, 1:50 PM - Chinmay: Comment matlab discuss?
+6/14/22, 1:50 PM - Hemant Hostel J: phir maine waise try kiya
+6/14/22, 1:50 PM - Hemant Hostel J: haaa
+6/14/22, 1:50 PM - Chinmay: Ohh
+Sahi hai
+OS kitni ki
+6/14/22, 1:50 PM - Hemant Hostel J: bhai aaj 3rd chapter start kar raha hu
+6/14/22, 1:51 PM - Hemant Hostel J: iss week kar lunga pura
+6/14/22, 1:51 PM - Chinmay: 3rd synchronization hai?
+6/14/22, 1:51 PM - Hemant Hostel J: haa
+6/14/22, 1:51 PM - Hemant Hostel J: bhai wo khole ke dekh
+6/14/22, 1:51 PM - Chinmay: Kya?
+6/14/22, 1:51 PM - Hemant Hostel J: os ka track
+6/14/22, 1:51 PM - Hemant Hostel J: usmain code bhi kar sakta hai tu algorithem
+6/14/22, 1:51 PM - Chinmay: Mein soch rha hun pehle poora kar lu
+Fir vo karunga
+6/14/22, 1:51 PM - Hemant Hostel J: sath sath kar
+6/14/22, 1:51 PM - Chinmay: Salle algo thodi na padhni hai
+6/14/22, 1:52 PM - Chinmay: Interview mein theory ke liye chahiye
+6/14/22, 1:52 PM - Hemant Hostel J: algo padh li hai code toh kar hi sakta hai
+6/14/22, 1:52 PM - Hemant Hostel J: bc
+6/14/22, 1:52 PM - Hemant Hostel J: dsa ka question samaj ke kar le
+6/14/22, 1:52 PM - Chinmay: Mein toh bas upar se algos dekh rha hun
+Numerical toh chor hi deta hi
+6/14/22, 1:52 PM - Hemant Hostel J: aacha
+6/14/22, 1:52 PM - Chinmay: Bas itna aata hai ki Smjha saku
+6/14/22, 1:53 PM - Hemant Hostel J: haa yaar
+6/14/22, 1:53 PM - Chinmay: Ussi mein kuch bana sakta hun code wagera
+6/14/22, 1:53 PM - Hemant Hostel J: par wo track khole ke parallel main exercise laga liya kar
+6/14/22, 1:53 PM - Hemant Hostel J: aacha rahega
+6/14/22, 1:53 PM - Chinmay: Chal theek ab 2:30 se padhni hai os
+Usse bhi ques karunga
+6/14/22, 9:06 PM - Hemant Hostel J: https://leetcode.com/problems/word-break-ii/
+ye ques hain
+solution1:
+
+class Solution {
+public:
+    
+    unordered_set<string> st;
+    int maxe=0;
+    unordered_map<int,vector<string>> map;
+
+    vector<string> helper(string &s,int index){
+        if(map.find(index)!=map.end()){
+            return map[index];
+        }
+        vector<string> ans;
+        if(index==s.size()){
+            return {""};
+        }
+        for(int i=index;i<s.size() && i<index+maxe;i++){
+            if(st.find(s.substr(index,i-index+1))!=st.end()){
+                auto temp=helper(s,i+1);
+                for(auto x:temp){
+                    if(x==""){
+                        ans.push_back(s.substr(index,i-index+1)+x);
+                    }
+                    else{
+                        ans.push_back(s.substr(index,i-index+1)+" "+x);
+                    }
+                }
+            }
+        }
+        return map[index]=ans;
+    }
+    
+    vector<string> wordBreak(string s, vector<string>& dictionary) {
+        st.clear();
+        for(auto x:dictionary){
+            st.insert(x);
+            maxe=max(maxe,(int)x.size());
+        }
+        string curr="";
+        return helper(s,0);
+    }
+};
+6/14/22, 9:06 PM - Hemant Hostel J: class Solution {
+public:
+    
+    unordered_set<string> st;
+    vector<string> ans;
+
+    void helper(string &s,int index,string curr){
+        if(index==s.size()){
+            ans.push_back(curr);
+            return;
+        }
+        string t="";
+        for(int i=index;i<s.size();i++){
+            t+=s[i];
+            if(st.find(t)==st.end()){
+                continue;
+            }
+            helper(s,i+1,curr+t+" ");
+        }
+    }
+    
+    vector<string> wordBreak(string s, vector<string>& dictionary) {
+        st.clear();
+        ans.clear();
+        for(auto x:dictionary){
+            st.insert(x);
+        }
+        string curr="";
+        helper(s,0,curr);
+        for(auto &x:ans){
+            x.pop_back();
+        }
+        return ans;
+    }
+};
+ye doosra
+in dono ki mujhe time complexity bata do kya hogi.. aage bhi bhejke puchwa do kisi se plz.. request hain
+maine itni jagah dekh lia poora leetcode discuss dekh lia har koi alag complexity batara
+6/14/22, 9:06 PM - Hemant Hostel J: Iski complexity bata
+6/14/22, 9:33 PM - Chinmay: Bhai complexity ka to mujhe bhi nahi pata
+6/15/22, 3:32 PM - Chinmay: <Media omitted>
+6/15/22, 3:33 PM - Chinmay: Abhi coin base ne bhi kiya
+6/15/22, 3:34 PM - Hemant Hostel J: haaa
+6/15/22, 3:35 PM - Hemant Hostel J: usa main recession bahut tej hai
+6/15/22, 3:35 PM - Hemant Hostel J: india phir bhi kam hoo rahe hai
+6/15/22, 3:36 PM - Hemant Hostel J: bhai kaash sarkari naukri ki preparation karta coding ki jagah aisa lag raha ab toh
+6/15/22, 3:40 PM - Chinmay: Vahi bhai 😢
+6/15/22, 3:40 PM - Chinmay: Salla harr jagah se layoff ki khabar aa rhi hai
+6/15/22, 3:40 PM - Chinmay: Aur bc ye salle saare thapar ke bacche ek toh intern bhi kar rhe hai
+Apni naukri lag payegi kya
+6/15/22, 3:44 PM - Hemant Hostel J: <Media omitted>
+6/15/22, 3:45 PM - Hemant Hostel J: Ek toh bc code for good ka dekh ke dimag la bhosda hoo raha
+6/15/22, 3:47 PM - Chinmay: Vahi salla
+Logo ko offer wagera milne lage
+6/15/22, 3:47 PM - Chinmay: Ye kya hai bc
+6/15/22, 3:48 PM - Chinmay: Bc ye senior manager hai
+Yha salla job ke lalle pade hai
+6/15/22, 3:48 PM - Hemant Hostel J: Wohi bhai
+6/15/22, 3:48 PM - Hemant Hostel J: Meri kismat kyo hai itni chutiya
+6/15/22, 3:48 PM - Hemant Hostel J: Yaar
+6/15/22, 3:48 PM - Chinmay: Teri kismat ko kya hua
+6/15/22, 3:49 PM - Hemant Hostel J: Joo main itni gand gis ke nhi milta mujhe wo logo ko bina gand gise mil jaata hai
+6/15/22, 3:49 PM - Chinmay: 😂😂😂
+Vansh ka soch fir
+6/15/22, 3:49 PM - Chinmay: Bechare ko sabse zyada ata hai
+Fir bhi uski nahi lagi
+6/15/22, 3:54 PM - Hemant Hostel J: Wohi bc
+6/15/22, 3:55 PM - Hemant Hostel J: Bhai job sirf temporary soln hai
+6/15/22, 3:55 PM - Hemant Hostel J: Saala aage bhi gand hi gisni hai
+6/15/22, 4:04 PM - Chinmay: Ye baat bhi theek hai
+6/15/22, 4:04 PM - Chinmay: Choro gharbar Chalo haridwar
+6/15/22, 4:05 PM - Hemant Hostel J: bhai Himalayan main jaunga
+6/15/22, 4:05 PM - Chinmay: 😂😂
+Theek hai bhai
+6/15/22, 4:06 PM - Hemant Hostel J: bhai 20 lakh thapar main naa daalke fd kara leta
+6/15/22, 4:07 PM - Hemant Hostel J: phir 7saal main 2x hoo jaate
+6/15/22, 4:07 PM - Hemant Hostel J: phir 40 lakh main se 20 karch deta shaadi main
+6/15/22, 4:07 PM - Hemant Hostel J: aur 50-60 lakh ka dahej le leta
+6/15/22, 4:08 PM - Hemant Hostel J: phir wapas kuch jugad laga leta toh sahi reheta
+6/15/22, 4:08 PM - Chinmay: 😂😂😂😂
+Arrey bc
+Ye baate toh ab bhul jao
+Ab toh neagtive 20 lakh se shuruat kar I hai tujhe
+6/15/22, 4:08 PM - Hemant Hostel J: thapar ne  future barbaad kar diya
+6/15/22, 4:08 PM - Chinmay: Same bhai
+Isse accha toh DU se bsc kar leta fir sarkari ki taiyaari
+6/15/22, 4:09 PM - Hemant Hostel J: tcs bhi challi gayi
+6/15/22, 4:09 PM - Hemant Hostel J: 😭 form nhi bhara maine
+6/15/22, 4:09 PM - Chinmay: 😂😂😂😂
+TCS mein Naukari ki jagah mein nalla rhe lu
+6/15/22, 4:09 PM - Hemant Hostel J: 7.20 lakh
+6/15/22, 4:09 PM - Hemant Hostel J: 50k per month ki job
+6/15/22, 4:10 PM - Hemant Hostel J: + security
+6/15/22, 4:10 PM - Chinmay: Bsdk mckinsey reject Marr rha tha mein 😂😂
+Ab tcs pe aa jau 🤣
+6/15/22, 4:10 PM - Hemant Hostel J: bhai tu agar kar leta crack toh
+6/15/22, 4:10 PM - Hemant Hostel J: tu abhi chill kar raha hota
+6/15/22, 4:10 PM - Hemant Hostel J: goa main
+6/15/22, 4:10 PM - Chinmay: Purani baate hai bhai
+Ab yaad mat dila 😢
+6/15/22, 4:11 PM - Hemant Hostel J: bhai be positive kuch toh hoo hi jayega
+6/15/22, 4:12 PM - Hemant Hostel J: cg bhi sahi + coding bhi kar rakhi + core bhi padh rahe hai aache se + itni bhi situation kharab nhi hai
+6/15/22, 4:12 PM - Hemant Hostel J: bhai agar iss par nhi hua naa phir bhai ye duniya mere layak nhi
+6/15/22, 4:12 PM - Chinmay: Cg Haan theek hai
+Iss sem aur giregi
+Coding meri abhi uss level pe nahi hai
+Core yaad karna mushkil hai
+English toh aati nahi
+6/15/22, 4:12 PM - Hemant Hostel J: randi saale
+6/15/22, 4:13 PM - Chinmay: Development aati nahi
+6/15/22, 4:13 PM - Hemant Hostel J: apne se niche wale bhi log hai
+6/15/22, 4:13 PM - Hemant Hostel J: wo phir jeena chod de kya
+6/15/22, 4:13 PM - Chinmay: Ham bhi kafi neeche hai
+6/15/22, 4:13 PM - Hemant Hostel J: bc tera dost kya hope karta hoga aniket
+6/15/22, 4:13 PM - Chinmay: Bhai uspe SC ka Kota hai
+6/15/22, 4:13 PM - Hemant Hostel J: are bc
+6/15/22, 4:13 PM - Chinmay: Gov job nikal lega
+6/15/22, 4:13 PM - Hemant Hostel J: are bhai yaha bhi apna kat raha hai
+6/15/22, 4:14 PM - Chinmay: 😂😂😂
+6/15/22, 4:14 PM - Chinmay: Vahi
+6/15/22, 4:14 PM - Hemant Hostel J: bhai bahut log ab start kar rahe coding
+6/15/22, 4:14 PM - Hemant Hostel J: maine dekha basic bhi nhi aate hope hai tech main lag jayegi
+6/15/22, 4:14 PM - Chinmay: Bhai pallak bahl ko bhi nahi aati thi
+6/15/22, 4:14 PM - Hemant Hostel J: 50% janta thapar se toh uper honge apan
+6/15/22, 4:15 PM - Chinmay: Vo jp mein hai
+6/15/22, 4:15 PM - Hemant Hostel J: boobs ki baat nhi kar raha
+6/15/22, 4:15 PM - Hemant Hostel J: uske bade mote the waise
+6/15/22, 4:15 PM - Chinmay: Haan vaise ye baat bhi hai
+6/15/22, 4:15 PM - Hemant Hostel J: boobs hi badhiya lage
+6/15/22, 4:15 PM - Chinmay: Bhai lawda toh mera bhi bada hai
+Meri kyu nahi lagi
+6/15/22, 4:16 PM - Hemant Hostel J: bhai loda nhi chahiye hota naa loda dekhte hi reject hoo jaate hai
+6/15/22, 4:16 PM - Hemant Hostel J: tabhi central ka hoo gaya kyoki boobs bade the
+6/15/22, 4:16 PM - Hemant Hostel J: 1round main tera nhi hua
+6/15/22, 4:16 PM - Chinmay: 😂😂😂😂
+6/15/22, 4:16 PM - Hemant Hostel J: uska hoo gaya bina coding bc
+6/15/22, 4:17 PM - Chinmay: Ye bhi theek hai 🤣🤣🤣
+6/15/22, 4:17 PM - Chinmay: Ye bata
+6/15/22, 4:17 PM - Chinmay: Angrezi ki taiyaari kaise chalri?
+6/15/22, 4:17 PM - Hemant Hostel J: bhai kaha chal rahi yaar
+6/15/22, 4:17 PM - Hemant Hostel J: bhai ek kaam karte hai
+6/15/22, 4:17 PM - Hemant Hostel J: interview experience joo hote hai
+6/15/22, 4:17 PM - Hemant Hostel J: wo uthate hai
+6/15/22, 4:17 PM - Chinmay: Kaha se
+YouTube se?
+6/15/22, 4:17 PM - Hemant Hostel J: aur google meet par ek dusre ko smajhate hai
+6/15/22, 4:18 PM - Hemant Hostel J: codestudio
+6/15/22, 4:18 PM - Chinmay: Hmm ye bhi theek hai
+6/15/22, 4:18 PM - Chinmay: Kal toh mujhe jaana hai
+6/15/22, 4:18 PM - Chinmay: Aaj bhi time nahi
+6/15/22, 4:18 PM - Chinmay: Parso se karte hai
+6/15/22, 4:18 PM - Hemant Hostel J: vansh se bhi baat kar rakhi hai
+6/15/22, 4:18 PM - Hemant Hostel J: 3 kar lenge
+6/15/22, 4:18 PM - Hemant Hostel J: usmain os ke quesiton dbms ke quesiton sab hote hai
+6/15/22, 4:19 PM - Hemant Hostel J: jeetna apan padh rahe hai
+6/15/22, 4:19 PM - Hemant Hostel J: loda koi padh raha hoga
+6/15/22, 4:19 PM - Hemant Hostel J: phir bhi uniki aachi lagegi
+6/15/22, 4:19 PM - Chinmay: Matlab Google meet pe ques Smjhana hai ya kya?
+6/15/22, 4:19 PM - Hemant Hostel J: haaa
+6/15/22, 4:20 PM - Hemant Hostel J: interview experience kholenge
+6/15/22, 4:20 PM - Chinmay: Whiii
+Bhai sab mehnat kar rhe hai na?
+6/15/22, 4:20 PM - Hemant Hostel J: dsa ka question ki approach discuss karenge
+6/15/22, 4:20 PM - Chinmay: Ya ham zyada kar rhe hai?
+6/15/22, 4:20 PM - Hemant Hostel J: aur code likh ke samjhayenge
+6/15/22, 4:20 PM - Hemant Hostel J: ENGLISH main
+6/15/22, 4:21 PM - Chinmay: Haan yehi karna hoga
+6/15/22, 4:21 PM - Chinmay: PS kitni ki?
+6/15/22, 4:21 PM - Chinmay: Os
+6/15/22, 4:21 PM - Hemant Hostel J: bhai 3rd chapter pura kiya hai
+6/15/22, 4:21 PM - Hemant Hostel J: abhi 50 lecture rehete hai
+6/15/22, 4:21 PM - Hemant Hostel J: process synchronization tak padha hai
+6/15/22, 4:21 PM - Chinmay: Arrey badiya
+6/15/22, 4:22 PM - Hemant Hostel J: phir dbms bhi gate smashers se padh lunga
+6/15/22, 4:22 PM - Chinmay: Fir 20 lakh ka package bhi utha lega
+6/15/22, 4:22 PM - Hemant Hostel J: nhi bhai mujeh 11 tak dila de
+6/15/22, 4:22 PM - Chinmay: Arrey 11 toh tu lode par rkhta hai
+6/15/22, 4:23 PM - Hemant Hostel J: toufa kabul karo wala salam dunga itne pe
+6/15/22, 4:23 PM - Chinmay: 🤣🤣🤣🤣🤣
+6/15/22, 4:23 PM - Chinmay: 11 toh mill jayega shyd ham sabko
+6/15/22, 4:23 PM - Hemant Hostel J: hopefully
+6/15/22, 4:23 PM - Chinmay: Yusss
+Chal. Mein Gaadi seekhne jaara ab
+6/15/22, 4:23 PM - Hemant Hostel J: oh bhai sahi hai
+6/15/22, 4:24 PM - Chinmay: Salla 4:30 se Gaadi seekhne
+6/15/22, 4:24 PM - Chinmay: Fir gym
+6/15/22, 4:24 PM - Chinmay: Padhai ka time nahi rehta
+6/15/22, 4:24 PM - Chinmay: Lekin ye bhi zarori hai
+6/15/22, 4:24 PM - Hemant Hostel J: abe yaar padh rakha hai tune
+6/15/22, 4:24 PM - Hemant Hostel J: sab
+6/15/22, 4:24 PM - Hemant Hostel J: revise hi toh kar raha hai
+6/15/22, 4:24 PM - Chinmay: Kaash ye mein bhi keh pata
+6/15/22, 5:41 PM - Chinmay: Bhai Ladkiyo ke liye Salesforce aayi hai
+6/15/22, 5:47 PM - Hemant Hostel J: Haaa bhai
+6/15/22, 6:58 PM - Hemant Hostel J: dp kitna kar liya tune?
+6/15/22, 7:07 PM - Chinmay: Video 40 pe hun shyd
+6/15/22, 7:08 PM - Hemant Hostel J: ok
+6/16/22, 9:36 AM - Hemant Hostel J: bhai skipping se belly fat loss hota hai naaa
+6/16/22, 10:01 AM - Chinmay: Yesss
+6/16/22, 10:01 AM - Hemant Hostel J: bhai thoda beely fat reduce hua hai
+6/16/22, 10:01 AM - Hemant Hostel J: thodi exercise se
+6/16/22, 10:02 AM - Hemant Hostel J: ab skipping karunga
+6/16/22, 10:02 AM - Chinmay: Arrey gazab bhai
+6/16/22, 10:02 AM - Chinmay: Poora reduce kar le
+6/16/22, 10:02 AM - Chinmay: Tumhare tha barish ho rhi hai?
+6/16/22, 10:02 AM - Hemant Hostel J: bhai yrr mess main khana aisa milta hai
+6/16/22, 10:02 AM - Hemant Hostel J: jismain fat hi hota hai
+6/16/22, 10:02 AM - Hemant Hostel J: nhi bhai
+6/16/22, 10:03 AM - Chinmay: Haan baat toh Sahi hai
+Bsdk Lekin vha kaun sa tu exercise karta hai
+6/16/22, 10:03 AM - Hemant Hostel J: 2 din pehele hui thi thodi
+6/16/22, 10:03 AM - Chinmay: Bas khata rehta hai
+6/16/22, 10:03 AM - Hemant Hostel J: haa ye bhi hai
+6/16/22, 10:03 AM - Chinmay: Padhai start kardi
+6/16/22, 10:03 AM - Hemant Hostel J: bc side tyre reduce karunga
+6/16/22, 10:03 AM - Chinmay: Mujhe bhi karna hai vo
+6/16/22, 10:04 AM - Hemant Hostel J: bc socha tha placement lagegi fir bc phir dekhunga body vody
+6/16/22, 10:04 AM - Hemant Hostel J: bc lagni hi nhi
+6/16/22, 10:04 AM - Hemant Hostel J: toh start kar di thodi thodi
+6/16/22, 10:04 AM - Hemant Hostel J: aaj main jeena sikh raha ab main
+6/16/22, 10:04 AM - Chinmay: 😂😂😂😂😂
+Ye bhi theek hai
+6/16/22, 10:04 AM - Hemant Hostel J: maa chuda gaya future
+6/16/22, 10:05 AM - Chinmay: Yussss
+Bas thoda thoda padh lo
+Jitna kar sko
+Aur sab bhagwan pe chor do
+6/16/22, 10:05 AM - Hemant Hostel J: bhai wohi bhagwan bhi dekh nhi raha
+6/16/22, 10:05 AM - Hemant Hostel J: banda kitni mehenat kar raha hai
+6/16/22, 10:05 AM - Hemant Hostel J: thoda fal hi de du isko
+6/16/22, 10:06 AM - Chinmay: Chinta na karo bhagwan ke ghar mein der hai andher nahi
+6/16/22, 10:06 AM - Hemant Hostel J: yeeee
+6/16/22, 10:06 AM - Chinmay: Ye bata aaj ki padhai start kardi
+6/16/22, 10:06 AM - Hemant Hostel J: bhai padh raha
+6/16/22, 10:06 AM - Hemant Hostel J: 31 wa lecture dekh raha stirver ka
+6/16/22, 10:06 AM - Chinmay: Yeahhh toprrr
+6/16/22, 10:07 AM - Hemant Hostel J: haa bhai
+6/16/22, 10:07 AM - Chinmay: Mera toh mann bhi nahi kar rha uska dekhne ka
+6/16/22, 10:07 AM - Hemant Hostel J: kyo
+6/16/22, 10:07 AM - Hemant Hostel J: bhai cg aa gayi teri?
+6/16/22, 10:07 AM - Chinmay: Pata nahi
+Salla harr cheez dp ki tarah sochta hun ab
+6/16/22, 10:07 AM - Chinmay: Nah
+Agar aati hoti toh central ya ayush ka message aa jaata group pe
+6/16/22, 10:08 AM - Chinmay: Mein khud webkiosk check nahi karta
+6/16/22, 10:09 AM - Hemant Hostel J: 😂
+6/16/22, 10:09 AM - Hemant Hostel J: central ka pata nhi aayush ka toh aa hi jata
+6/16/22, 10:10 AM - Hemant Hostel J: bc jab cg ki baat hoti tab hi group par message aate hai uske
+6/16/22, 10:10 AM - Chinmay: Vahii 😂😂😂
+Abhi shaanti hai matlab cg nahi aayi
+6/16/22, 10:10 AM - Chinmay: 😂😂😂😂
+Haan
+Ayush shyd CN padh rha hai
+Mujhse puch rha tha koi accha source
+6/16/22, 10:10 AM - Hemant Hostel J: phir tu kaha se padh raha cn?
+6/16/22, 10:11 AM - Chinmay: Mein toh nahi padh rha
+6/16/22, 10:11 AM - Chinmay: Mera ab OS pe last topic disk management hai
+6/16/22, 10:11 AM - Hemant Hostel J: bhai main toh jyada nhi padhunga cn
+6/16/22, 10:11 AM - Chinmay: Bas vhi karunga
+6/16/22, 10:11 AM - Hemant Hostel J: bas uper uper se padhunga main foucs dbms os par karunga
+6/16/22, 10:11 AM - Chinmay: Haan vhi mera bhi chalra
+6/16/22, 10:12 AM - Chinmay: Kitne ghante ki sitting kar rha hai ajaakal tu
+6 ya 7?
+6/16/22, 10:12 AM - Hemant Hostel J: chal bhai tu bhi padh main padhta hu
+6/16/22, 10:12 AM - Hemant Hostel J: bhai loda saala 5 ghante mushkil se hogi pure din main
+6/16/22, 10:12 AM - Chinmay: Chal theek padh tu
+6/16/22, 10:12 AM - Hemant Hostel J: effective dekhega toh
+6/16/22, 10:12 AM - Hemant Hostel J: bich game khel leta hu
+6/16/22, 10:12 AM - Chinmay: Sahi hai bhai
+Mujhe bhi badhani padrgi
+6/16/22, 10:13 AM - Hemant Hostel J: kabhi youtube video dekh leta hu
+6/16/22, 10:13 AM - Hemant Hostel J: kabhi aise hi soo jaata hu
+6/16/22, 10:13 AM - Chinmay: 😂😂😂
+Sahi hai
+6/16/22, 10:13 AM - Chinmay: Padh le bsdk ab
+6/16/22, 10:13 AM - Hemant Hostel J: band kar raha whatsapp ab
+6/17/22, 1:49 PM - Chinmay: Tu banayega mere saath team
+6/17/22, 1:49 PM - Chinmay: Agar flikart grid dena hai toh
+6/17/22, 1:50 PM - Chinmay: Kuch try hi kar lete hai
+6/17/22, 1:50 PM - Hemant Hostel J: Bhai mere ko devansh ne add kar diya kal
+6/17/22, 1:51 PM - Hemant Hostel J: Tu vansh ayush bana loo
+6/17/22, 1:51 PM - Chinmay: Ayush toh nahi aara
+6/17/22, 1:51 PM - Hemant Hostel J: 3 se jyada add nhi kar sakte
+6/17/22, 1:51 PM - Hemant Hostel J: Mujhe nakshatra ne add kiya
+6/17/22, 1:52 PM - Hemant Hostel J: Tu janta hoga usse
+6/17/22, 1:52 PM - Chinmay: Haan
+6/17/22, 1:52 PM - Chinmay: Jo fookta hai?
+6/17/22, 1:52 PM - Hemant Hostel J: Nhi
+6/17/22, 1:52 PM - Chinmay: Accha vo placement wala
+6/17/22, 1:52 PM - Hemant Hostel J: Placement coordinator wala
+6/17/22, 1:52 PM - Hemant Hostel J: Haa
+6/17/22, 1:52 PM - Chinmay: Theek theek
+6/17/22, 1:52 PM - Chinmay: Flip kart grid ka link bhejio
+6/17/22, 1:53 PM - Hemant Hostel J: Aage tu koi bharoge toh add kar diyo
+6/17/22, 1:53 PM - Hemant Hostel J: Ismain usne pehele
+6/17/22, 1:53 PM - Hemant Hostel J: Puch liya
+6/17/22, 1:53 PM - Chinmay: Theek theek
+6/17/22, 1:53 PM - Hemant Hostel J: Vansh ko le le
+6/17/22, 1:53 PM - Hemant Hostel J: Aur central ko lele
+6/17/22, 1:54 PM - Hemant Hostel J: Usmain ppt submit hoti hai
+6/17/22, 1:54 PM - Chinmay: Haan puch Leta hun
+Link toh bhej bsdk
+6/17/22, 1:54 PM - Hemant Hostel J: Flipkart grid se search kar
+6/17/22, 1:55 PM - Chinmay: Accha
+6/17/22, 1:56 PM - Hemant Hostel J: Yeee
+6/17/22, 3:46 PM - Hemant Hostel J: https://unstop.com/hackathon/flipkart-grid-40-software-development-challenge-flipkart-grid-40-flipkart-348170
+6/17/22, 3:46 PM - Hemant Hostel J: Bhai
+6/17/22, 4:01 PM - Chinmay: Bhar diya bhai
+6/17/22, 4:07 PM - Hemant Hostel J: Sahi hai
+6/17/22, 4:33 PM - Hemant Hostel J: Oye amazon wale mere ko le liyo
+6/17/22, 4:37 PM - Chinmay: Amazon wali hackathon hai?
+6/17/22, 4:38 PM - Hemant Hostel J: Bhai coding problem likhi hai
+6/17/22, 4:39 PM - Chinmay: Uske baad hackathon hai
+6/17/22, 4:39 PM - Chinmay: Team size 2 se 4 ka ho sakta hai
+6/17/22, 4:39 PM - Hemant Hostel J: <Media omitted>
+6/17/22, 4:39 PM - Chinmay: Tu aur mein toh ho jaate hai
+6/17/22, 4:39 PM - Chinmay: Haan padh liya meine ye
+6/17/22, 4:39 PM - Hemant Hostel J: Vansh ko bhi lele
+6/17/22, 4:40 PM - Chinmay: Abhi pehle form ko. Toh aane de
+6/17/22, 4:40 PM - Hemant Hostel J: Haa
+6/18/22, 11:21 AM - Chinmay: https://www.codingninjas.com/codestudio/problems/cousins-of-given-node-in-binary-tree_873363?topList=top-trees-interview-questions&leftPanelTab=1
+6/18/22, 11:53 AM - Hemant Hostel J: Soo ke utha hu abhi
+6/18/22, 4:04 PM - Hemant Hostel J: https://www.codingninjas.com/codestudio/problems/painting-fences_920549?topList=top-dynamic-programming-questions
+6/18/22, 4:36 PM - Hemant Hostel J: Bhai ye ques dekh
+6/18/22, 4:36 PM - Hemant Hostel J: Ek baar
+6/18/22, 4:39 PM - Chinmay: Madarchod kitne question karta hai Dinn ke bsdk
+6/18/22, 4:39 PM - Chinmay: Aaj hi tune 18 kar liye
+6/18/22, 4:50 PM - Hemant Hostel J: are bhai usmain se mcq bhi hote hai
+6/18/22, 4:50 PM - Hemant Hostel J: os ke
+6/18/22, 4:55 PM - Hemant Hostel J: Bhai aaj 140 question hoo gaye 10-11 din main
+6/18/22, 4:55 PM - Hemant Hostel J: Bc
+6/18/22, 4:57 PM - Chinmay: Madarchod Sharam kar
+6/18/22, 4:57 PM - Chinmay: Seedha series lagri isme
+Dhyaan se dekh
+6/18/22, 4:57 PM - Chinmay: 10 se 11 coding questions karke Sharam nahi aati bsdk
+6/18/22, 5:00 PM - Hemant Hostel J: Bhai mehenat! = paisa
+6/18/22, 5:00 PM - Chinmay: Acchaaaaaa
+6/18/22, 5:00 PM - Hemant Hostel J: Coe == paisa
+6/18/22, 5:00 PM - Chinmay: Theek hai bhai
+6/18/22, 5:01 PM - Chinmay: Bilkul bhai
+6/18/22, 5:01 PM - Chinmay: Yaha rozgar nahi milega
+6/18/22, 5:01 PM - Chinmay: Placement lagni ka darr hai
+6/18/22, 5:01 PM - Chinmay: Tum coe ki paribasha batate rho
+6/18/22, 5:02 PM - Chinmay: Ye ques kiya?
+6/18/22, 5:02 PM - Hemant Hostel J: bhai Electrical === berojgari || sarkari naukri
+6/18/22, 5:02 PM - Hemant Hostel J: sarkari  ki aukat nhi hai
+6/18/22, 5:02 PM - Chinmay: Haan bhai bilkul
+Jab tu 20 lakh ki company foodega toh bohot marunga
+6/18/22, 5:02 PM - Hemant Hostel J: nhi bhai
+6/18/22, 5:03 PM - Hemant Hostel J: ye mauka nhi milega tujhe
+6/18/22, 5:03 PM - Chinmay: Lag rha hai mill jayega
+6/18/22, 5:03 PM - Hemant Hostel J: 12 tap jaye main usmain hi kush hoo jaunga
+6/18/22, 5:03 PM - Chinmay: Offcampus bhari tune abhi tak?
+6/18/22, 5:03 PM - Hemant Hostel J: bhai nhi
+6/18/22, 5:03 PM - Hemant Hostel J: tune ?
+6/18/22, 5:03 PM - Hemant Hostel J: grid wala bataya hackathon wo hi
+6/18/22, 5:04 PM - Chinmay: Naah
+Bharne ka fayda nahi lagra
+Thapar mein bhi companies itna hi package deti hai
+6/18/22, 5:04 PM - Chinmay: Toh Oncampus na lu isse accha
+6/18/22, 5:04 PM - Hemant Hostel J: haa wo bhi hai
+6/18/22, 5:04 PM - Chinmay: Tu bharega?
+6/18/22, 5:04 PM - Hemant Hostel J: bhai bharenge
+6/18/22, 5:04 PM - Hemant Hostel J: aachi mil jaye offcampus
+6/18/22, 5:04 PM - Hemant Hostel J: dhyan toh rakho bhar toh denge
+6/18/22, 5:05 PM - Hemant Hostel J: calander download kar le striver ka
+6/18/22, 5:05 PM - Hemant Hostel J: wo batata reheta hai
+6/18/22, 5:05 PM - Chinmay: Haan mein soch rha hun bhar du
+Agar ek mill bhi gyi Offcampus aur ek Oncampus mill gyi toh Salla LinkedIn pe post daalunga
+6/18/22, 5:05 PM - Chinmay: Ki 2 companies phod di 😂😂
+6/18/22, 5:06 PM - Hemant Hostel J: haa bhai abe offcampus bhar dena bhai
+6/18/22, 5:07 PM - Hemant Hostel J: offcampus bhi scope hota hai
+6/18/22, 5:07 PM - Hemant Hostel J: logo ki offcampus goldmen morgan stanly main lag gayi
+6/18/22, 5:07 PM - Hemant Hostel J: par info kaha milegi
+6/18/22, 5:07 PM - Hemant Hostel J: uska jugad kar
+6/18/22, 5:07 PM - Hemant Hostel J: bhai main nhi daalunga post
+6/18/22, 5:10 PM - Hemant Hostel J: interview experience wala kab se kar rahe hoo
+6/18/22, 5:38 PM - Chinmay: Karma kya hai usme mein Smjha nahi
+6/18/22, 5:38 PM - Chinmay: Karna
+6/18/22, 5:38 PM - Chinmay: Raat Mein karte hai
+Abhi toh gym wagera Jaana Hai
+6/18/22, 5:43 PM - Hemant Hostel J: Bhai vansh kehe raha monday se karte hai
+6/18/22, 7:41 PM - Chinmay: Monday se karte hai fir
+6/18/22, 8:57 PM - Hemant Hostel J: Ok
+6/19/22, 11:10 PM - Chinmay: <Media omitted>
+6/19/22, 11:35 PM - Hemant Hostel J: Bhai apni joining next year hai kya pata kuch sahi hoo jaye
+6/19/22, 11:35 PM - Chinmay: agle saal hi recession hai
+6/19/22, 11:35 PM - Hemant Hostel J: Bas ye dekh ke yaad rakhna lagne ke baad bhi padhna hai
+6/19/22, 11:35 PM - Hemant Hostel J: Bc
+6/19/22, 11:35 PM - Chinmay: abhi nifty 17600 se 15200 pe aagya hai
+6/19/22, 11:36 PM - Chinmay: vahii bhai
+6/19/22, 11:36 PM - Chinmay: salla gaand fat gyi mniit bhi thapar ke level ka hai usme ye hora bc
+6/19/22, 11:36 PM - Chinmay: vo bhi abhi se
+6/19/22, 11:36 PM - Hemant Hostel J: Aacha hai thapar se bahut gandu
+6/19/22, 11:36 PM - Chinmay: haan matlab smjh ja
+6/19/22, 11:37 PM - Chinmay: bc kuch alag hi chalra hai
+6/19/22, 11:37 PM - Chinmay: companies offer rvoke karri
+6/19/22, 11:37 PM - Hemant Hostel J: Bhai apne ye facility hai ki agar koi company aisa karti hai toh apan campus main apply kar sakte hai
+6/19/22, 11:37 PM - Chinmay: employees niakle jaare
+6/19/22, 11:37 PM - Hemant Hostel J: 1.5 year tak hai
+6/19/22, 11:37 PM - Hemant Hostel J: Par itne main insaan maar jaye
+6/19/22, 11:37 PM - Hemant Hostel J: Steiver Poland chala gaya
+6/19/22, 11:37 PM - Hemant Hostel J: Bhai
+6/19/22, 11:37 PM - Chinmay: vahi toh salla jab lage ki free huye
+6/19/22, 11:38 PM - Chinmay: unhone offer revoke kar diya
+6/19/22, 11:38 PM - Hemant Hostel J: Bhai job lagte hi bahar nikalna yaa phir government job yaa phir cat start kani padegi
+6/19/22, 11:38 PM - Hemant Hostel J: Bhai bahar chalenge bhai
+6/19/22, 11:39 PM - Hemant Hostel J: Europe ki koi country main
+6/19/22, 11:39 PM - Chinmay: bilkul bhaii
+6/19/22, 11:39 PM - Chinmay: bas ek baar lag jaye
+6/19/22, 11:40 PM - Hemant Hostel J: Kitna padha phir aaj
+6/19/22, 11:40 PM - Chinmay: bhai pet kharab hai
+6/19/22, 11:41 PM - Chinmay: aajkal keval 3 ques kiye
+6/19/22, 11:41 PM - Hemant Hostel J: Same bhai
+6/19/22, 11:41 PM - Chinmay: chup bsdk
+6/19/22, 11:41 PM - Chinmay: salla 18 ques karta hai
+6/19/22, 11:41 PM - Hemant Hostel J: Loda mera saale kal hoo gaye the bas
+6/19/22, 11:42 PM - Chinmay: theek hai bhaiii
+6/19/22, 11:42 PM - Chinmay: jhut bolo baar baar bolo 100 baar bolo
+6/19/22, 11:43 PM - Hemant Hostel J: Bhai tune ek baat notice ki
+6/19/22, 11:43 PM - Chinmay: kya
+6/19/22, 11:43 PM - Hemant Hostel J: Jab apan ne dsa strong kiya bc companies hackathon se hire karne lag gayi
+6/19/22, 11:43 PM - Hemant Hostel J: <Media omitted>
+6/19/22, 11:43 PM - Chinmay: haan bc ye meine bhi notice kiya
+6/19/22, 11:44 PM - Hemant Hostel J: Amazon ka bhare toh mujhe le liyo
+6/19/22, 11:44 PM - Hemant Hostel J: Bhai project ka kuch kiya tune?
+6/19/22, 11:45 PM - Chinmay: bhai uske forms khul kabse rhe hai?
+6/19/22, 11:45 PM - Hemant Hostel J: Wo nhi pata bhai jab bhi bhare mera bhar diyo
+6/19/22, 11:45 PM - Chinmay: bhai from toh aagya hai
+6/19/22, 11:45 PM - Chinmay: bharta hun
+6/19/22, 11:45 PM - Hemant Hostel J: Bhai dp kar li?
+6/19/22, 11:47 PM - Hemant Hostel J: Ok
+6/19/22, 11:52 PM - Chinmay: Apni email behjio
+6/19/22, 11:52 PM - Chinmay: Naah
+Poori videos nahi dekhi striver ki
+6/19/22, 11:52 PM - Hemant Hostel J: htopiwala_be19@thapar.edu
+6/19/22, 11:53 PM - Hemant Hostel J: 101904052
+6/19/22, 11:53 PM - Hemant Hostel J: Hemant Topiwala
+6/19/22, 11:53 PM - Chinmay: invite bhej diya hai
+6/19/22, 11:53 PM - Chinmay: Bhar de ab
+6/19/22, 11:57 PM - Chinmay: Bsdk join kar
+6/19/22, 11:57 PM - Hemant Hostel J: kar liya
+6/19/22, 11:58 PM - Hemant Hostel J: info bhar raha
+6/19/22, 11:58 PM - Chinmay: accha
+6/19/22, 11:58 PM - Hemant Hostel J: gpa?
+6/19/22, 11:58 PM - Hemant Hostel J: kitni bharni hai
+6/19/22, 11:59 PM - Chinmay: hamari abhi wali aayi nahi
+6/19/22, 11:59 PM - Hemant Hostel J: cgpa hoti hai na ye toh
+6/19/22, 11:59 PM - Chinmay: haan
+6/20/22, 12:06 AM - Hemant Hostel J: bhar diya dekh ek baar
+6/20/22, 12:06 AM - Chinmay: Bhai interview ques kaha se prepare karne hai
+6/20/22, 12:06 AM - Chinmay: ?
+6/20/22, 12:06 AM - Hemant Hostel J: bhai codestudio se karenge
+6/20/22, 12:07 AM - Hemant Hostel J: english main samjhate samjhate karenge
+6/20/22, 12:07 AM - Chinmay: uspe hr interview ques bhi hote hai?
+6/20/22, 12:07 AM - Hemant Hostel J: haaa
+6/20/22, 12:07 AM - Hemant Hostel J: sab hota hai
+6/20/22, 12:07 AM - Chinmay: Bc itna sab
+6/20/22, 12:07 AM - Hemant Hostel J: wohi bhai
+6/20/22, 12:08 AM - Chinmay: Paid hai?
+6/20/22, 12:08 AM - Hemant Hostel J: nhi
+6/20/22, 12:08 AM - Hemant Hostel J: interview experience solve karenge tu main vansh
+6/20/22, 12:08 AM - Hemant Hostel J: ek english main backchodi karte karte
+6/20/22, 12:09 AM - Chinmay: Accha
+Ambala bhi keh rha tha muhsje
+6/20/22, 12:09 AM - Chinmay: Ki usse lelna
+6/20/22, 12:09 AM - Chinmay: Lena
+6/20/22, 12:09 AM - Hemant Hostel J: haa
+6/20/22, 12:09 AM - Hemant Hostel J: bole diyo
+6/20/22, 12:09 AM - Chinmay: Ok
+6/20/22, 12:09 AM - Hemant Hostel J: bhai project ka kuch kar raha hai?
+6/20/22, 12:09 AM - Chinmay: Naah
+6/20/22, 12:10 AM - Hemant Hostel J: karega?
+6/20/22, 12:10 AM - Chinmay: naah
+6/20/22, 12:10 AM - Hemant Hostel J: ok
+6/20/22, 12:11 AM - Hemant Hostel J: bc august dur nhi hai
+6/20/22, 12:11 AM - Chinmay: Vahi
+6/20/22, 12:11 AM - Chinmay: Bas aa hi gya
+6/20/22, 12:11 AM - Hemant Hostel J: lag jayegi kya bhai apni?
+6/20/22, 12:11 AM - Chinmay: Shyd
+Pakka nahi keh sakte
+6/20/22, 12:11 AM - Chinmay: Jiss hisab se halat hai
+6/20/22, 12:11 AM - Chinmay: Aur mushkil lagra
+6/20/22, 12:11 AM - Chinmay: Aur lag bhi gyi tab bhi guarantee nahi
+6/20/22, 12:11 AM - Hemant Hostel J: bhai main apne elctrical walo ko dekh raha hu
+6/20/22, 12:12 AM - Hemant Hostel J: unhone toh coding nhi kar rakhi
+6/20/22, 12:12 AM - Hemant Hostel J: wo chill kasie hai bhai
+6/20/22, 12:12 AM - Chinmay: Core ki taiyaari
+6/20/22, 12:12 AM - Chinmay: Kar rhe honge
+6/20/22, 12:12 AM - Chinmay: Ya gate wagera
+6/20/22, 12:12 AM - Hemant Hostel J: core ke bharose baithe rahe coe ki companies chod di
+6/20/22, 12:12 AM - Hemant Hostel J: core ki companies aayi hi nhi toh
+6/20/22, 12:13 AM - Hemant Hostel J: bhai lode lag jayenge
+6/20/22, 12:13 AM - Hemant Hostel J: bhai bhaiya ka kisamt kaise thi bhai
+6/20/22, 12:13 AM - Chinmay: Bhai lekin unka poora focus core pe hai
+6/20/22, 12:13 AM - Chinmay: Jaise tera tech pe
+6/20/22, 12:13 AM - Hemant Hostel J: saala unke baarbar ka package bhi mushkil lag raha
+6/20/22, 12:13 AM - Chinmay: Unki kismat God level ki hai
+6/20/22, 12:13 AM - Chinmay: Bhai Offcampus wale bhardr
+6/20/22, 12:13 AM - Chinmay: Bharde
+6/20/22, 12:13 AM - Chinmay: Jitne aa rhe hai
+6/20/22, 12:14 AM - Hemant Hostel J: kon se
+6/20/22, 12:14 AM - Chinmay: Smart boy wale group pe
+6/20/22, 12:14 AM - Chinmay: Kafi companies ke aaye hai
+6/20/22, 12:14 AM - Hemant Hostel J: bhai add karwa de
+6/20/22, 12:14 AM - Chinmay: Full hogaye ab
+6/20/22, 12:14 AM - Chinmay: Abhi dekha
+6/20/22, 12:15 AM - Hemant Hostel J: bhai bhej diya kar
+6/20/22, 12:15 AM - Hemant Hostel J: idhar bhi
+6/20/22, 12:15 AM - Chinmay: *Publicis Sapient* 
+
+*Jumpstart* 
+
+*Batch* : 2023, 2024
+
+*CTC* : 8 - 12 LPA
+
+*Link* : https://unstop.com/competition/jumpstart-publicis-sapient-359785?refId=JMPS22BN
+6/20/22, 12:15 AM - Chinmay: *INDMONEY* 
+
+*Product Intern* 
+
+*Batch* : 2023
+
+*CTC* : 10 to 13 LPA
+
+*Link* : https://docs.google.com/forms/d/e/1FAIpQLSfV_WITeBKmRTNpvD7MjeA2wL7D4jEzQvHygaA1neqMmSnDLA/alreadyresponded?pli=1&pli=1&pli=1
+6/20/22, 12:15 AM - Hemant Hostel J: mujhe kasie pata chalege
+6/20/22, 12:15 AM - Chinmay: *INSTAMOJO* 
+
+*Batch* : 2023
+
+*CTC* : 9 to 12 LPA
+
+*Link* : https://forms.gle/Khty1R31W7ZuBnS27
+
+*Link* : https://www.linkedin.com/jobs/view/3095012748
+6/20/22, 12:15 AM - Chinmay: *National Instruments* 
+
+*Software Engineer Intern* 
+
+*Batch* : 2023
+
+*CTC* : 11 - 14 LPA
+
+*Link* : https://pef.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/5552/?utm_medium=jobshare
+6/20/22, 12:15 AM - Chinmay: *NEUSTAR* 
+
+*Software Engineer Intern* 
+
+*Batch* : 2023
+
+Expected *CTC* : 8 - 12 LPA
+
+*Link* : https://neustar.wd5.myworkdayjobs.com/en-US/neustar-careers/job/Bangalore-India/Software-Engineer-Intern_R-4356
+6/20/22, 12:15 AM - Chinmay: *Verse Innovation* 
+
+*Data Analyst Intern* 
+
+*Batch* : 2023
+
+_3 Month Duration_ 
+
+Avg *CTC* : 12-15 LPA
+
+*Link* : https://www.linkedin.com/jobs/view/3117177720
+6/20/22, 12:15 AM - Chinmay: *HACKEREARTH*
+
+*Front End Intern ( React.js )* 
+
+*Batch* : 2023
+
+*Stipend* : 40K/ Month
+
+*Link* : https://hackerearthjobs.hire.trakstar.com/jobs/fk022ed?pjb_hash=Y7bAmjMPq4
+
+Ps : hiring agressively and give macbook to their interns too
+6/20/22, 12:15 AM - Chinmay: *PTC*
+
+*Software Intern* 
+
+*Batch* : 2023
+
+Expected *CTC* : 12-13 LPA
+
+*Link* : https://ptc.eightfold.ai/careers/job/137451056462?domain=ptc.com
+6/20/22, 12:15 AM - Chinmay: *Optym*
+
+*Software Engineer Intern* 
+
+*Batch* : 2023
+
+Average *CTC* : 14-15 LPA
+
+*Link* : https://www.linkedin.com/jobs/view/3116609124
+6/20/22, 12:15 AM - Chinmay: *IBM* 
+
+*Software Intern* 
+
+*Batch* : 2023
+
+Average *CTC*  : 11 LPA
+
+*Link* : https://ibm.contacthr.com/109287151?Codes=SN_LinkedIn
+6/20/22, 12:15 AM - Chinmay: *SYNOPSIS* 
+
+*Intern ( Technical - Engineering )* 
+
+ *Batch* : 2023
+
+Average *CTC* : 12 LPA
+
+*Link* : https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25235&siteid=5359&jobid=1954420#jobDetails=1954420_5359
+6/20/22, 12:15 AM - Hemant Hostel J: bc
+6/20/22, 12:15 AM - Chinmay: Aate rehte hai uspe
+6/20/22, 12:15 AM - Hemant Hostel J: bhar tune
+6/20/22, 12:15 AM - Hemant Hostel J: koi test diya
+6/20/22, 12:15 AM - Hemant Hostel J: ?
+6/20/22, 12:15 AM - Chinmay: Mein bhar hi rha hun
+6/20/22, 12:21 AM - Hemant Hostel J: bhai personal se bharu naa ye saare form
+6/20/22, 12:21 AM - Hemant Hostel J: ?
+6/20/22, 12:21 AM - Chinmay: Haa
+6/20/22, 12:43 AM - Chinmay: tu team mein nhi dikhara hai
+6/20/22, 12:45 AM - Hemant Hostel J: bhai main leader kaise ban gya bc
+6/20/22, 12:45 AM - Chinmay: Bsdk tujhe meri team join karni thi
+6/20/22, 12:45 AM - Hemant Hostel J: team ka naam kya hai
+6/20/22, 12:45 AM - Chinmay: Naam nahi hai
+Meine invite bheji hogi
+6/20/22, 12:46 AM - Hemant Hostel J: bhai wo accept kiya maine
+6/20/22, 12:46 AM - Hemant Hostel J: phir register kiya
+6/20/22, 12:46 AM - Hemant Hostel J: teri team ka koi name hoga dekh
+6/20/22, 12:46 AM - Hemant Hostel J: main join kar leta hu
+6/20/22, 12:47 AM - Chinmay: Meine laptop band kar diya
+Ab sone jaara
+Kal dekhenge
+6/20/22, 12:47 AM - Hemant Hostel J: ok
+6/20/22, 10:21 AM - Chinmay: jab register Kiya toh meri khud ki team bn gyi thi
+6/20/22, 10:21 AM - Chinmay: fir join the team me gya
+6/20/22, 10:21 AM - Chinmay: fir right side pe likha aa rha tha Chinmay has invited u
+6/20/22, 10:21 AM - Chinmay: uspe join pe click kr diya
+6/20/22, 12:24 PM - Hemant Hostel J: Ok
+6/20/22, 1:10 PM - Chinmay: https://www.codingninjas.com/codestudio/problems/ninja-and-flowers_1281434?topList=top-graphs-interview-questions&leftPanelTab=2
+6/20/22, 1:10 PM - Chinmay: ye dekhi zra
+6/20/22, 10:10 PM - Hemant Hostel J: Bhai vansh nhi hai team main
+6/20/22, 10:10 PM - Hemant Hostel J: ?
+6/20/22, 10:12 PM - Chinmay: Bhai usse invite bheja tha
+6/20/22, 10:12 PM - Chinmay: Usne join nahi ki
+6/20/22, 10:13 PM - Hemant Hostel J: Aacha
+6/21/22, 9:33 PM - Hemant Hostel J: <Media omitted>
+6/21/22, 9:33 PM - Hemant Hostel J: Ye ques dekhiyo
+6/21/22, 10:39 PM - Chinmay: Bhai abhi thoda bhand hu
+6/21/22, 10:39 PM - Chinmay: Kal dekhunga
+6/21/22, 10:44 PM - Chinmay: Agar vo palindrome bann rha hai toh sahi rhega
+6/21/22, 10:45 PM - Hemant Hostel J: Ok
+6/21/22, 10:46 PM - Hemant Hostel J: Bc ghar par kaise pi raha hai tu ?
+6/21/22, 10:46 PM - Chinmay: Call utha
+6/21/22, 10:46 PM - Chinmay: Madrchod
+6/23/22, 10:16 PM - Hemant Hostel J: bhai ye ques dekhiyo ek baar
+6/23/22, 10:16 PM - Hemant Hostel J: https://www.codingninjas.com/codestudio/problems/minimum-removals_1071014?topList=top-dynamic-programming-questions&leftPanelTab=0
+6/23/22, 10:16 PM - Hemant Hostel J: memoize kaise karu
+6/23/22, 10:16 PM - Hemant Hostel J: int helper(vector<int>& arr, int n, int k,int maax,int miin){
+    
+    
+    if(n<0){
+        
+        if(maax-miin<=k){
+            return 0;
+        }
+        else{
+            return 1e9;
+        }
+    }
+    
+    int op1=1+helper(arr,n-1,k,maax,miin);
+    
+    int temp=max(maax,arr[n]);
+    int temp2=min(miin,arr[n]);
+    
+    
+    int op2=helper(arr,n-1,k,temp,temp2);
+    
+    
+    return min(op1,op2);
+    
+    
+}
+6/23/22, 10:55 PM - Chinmay: pehle mein khud solve karta hun fir tera dekhta hun
+6/23/22, 10:55 PM - Hemant Hostel J: ok
+6/23/22, 11:21 PM - Chinmay: bhai meri madad karde
+6/23/22, 11:21 PM - Chinmay: 10 mein se 11 cases pass hore
+6/23/22, 11:22 PM - Hemant Hostel J: bsdk
+6/23/22, 11:22 PM - Chinmay: TLE aa gya
+6/23/22, 11:22 PM - Chinmay: last mein
+6/23/22, 11:22 PM - Hemant Hostel J: same vansh ka aa raha
+6/23/22, 11:22 PM - Chinmay: bheju apna mein ab tera dekhta hun
+6/23/22, 11:22 PM - Chinmay: #include<bits/stdc++.h>
+int calc(vector<int>&arr,int k,int i,int n,vector<vector<int>>&dp)
+{
+    
+    if(i==n)
+        return 0;
+    if(arr[n]-arr[i]<=k)
+        return 0;
+    if(dp[i][n]!=-1)
+        return dp[i][n];
+    int dell=0;
+    int ind=i;
+    for(ind=i;ind<n;ind++)
+    {
+        if(ind+1<n and arr[ind]==arr[ind+1])
+            continue;
+        else
+            break;
+    }
+    dell=1+calc(arr,k,i+1,n,dp);
+    
+    int delr=0;
+    int ix=n;
+    for(int ix=n;ix>i;ix--)
+    {
+        if(ix-1>i and arr[ix]==arr[ix-1])
+            continue;
+        else
+            break;
+    }
+    delr=1+calc(arr,k,i,ix-1,dp);
+    return dp[i][n]=min(delr,dell);
+    
+}
+int minimumRemovals(vector<int>& arr, int n, int k)
+{
+    sort(arr.begin(),arr.end());
+    if(arr[n-1]-arr[0]<=k)
+        return 0;
+    
+    vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
+    return calc(arr,k,0,n-1,dp);
+    
+    
+}
+6/23/22, 11:22 PM - Chinmay: apna poora code behj bsdk
+6/23/22, 11:24 PM - Chinmay: madarchod code bhej poora main func ke saath
+6/23/22, 11:24 PM - Hemant Hostel J: int minimumRemovals(vector<int>& arr, int n, int k)
+{
+    
+    
+    vector<int> dp(n+1,-1);
+    return helper(arr,n-1,k,-1e9,1e9);
+   
+    
+    
+    
+}
+6/23/22, 11:24 PM - Hemant Hostel J: .
+6/23/22, 11:27 PM - Chinmay: bhai normal state change wale tareeke se toh sare answer 0 aare tere wale mein toh
+6/23/22, 11:27 PM - Hemant Hostel J: bsdk sahi se copy kar
+6/23/22, 11:27 PM - Hemant Hostel J: mere main 72/80 socre dikha raha
+6/23/22, 11:27 PM - Hemant Hostel J: tle aa raha
+6/23/22, 11:27 PM - Chinmay: abe memoize karke madarchod
+6/23/22, 11:28 PM - Hemant Hostel J: bsdk nhi hoga memoize
+6/23/22, 11:28 PM - Hemant Hostel J: madarchod
+6/23/22, 11:28 PM - Hemant Hostel J: tera hoo gaya memoize
+6/23/22, 11:28 PM - Hemant Hostel J: ?
+6/23/22, 11:28 PM - Hemant Hostel J: dp laga raha hai bc tu toh
+6/23/22, 11:28 PM - Chinmay: haan mere meh toh 72/80 aaya
+6/23/22, 11:28 PM - Hemant Hostel J: mera bhi same hai lode
+6/23/22, 11:29 PM - Hemant Hostel J: bina memoize kare
+6/23/22, 11:29 PM - Chinmay: mera dekh le fir
+6/23/22, 11:29 PM - Hemant Hostel J: <Media omitted>
+6/23/22, 11:29 PM - Hemant Hostel J: tera bhi toh tle hi aa raha hai
+6/23/22, 11:29 PM - Chinmay: haan
+6/23/22, 11:30 PM - Chinmay: kuch dekh mere wale mein agar smjh aaye
+6/23/22, 11:30 PM - Chinmay: ya vansh ko bhej ke dekh
+6/23/22, 11:34 PM - Hemant Hostel J: bhej diya
+6/23/22, 11:34 PM - Chinmay: abe salle tere code mein toh beech mein bhi states change hore hai
+6/23/22, 11:34 PM - Chinmay: usse memoize kaise karenge
+6/23/22, 11:34 PM - Hemant Hostel J: nhi kar payenge lode
+6/23/22, 11:35 PM - Hemant Hostel J: par tut state main iterate maar raha hai
+6/23/22, 11:35 PM - Hemant Hostel J: saale
+6/23/22, 11:35 PM - Chinmay: tut maane?
+6/23/22, 11:35 PM - Hemant Hostel J: tu*
+6/23/22, 11:35 PM - Hemant Hostel J: for loop laga raha hai
+6/23/22, 11:36 PM - Hemant Hostel J: kuch toh bada kar raha hai tu
+6/23/22, 11:36 PM - Chinmay: haan kyunki duplicates bhi handle karne hai
+6/23/22, 11:36 PM - Chinmay: uske liye hi
+6/23/22, 11:36 PM - Hemant Hostel J: pata nhi yaar
+6/23/22, 11:36 PM - Hemant Hostel J: saala samjh nhi aarah
+6/23/22, 11:37 PM - Chinmay: ruk mein try karta hun
+6/23/22, 11:37 PM - Hemant Hostel J: binary search se kuch kaam ho sakta hai ?
+6/23/22, 11:37 PM - Chinmay: hmm ye toh socha hi nahi
+6/23/22, 11:38 PM - Chinmay: binary search sochta hun ispe
+6/23/22, 11:38 PM - Chinmay: vansh se hua
+6/23/22, 11:38 PM - Chinmay: ?
+6/23/22, 11:38 PM - Hemant Hostel J: nhi
+6/23/22, 11:47 PM - Hemant Hostel J: #include<bits/stdc++.h>
+int minimumRemovals(vector<int>& arr, int n, int k){
+    sort(arr.begin(),arr.end());
+    queue<vector<int>> q;
+    q.push({0,n-1});
+    int ans=0;
+    set<pair<int,int>> st;
+    while(!q.empty()){
+        int size=q.size();
+        while(size--){
+            auto front=q.front();
+            q.pop();
+            int diff=abs(arr[front[0]]-arr[front[1]]);
+            if(diff<=k){
+                return ans;
+            }
+            if(st.find({front[0]+1,front[1]})==st.end()){
+                q.push({front[0]+1,front[1]});
+                st.insert({front[0]+1,front[1]});
+            }
+            if(st.find({front[0],front[1]-1})==st.end()){
+                q.push({front[0],front[1]-1});   
+                st.insert({front[0],front[1]-1});
+            }
+        }
+        ans++;
+    }
+    return ans;
+}
+6/24/22, 2:44 PM - Chinmay: <Media omitted>
+6/24/22, 2:56 PM - Hemant Hostel J: India main hire nhi karti netflix
+6/24/22, 2:56 PM - Hemant Hostel J: ab karegi ab paise bachane padenge isko
+6/24/22, 2:59 PM - Hemant Hostel J: tune kabhi
+6/24/22, 2:59 PM - Hemant Hostel J: amazon main apply kiya tha
+6/24/22, 3:10 PM - Chinmay: Yaad Nahi
+6/24/22, 3:10 PM - Chinmay: Kyu?
+6/24/22, 3:12 PM - Hemant Hostel J: aise hi
+6/24/22, 3:12 PM - Hemant Hostel J: reject hoo gaya purana application
+6/24/22, 3:12 PM - Hemant Hostel J: toh pucha
+6/24/22, 3:20 PM - Hemant Hostel J: bhai interveiw exp karne aayega abhi
+6/24/22, 3:20 PM - Hemant Hostel J: ?
+6/24/22, 3:21 PM - Chinmay: Abhi?
+6/24/22, 3:21 PM - Chinmay: Na bhai mein sone jaunga
+6/24/22, 3:21 PM - Hemant Hostel J: aacha
+6/24/22, 3:22 PM - Hemant Hostel J: main 5 baje ki baat kar raha
+6/24/22, 3:22 PM - Chinmay: Dost ke saath bahar Jaana Hai tab
+6/24/22, 3:22 PM - Chinmay: Fir gym
+6/24/22, 3:22 PM - Chinmay: Ab 9 baje hi free hunga
+6/24/22, 3:23 PM - Hemant Hostel J: aacha chal phir tab dekhte hai
+6/24/22, 3:49 PM - Chinmay: Bhai ye Goldman pe kya bharne ko keh rha tha vansh?
+6/24/22, 3:50 PM - Hemant Hostel J: virtual wala hoga ig
+6/24/22, 9:32 PM - Hemant Hostel J: kinte baje karna phir
+6/24/22, 9:34 PM - Hemant Hostel J: ?
+6/24/22, 10:09 PM - Chinmay: Kya karna hai?
+6/24/22, 10:10 PM - Hemant Hostel J: interview wala
+6/24/22, 10:10 PM - Hemant Hostel J: english wali backchodi
+6/24/22, 10:10 PM - Chinmay: Aaj nahi kar rha mein
+6/24/22, 10:10 PM - Hemant Hostel J: ok
+6/25/22, 11:16 AM - Chinmay: https://www.codingninjas.com/codestudio/problems/k-th-permutation-sequence_1112626?topList=striver-sde-sheet-problems&leftPanelTab=0
+6/25/22, 8:53 PM - Hemant Hostel J: Bhai madarchod kab dena hai
+6/25/22, 8:53 PM - Hemant Hostel J: Amazon wala
+6/25/22, 9:02 PM - Chinmay: Bhai mein toh 10 baje tak ghar aa paunga
+6/25/22, 9:03 PM - Chinmay: Aaj shyd hi de pau
+6/25/22, 9:03 PM - Chinmay: Tu vansh aur ayush start Karo
+Mein ques dhundne mein madad kar dunga
+6/25/22, 9:03 PM - Hemant Hostel J: aacha
+6/26/22, 1:18 PM - Chinmay: https://leetcode.com/problems/where-will-the-ball-fall/
+6/26/22, 1:18 PM - Chinmay: ye karrio
+6/26/22, 2:46 PM - Chinmay: Bsdk dekha bhi ques tune?
+6/26/22, 2:53 PM - Hemant Hostel J: Bhai
+6/26/22, 2:53 PM - Hemant Hostel J: Man hi nhi kar raha padhne kaa
+6/26/22, 2:54 PM - Chinmay: Accha
+Chal sahi hai
+Ghum aa thoda bahar
+Mind fresh ho jayega
+6/26/22, 2:58 PM - Hemant Hostel J: Hua ye ques phir?
+6/26/22, 3:30 PM - Chinmay: Naah
+6/26/22, 3:33 PM - Hemant Hostel J: int helper(int i,int j,vector<vector<int>> &grid,vector<vector<int>> &dp){
+        
+        
+        
+        if(j<0 || j>=grid[0].size()){
+            return -1;
+        }
+        
+        
+        if(i==grid.size()){
+            
+            return j;
+        }
+        
+        
+        if(dp[i][j]!=-2){
+            return dp[i][j];
+        }
+        
+        
+        if(j!=grid[i].size()-1 && grid[i][j]==1 && grid[i][j+1]==1 ){
+            
+            return dp[i][j]=helper(i+1,j+1,grid,dp);
+            
+            
+        }
+        else if(j!=0 && grid[i][j]==-1 && grid[i][j-1]==-1){
+            return dp[i][j]=helper(i+1,j-1,grid,dp);
+        }
+        else{
+            return dp[i][j]=-1;
+        }
+        
+        
+        
+        
+    }
+    
+    
+    
+    vector<int> findBall(vector<vector<int>>& grid) {
+        
+        
+        vector<int> ans(grid[0].size(),-1);
+        
+        vector<vector<int>> dp(grid.size(),vector<int>(grid[0].size(),-2));
+        
+        for(int j=0;j<grid[0].size();j++){
+                
+               int t=helper(0,j,grid,dp);
+                
+                
+                ans[j]=t;
+                
+                
+        }
+            
+           
+       
+        
+        
+        return ans;
+        
+    }
+6/26/22, 3:33 PM - Hemant Hostel J: hoo gaya submit
+6/26/22, 3:33 PM - Chinmay: Smjhaio
+6/26/22, 3:34 PM - Hemant Hostel J: bhai teri boll aage tab hi jayegi jab dono uske aage wale main one pada hoo aur usmain bhi 1 pada hoo
+6/26/22, 3:34 PM - Hemant Hostel J: aur piche tab jayegi jab dono main -1 pada hoo
+6/26/22, 3:34 PM - Hemant Hostel J: saare path explore kar
+6/26/22, 3:35 PM - Chinmay: Aur agar aage 1 aur piche - 1 toh Ruk jayegi?
+6/26/22, 3:35 PM - Hemant Hostel J: haaa
+6/26/22, 3:35 PM - Hemant Hostel J: dono same honge tabhi aage jayegi
+6/26/22, 3:35 PM - Hemant Hostel J: agar wo dono -1 hai toh piche jayegi
+6/26/22, 3:35 PM - Chinmay: Acccha
+Thanks broo
+Tu faang nikalega
+Mera ashirvad hai
+6/26/22, 3:35 PM - Hemant Hostel J: agar dono 1 hai toh aage jayegi
+6/26/22, 3:35 PM - Chinmay: Hmm bas saare paths dekhne hai
+6/26/22, 3:36 PM - Hemant Hostel J: tcs  bhai
+6/26/22, 3:36 PM - Hemant Hostel J: dream company
+6/26/22, 3:36 PM - Chinmay: Aur jiss se last tak aa jao toh vo col output
+6/26/22, 3:36 PM - Chinmay: Theek hai bhai 😘😂
+6/26/22, 3:36 PM - Hemant Hostel J: haaa
+6/26/22, 3:37 PM - Hemant Hostel J: Bhai graph karte hai
+6/26/22, 3:37 PM - Hemant Hostel J: Aache se
+6/26/22, 3:37 PM - Hemant Hostel J: Last month bacha hai
+6/26/22, 3:38 PM - Chinmay: Graph kaha se karega?
+6/26/22, 3:38 PM - Chinmay: Striver
+Pepcoding
+6/26/22, 3:38 PM - Chinmay: Ya bas ques karega?
+6/26/22, 3:38 PM - Hemant Hostel J: Haa aur wo list graph wali
+6/26/22, 3:38 PM - Hemant Hostel J: Joo cn par hai
+6/26/22, 3:38 PM - Chinmay: Video dekhne ka mann nahi karta ab
+6/26/22, 3:39 PM - Chinmay: Haa vhi karte hai
+6/26/22, 3:39 PM - Hemant Hostel J: Bhai graph toh karna padega
+6/26/22, 3:40 PM - Chinmay: Chal fir pehle striver ki videos dekh lete hai
+6/26/22, 3:41 PM - Hemant Hostel J: Haaa
+6/26/22, 11:46 PM - Hemant Hostel J: have you started graph ?
+6/26/22, 11:59 PM - Chinmay: No
+I will start that shitty topic from tomorrow
+6/27/22, 12:10 AM - Hemant Hostel J: ok
+6/27/22, 12:10 AM - Hemant Hostel J: I will also start with you.
+6/27/22, 2:43 AM - Hemant Hostel J: bro i am skipping on daily bases
+6/27/22, 2:44 AM - Hemant Hostel J: i am able to see the reduce size of my belly
+6/27/22, 10:30 AM - Chinmay: Ohh bro that's fantastic
+Gonna be a chick magnet in few days
+6/28/22, 3:10 PM - Chinmay: https://www.codingninjas.com/codestudio/problems/k-max-sum-combinations_975322?topList=striver-sde-sheet-problems&leftPanelTab=0
+6/28/22, 3:10 PM - Chinmay: ye ques nlogn mein kaise hoga
+6/28/22, 3:11 PM - Hemant Hostel J: Mera exercise ka time hai
+6/28/22, 3:11 PM - Hemant Hostel J: Iske baad nahaunga
+6/28/22, 3:11 PM - Hemant Hostel J: Phir padhne baithunga
+6/28/22, 3:12 PM - Hemant Hostel J: Vansh se puch le
+6/28/22, 3:12 PM - Hemant Hostel J: Tab tak
+6/28/22, 3:15 PM - Chinmay: Arrey launde gazab
+Kafi accha lag rha hai ye jaankar ki thoda health pe bhi Dhyaan dera hai
+6/28/22, 3:16 PM - Hemant Hostel J: Bhai patla hounga log mota mota bolne lag gaye the
+6/28/22, 4:46 PM - Chinmay: Badiya bhai
+Placement toh lag hi jayegi
+Fir ladkiya pataio
+6/28/22, 4:47 PM - Hemant Hostel J: abe yaar placement ki baat mat kar yaar
+6/28/22, 4:47 PM - Hemant Hostel J: tension hoo jaati hai
+6/28/22, 4:58 PM - Chinmay: Sorry bhai,
+6/28/22, 5:00 PM - Hemant Hostel J: peaky blinders dekhi tune?
+6/28/22, 5:10 PM - Chinmay: Naah
+Aajkal anime dekh rha hun
+6/28/22, 5:10 PM - Hemant Hostel J: aacha
+6/28/22, 5:10 PM - Hemant Hostel J: bhai peaky blinders dekh op hai
+6/28/22, 5:11 PM - Hemant Hostel J: main bhi dekh raha aaj kal thoda thoda
+6/28/22, 5:11 PM - Chinmay: Mein soch rha hun iss anime ke baad vahi dekhunga
+6/28/22, 5:11 PM - Hemant Hostel J: maine season 1 complete kiya
+6/28/22, 5:11 PM - Hemant Hostel J: aaj kal main
+6/28/22, 5:12 PM - Chinmay: Sahi hai bhai
+Mein bhi aaj ye anime complete kar lu ga
+6/28/22, 5:13 PM - Hemant Hostel J: bahut jyada tension le li thi main
+6/28/22, 5:13 PM - Hemant Hostel J: bc ab tension kam lunga padhunga thoda thoda hi
+6/28/22, 5:14 PM - Hemant Hostel J: joo hoga dekha jayega saala
+6/28/22, 5:14 PM - Chinmay: Yeahhh
+6/28/22, 5:14 PM - Chinmay: Bhai vansh ki tarah tension na liya kar
+6/28/22, 5:14 PM - Chinmay: Bimar ho jayega tu
+6/28/22, 5:14 PM - Hemant Hostel J: bhai wo bahut tension deta hai
+6/28/22, 5:14 PM - Hemant Hostel J: yaar
+6/28/22, 5:15 PM - Chinmay: Vo toh hai bhai. Accha hai uska single room hai 😂
+6/28/22, 5:15 PM - Hemant Hostel J: vansh jeetni tension pure college main koi nhi leta
+6/28/22, 5:15 PM - Chinmay: Apan toh chill log hai
+Ho hi jayega
+Bhaiya ka tak ho gya tha
+6/28/22, 5:16 PM - Chinmay: Vahi bhai
+Launde toh sab kismat par bhi chor rhe hai
+6/28/22, 5:16 PM - Hemant Hostel J: haa bhai
+6/28/22, 5:16 PM - Hemant Hostel J: dsa bhi nhi ki thi unhone
+6/28/22, 5:16 PM - Chinmay: Bc mehnat karo
+Fal ka mat socho
+6/28/22, 5:16 PM - Hemant Hostel J: 8.2 cg thi
+6/28/22, 5:16 PM - Chinmay: Vahi 😂
+6/28/22, 5:16 PM - Hemant Hostel J: wohi bhai
+6/28/22, 9:35 PM - Hemant Hostel J: <Media omitted>
+6/28/22, 9:49 PM - Chinmay: haan bhai dekha ye
+6/28/22, 9:49 PM - Chinmay: logo ki kismat kafi acchi hai
+7/4/22, 12:20 AM - Hemant Hostel J: https://www.codingninjas.com/codestudio/problems/path-to-the-nearest-service-station_1281435?topList=top-graphs-interview-questions&leftPanelTab=0
+7/4/22, 12:24 AM - Hemant Hostel J: Bhai ye solve kar de
+7/4/22, 1:14 AM - Chinmay: #include<bits/stdc++.h>
+int calc(vector<vector<char>> &grid, int n, int m,int r,int c,vector<vector<int>>&dp)
+{
+    if(r<0 or r>=n or c<0 or c>=m or grid[r][c]=='X')
+        return 1e8;
+    if(grid[r][c]=='S')
+        return 0;
+    if(dp[r][c]!=-1)
+        return dp[r][c];
+    grid[r][c]='X';
+    int left=1+calc(grid,n,m,r+1,c,dp);
+    int right=1+calc(grid,n,m,r-1,c,dp);
+    int up=1+calc(grid,n,m,r,c+1,dp);
+    int down=1+calc(grid,n,m,r,c-1,dp);
+    grid[r][c]='O';
+    return dp[r][c]=min(left,min(right,min(up,down)));
+}
+int nearestServiceStationPath(vector<vector<char>> &grid, int n, int m) {
+    // Write your code here.
+    
+    int r=0;
+    int c=0;
+    vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
+    for(int i=0;i<grid.size();i++)
+    {
+        for(int j=0;j<grid[0].size();j++)
+        {
+            if(grid[i][j]=='N')
+            {
+                r=i;
+                c=j;
+                break;
+            }
+        }
+    }
+    int k=calc(grid,n,m,r,c,dp);
+    if(k>=1e8)
+        return -1;
+    return k;
+   
+}
+7/4/22, 1:15 AM - Chinmay: iss code se 9 cases paas hore
+7/4/22, 1:15 AM - Chinmay: mujhe laga tha chal jana chahiye
+7/4/22, 1:16 AM - Hemant Hostel J: Nhi chal raha naa
+7/4/22, 1:16 AM - Hemant Hostel J: Ye
+7/4/22, 1:17 AM - Hemant Hostel J: Tle aa raha
+7/4/22, 1:17 AM - Chinmay: naah 9/11 hi huye
+7/4/22, 1:17 AM - Chinmay: wrong ans
+7/4/22, 1:17 AM - Chinmay: isse toh
+7/4/22, 1:17 AM - Hemant Hostel J: Memozie nhi hoo sakta
+7/4/22, 1:18 AM - Chinmay: salle fir itne cases kaise paas ho rhe hai
+7/4/22, 1:19 AM - Chinmay: wrong answer aara hai TLE nahi
+7/4/22, 1:19 AM - Hemant Hostel J: Bhai wo hi kehe raha
+7/4/22, 1:19 AM - Hemant Hostel J: Bsdk
+7/4/22, 1:20 AM - Hemant Hostel J: Tune kabhi dekha hai dp main apan aage wali row yaa colmn access karte hai
+7/4/22, 1:20 AM - Hemant Hostel J: ?
+7/4/22, 1:20 AM - Chinmay: karte toh the shyd
+7/4/22, 1:21 AM - Chinmay: ye bata code mein kya galti hai
+7/4/22, 1:21 AM - Chinmay: 9 cases kaise paas horhe
+7/4/22, 1:21 AM - Hemant Hostel J: Bhai tu tabulation kar ke dekh apne aap pata chal jayega
+7/4/22, 1:21 AM - Hemant Hostel J: Charo ka dp relationship likh
+7/4/22, 1:22 AM - Chinmay: tabulation kyu karna
+7/4/22, 1:22 AM - Hemant Hostel J: Kuch galat lagega tere ko pakki baat hai
+7/4/22, 1:23 AM - Hemant Hostel J: Pata nhi maine momoize kiya tha hua nhi tha
+7/4/22, 1:23 AM - Chinmay: tune kar liya ye ques?
+7/4/22, 1:23 AM - Hemant Hostel J: Nhi bhai
+7/4/22, 1:23 AM - Hemant Hostel J: Graph wali list kar raha ek ques nhi hoo raha
+7/4/22, 1:23 AM - Hemant Hostel J: Bc
+7/4/22, 1:24 AM - Chinmay: salle toh mera code dekhle agar jaag rha hai toh
+7/4/22, 1:24 AM - Chinmay: mein toh sone hi jaara tha
+7/4/22, 1:24 AM - Chinmay: jab tera messg dekha
+7/4/22, 1:24 AM - Hemant Hostel J: Bsdk ye main kar chuka hu
+7/4/22, 1:47 AM - Hemant Hostel J: Bhai tle de raha hai
+7/4/22, 1:48 AM - Hemant Hostel J: 1 test case atak gaya
+7/4/22, 3:21 AM - Hemant Hostel J: <Media omitted>
+7/4/22, 3:21 AM - Hemant Hostel J: mere pe bade bade message aa gaye hai
+7/4/22, 3:22 AM - Hemant Hostel J: wo puche toh bole diyo ye ques tune bheja tha
+7/4/22, 10:13 AM - Chinmay: Ye kisne bheja itna bada project
+7/4/22, 11:00 AM - Chinmay: #include<bits/stdc++.h>
+int nearestServiceStationPath(vector<vector<char>> &grid, int n, int m) {
+    // Write your code here.
+    
+    queue<vector<int>>q;
+    int r=0;
+    int c=0;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<m;j++)
+        {
+            if(grid[i][j]=='N')
+            {
+                r=i;
+                c=j;
+                break;
+            }
+        }
+    }
+    q.push({r,c,0});
+    
+    vector<int>dir1={1,0,-1,0};
+    vector<int>dir2={0,1,0,-1};
+    vector<vector<bool>>vis(n,vector<bool>(m,false));
+    vis[r][c]=true;
+    while(!q.empty())
+    {
+        int r1=q.front()[0];
+        int c1=q.front()[1];
+        int dis=q.front()[2];
+        //cout<<r1<<" "<<c1<<" "<<dis<<endl;
+        q.pop();
+        if(grid[r1][c1]=='S')
+            return dis;
+        grid[r1][c1]='X';
+        for(int i=0;i<4;i++)
+        {
+            int rd=r1+dir1[i];
+            int cd=c1+dir2[i];
+            if(rd>=0 and rd<n and cd>=0 and cd<m and (grid[rd][cd]=='O' or grid[rd][cd]=='S') and vis[rd][cd]==false)
+            {
+               q.push({rd,cd,dis+1});
+                vis[rd][cd]=true;
+            }
+        }
+    }
+    return -1;
+}
+7/4/22, 12:07 PM - Hemant Hostel J: Tle nhi aa raha?
+7/4/22, 12:44 PM - Chinmay: Nahi
+7/4/22, 6:21 PM - Hemant Hostel J: int nearestServiceStationPath(vector<vector<char>> &grid, int n, int m) {
+    
+    
+    int startx=-1;
+    int starty=-1;
+   
+    vector<vector<int>> visited(n,vector<int>(m,0));
+    
+    
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            
+            if(grid[i][j]=='N'){
+                startx=i;
+                starty=j;
+                break;
+            }
+            
+        }
+    }
+    
+    
+    queue<vector<int>> que;
+    
+    que.push({startx,starty,0});
+    
+    while(que.size()!=0){
+        
+        vector<int> temp=que.front();
+        int x=temp[0];
+        int y=temp[1];
+        int wt=temp[2];
+        
+        if(grid[x][y]=='S'){
+            return wt;
+        }
+        grid[x][y]='X';
+        que.pop();
+        
+        if(x+1<n){
+            
+            if(grid[x+1][y]!='X'){
+                que.push({x+1,y,wt+1});
+            }
+            
+        }
+        
+        if(y+1<m){
+            if(grid[x][y+1]!='X'){
+                que.push({x,y+1,wt+1});
+            }
+        }
+        
+         if(x-1>=0){
+            
+            if(grid[x-1][y]!='X'){
+                que.push({x-1,y,wt+1});
+            }
+            
+        }
+        
+        if(y-1>=0){
+            if(grid[x][y-1]!='X'){
+                que.push({x,y-1,wt+1});
+            }
+        }
+        
+    }
+    
+    
+    return -1;
+    
+}
+7/4/22, 6:21 PM - Hemant Hostel J: bhai sun naa
+7/4/22, 6:21 PM - Hemant Hostel J: ye tle de raha kyo?
+7/4/22, 6:25 PM - Hemant Hostel J: logic toh same hi lag raha
+7/4/22, 6:53 PM - Chinmay: Pehle rest case mein hi TLE aara?
+7/4/22, 6:53 PM - Chinmay: Bhai visited chahiye hoga iss ques mein
+7/4/22, 6:54 PM - Chinmay: Meine jab subah socha tha tab merko pata chala ki visited mark karna zarori hai
+7/4/22, 6:54 PM - Chinmay: Varna extra iteration chali jaati hai
+7/4/22, 6:58 PM - Hemant Hostel J: Grid ko X kar de rahe hai uss se farak nhi padega?
+7/4/22, 6:58 PM - Chinmay: Nahi
+7/4/22, 6:58 PM - Hemant Hostel J: Kyo
+7/4/22, 6:59 PM - Chinmay: Visited se aisa ki
+Ye ho sakta hai tu ek hi index 2 jagah se access kar rha ho
+Toh iterations bekar mein badh gyi
+Jaha se sabse Pehli baar mill rha hai bas vo daal aur usse visited mark karde
+7/4/22, 6:59 PM - Chinmay: Dry run karke dekh
+7/4/22, 6:59 PM - Hemant Hostel J: Aacha
+7/4/22, 6:59 PM - Chinmay: Smjh jayega
+Mera time gya tha iss cheez mein
+7/4/22, 7:00 PM - Hemant Hostel J: Aur bhai sune tune joo question bataya tha joo tujhe pucha tha
+7/4/22, 7:00 PM - Hemant Hostel J: 2nd round main
+7/4/22, 7:00 PM - Chinmay: Kya?
+7/4/22, 7:00 PM - Hemant Hostel J: Nearest zero kar ke tha
+7/4/22, 7:00 PM - Chinmay: Yaad Nahi
+7/4/22, 7:00 PM - Hemant Hostel J: Mckenchy
+7/4/22, 7:00 PM - Hemant Hostel J: Wala
+7/4/22, 7:01 PM - Chinmay: Hoga
+7/4/22, 7:01 PM - Chinmay: Kya hua uska
+7/4/22, 7:01 PM - Hemant Hostel J: 2nd round wo graph ka question tha
+7/4/22, 7:01 PM - Hemant Hostel J: Gandu tu bolta hai graph puchte nhi
+7/4/22, 7:01 PM - Chinmay: Mera bits wala dost keh rha tha madarchod
+7/4/22, 7:01 PM - Chinmay: Unke yha nahi puchte
+7/4/22, 7:01 PM - Hemant Hostel J: https://leetcode.com/problems/01-matrix/
+7/4/22, 7:01 PM - Chinmay: Hamare yha toh sab pucha ja rha hai
+7/4/22, 7:01 PM - Hemant Hostel J: ye dekh ye hi question hoga
+7/4/22, 7:02 PM - Chinmay: Naah ye nahi tha
+7/4/22, 7:02 PM - Hemant Hostel J: abe ye hi toh tha
+7/4/22, 7:02 PM - Hemant Hostel J: nearest one batana tha
+7/4/22, 7:02 PM - Chinmay: Naah
+McKinsey wale mein hame ek col ko 1 banana tha
+7/4/22, 7:02 PM - Hemant Hostel J: uss index ka
+7/4/22, 7:02 PM - Chinmay: Circular rotation karke
+7/4/22, 7:02 PM - Hemant Hostel J: aacha
+7/4/22, 7:02 PM - Hemant Hostel J: wo alag tha phir
+7/4/22, 7:03 PM - Hemant Hostel J: yaad aa gaya
+7/4/22, 7:03 PM - Chinmay: Haan ye bilkul alag hai
+7/4/22, 7:03 PM - Chinmay: Kitna padhega bsdk
+7/4/22, 7:03 PM - Chinmay: Go get some bitches boy
+7/4/22, 7:03 PM - Hemant Hostel J: bsdk subhe se soo raha tha
+7/4/22, 7:03 PM - Hemant Hostel J: abhi utha hu
+7/4/22, 7:04 PM - Chinmay: Salle Kitna sota hai bsdk
+7/4/22, 7:07 PM - Hemant Hostel J: subhe 6 baje sota hu aaj ka
+7/4/22, 7:07 PM - Hemant Hostel J: raaat ko neend nhi aati
+7/4/22, 7:07 PM - Chinmay: Madarchod
+7/4/22, 7:07 PM - Hemant Hostel J: 7 baje soya aaj
+7/4/22, 7:07 PM - Chinmay: Itni Der se kyu.
+7/4/22, 7:07 PM - Hemant Hostel J: phir 2 baje utha
+7/4/22, 7:07 PM - Chinmay: Teri toh bandi bhi nahi hai
+7/4/22, 7:07 PM - Hemant Hostel J: khana kaya wapas soo gaya
+7/4/22, 7:07 PM - Hemant Hostel J: are pata nhi bc
+7/4/22, 7:08 PM - Chinmay: Sleep schedule fucked up ho rkha hai tera 😂
+7/4/22, 7:08 PM - Chinmay: Salle college aane tak sudhar liyo
+7/4/22, 7:08 PM - Hemant Hostel J: maa chudi padi hai schedule ki
+7/4/22, 7:08 PM - Chinmay: Varna lawde lag jayenge
+7/4/22, 7:08 PM - Hemant Hostel J: haa bhai
+7/4/22, 7:08 PM - Chinmay: Subah interview hora
+Tu pata chala soya hi nahi 😂
+7/4/22, 7:08 PM - Hemant Hostel J: bhai placement lag jayegi kya apni?
+7/4/22, 7:08 PM - Chinmay: Fir shaam ko soa nahi sakega
+Ek aur interview ke liye
+7/4/22, 7:09 PM - Chinmay: Haan December tak toh lag jaani chahiye
+Ek senior se baat ho rhi thi
+Vo keh rha tha ki COE mein agar ho cg wagera theek hai
+Aur thodi bohot core aur thodi bohot dsa aati ho toh max dec tak lag jayegi
+7/4/22, 7:11 PM - Chinmay: Toh zyada soch mat
+Aur vansh se kam baat ekar
+Vo depress karega tujhe
+7/4/22, 7:11 PM - Chinmay: Iss samay agar depress hogaye toh lawde lag jayenge
+7/4/22, 7:11 PM - Hemant Hostel J: aacha
+7/4/22, 7:11 PM - Hemant Hostel J: aur ele main hoo toh
+7/4/22, 7:11 PM - Hemant Hostel J: coe main naa hoo kar?
+7/4/22, 7:11 PM - Chinmay: Abe tu dill se coe mein hi hai
+7/4/22, 7:11 PM - Chinmay: Teri bhi lag jayegi
+7/4/22, 7:11 PM - Hemant Hostel J: aacha tu keheta hai toh maan leta hu
+7/4/22, 7:12 PM - Chinmay: Yusss
+7/4/22, 11:39 PM - Chinmay: https://www.codingninjas.com/codestudio/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance_1264289?topList=top-graphs-interview-questions&leftPanelTab=0
+7/4/22, 11:39 PM - Chinmay: #include<bits/stdc++.h>
+int calc(int i,vector<pair<int,int>>adj[],int dis,vector<int>&vis,int n)
+{
+    vis[i]=1;
+    queue<pair<int,int>>q;
+    q.push({i,0});
+    
+    while(!q.empty())
+    {
+        int node=q.front().first;
+        int temp=q.front().second;
+        q.pop();
+        
+        for(auto x:adj[node])
+        {
+            int ts=temp+x.second;
+            if(vis[x.first]==-1 and ts<=dis)
+            {
+                q.push({x.first,ts});
+                vis[x.first]=1;
+            }
+        }
+    }
+    int c=0;
+    for(int i=0;i<n;i++)
+    {
+     
+        c+=1;
+      
+    }
+     
+
+    return c;
+}
+int findTheCity(int n, vector<vector<int>> &edges, int d) 
+{
+	// Write your code here
+    int ans=0;
+    int t=1e6;
+    vector<pair<int,int>>adj[n];
+    vector<int>vis(n,-1);
+    for(auto x:edges)
+    {
+        adj[x[0]].push_back({x[1],x[2]});
+        adj[x[1]].push_back({x[0],x[2]});
+    }
+    for(int i=0;i<n;i++)
+    {
+        int dis=d;
+        int p=calc(i,adj,dis,vis,n);
+        if(p<=t)
+        {
+            ans=i;
+            t=p;
+        }
+        fill(vis.begin(), vis.end(), -1);
+    }
+    return ans;
+}
+7/4/22, 11:39 PM - Chinmay: isme abhi ek test case atak rha hai
+7/4/22, 11:40 PM - Chinmay: ek baar dekhio
+7/4/22, 11:40 PM - Hemant Hostel J: vansh ko bole bhai please
+7/4/22, 11:40 PM - Hemant Hostel J: abhi mood nhi hoo raha
+7/4/22, 11:40 PM - Hemant Hostel J: padhne ka
+7/4/22, 11:40 PM - Chinmay: na bhai tu hi dekh
+7/4/22, 11:40 PM - Chinmay: vansh se baat karne ka mann nahi
+7/4/22, 11:43 PM - Hemant Hostel J: bhai ek nhi bahut saare atak rahe hai
+7/4/22, 11:44 PM - Chinmay: initail wala dekh
+7/4/22, 11:44 PM - Chinmay: pehle
+7/4/22, 11:44 PM - Hemant Hostel J: ek hi pass hua hai
+7/4/22, 11:44 PM - Chinmay: bsdk submit nahi karna
+7/4/22, 11:44 PM - Chinmay: initial run code bas
+7/4/22, 11:45 PM - Hemant Hostel J: haa run hi kiya gandu
+7/4/22, 11:45 PM - Hemant Hostel J: 4 test case fail hoo rahe 5 main se
+7/4/22, 11:45 PM - Chinmay: haan aur usme se 1 mein problem aari
+7/4/22, 11:46 PM - Hemant Hostel J: bhai tu har node par kya laga rha hai bfs ig
+7/4/22, 11:46 PM - Hemant Hostel J: ?
+7/4/22, 11:46 PM - Chinmay: haan
+7/4/22, 11:46 PM - Hemant Hostel J: aur check kar raha ki sahi hai ki nhi
+7/4/22, 11:46 PM - Hemant Hostel J: therashold se niche
+7/4/22, 11:47 PM - Hemant Hostel J: bhai priority que laga
+7/4/22, 11:47 PM - Hemant Hostel J: kam se kam distance uthana hai naa tujhe
+7/4/22, 11:48 PM - Chinmay: hmm priority queue kaise
+7/4/22, 11:49 PM - Hemant Hostel J: are matlab kam se kam distance lena hai naa tujhe jyada se jyada kitni city travel karni hai
+7/4/22, 11:49 PM - Hemant Hostel J: toh tu priority que le
+7/4/22, 11:49 PM - Hemant Hostel J: aur jab tak teri threshold se niche reheti hai waha tak daal usmain
+7/4/22, 11:49 PM - Hemant Hostel J: min priority que
+7/4/22, 11:50 PM - Chinmay: isme visited wagera ki zarorat hogi?
+7/4/22, 11:50 PM - Hemant Hostel J: visited bhi mark karte jayiyo
+7/4/22, 11:50 PM - Hemant Hostel J: baad main check kar liyo
+7/4/22, 11:50 PM - Chinmay: fir nahi hoga isse bhi
+7/4/22, 11:51 PM - Chinmay: problem visited se aari hai
+7/4/22, 11:51 PM - Hemant Hostel J: kyo
+7/4/22, 11:51 PM - Chinmay: kyunki ham doosri cycle se bhi nodes include kar skate hai
+7/4/22, 11:51 PM - Chinmay: sakte
+7/4/22, 11:51 PM - Hemant Hostel J: nhi bhai tune pure bsf lagaya hai
+7/4/22, 11:51 PM - Hemant Hostel J: joo sirf neighbour dekh raha hai
+7/4/22, 11:52 PM - Hemant Hostel J: nhi lagega kya priority que
+7/4/22, 11:52 PM - Hemant Hostel J: ?
+7/4/22, 11:53 PM - Chinmay: rukk
+7/4/22, 11:53 PM - Chinmay: ek testcase bhejta hun
+7/4/22, 11:53 PM - Chinmay: salla vo wala test case handle ho gya
+7/4/22, 11:53 PM - Hemant Hostel J: ruk main kar rha hu
+7/4/22, 11:53 PM - Chinmay: par ab TLE aara
+7/4/22, 11:53 PM - Hemant Hostel J: tle toh aana hi hai
+7/4/22, 11:53 PM - Chinmay: last wale mein
+7/4/22, 11:53 PM - Hemant Hostel J: time complexity jyada hai
+7/4/22, 11:54 PM - Hemant Hostel J: (no of nodex)*(N +E)
+7/4/22, 11:54 PM - Hemant Hostel J: kya kiya tune?
+7/4/22, 11:54 PM - Chinmay: cycle detect kardi
+7/4/22, 11:54 PM - Hemant Hostel J: uss se kya hua?
+7/4/22, 11:54 PM - Chinmay: aur agar doosri taraf se cycle aari toh include kar liya
+7/4/22, 11:55 PM - Chinmay: #include<bits/stdc++.h>
+int calc(int i,vector<pair<int,int>>adj[],int dis,vector<int>&vis,int n,vector<int>&par)
+{
+    vis[i]=1;
+    queue<pair<int,int>>q;
+    q.push({i,0});
+    
+    while(!q.empty())
+    {
+        int node=q.front().first;
+        int temp=q.front().second;
+        q.pop();
+        
+        for(auto x:adj[node])
+        {
+            int ts=temp+x.second;
+            if(vis[x.first]==-1 and ts<=dis)
+            {
+                q.push({x.first,ts});
+                vis[x.first]=1;
+                par[x.first]=node;
+            }
+            else if(ts<=dis and par[x.first]!=node)
+            {
+                par[x.first]=node;
+                q.push({x.first,ts});
+            }
+        }
+    }
+    int c=0;
+    for(int i=0;i<n;i++)
+    {
+     if(vis[i]!=-1)
+        c+=1;
+      
+    }
+     
+
+    return c;
+}
+int findTheCity(int n, vector<vector<int>> &edges, int d) 
+{
+	// Write your code here
+    int ans=0;
+    int t=1e6;
+    vector<pair<int,int>>adj[n];
+    vector<int>vis(n,-1);
+    vector<int>par(n,-1);
+    for(auto x:edges)
+    {
+        adj[x[0]].push_back({x[1],x[2]});
+        adj[x[1]].push_back({x[0],x[2]});
+    }
+    for(int i=0;i<n;i++)
+    {
+        int dis=d;
+        int p=calc(i,adj,dis,vis,n,par);
+        if(p<=t)
+        {
+            ans=i;
+            t=p;
+        }
+        fill(vis.begin(), vis.end(), -1);
+        fill(par.begin(), par.end(), -1);
+    }
+    return ans;
+}
+7/4/22, 11:55 PM - Chinmay: salla aaj shaam ko mein padh nhi rha tha lekin tujhe aur vansh ko dekhkar socha ek ques kar leta hun
+7/4/22, 11:56 PM - Chinmay: ab salla dedh ghante se fasa hun isme
+7/4/22, 11:56 PM - Hemant Hostel J: bhai gand fati padi hai bhai
+7/4/22, 11:56 PM - Chinmay: kyu?
+7/4/22, 11:57 PM - Hemant Hostel J: bhai lagegi yaa nhi aisa dimag chalta reheta hai
+7/4/22, 11:57 PM - Hemant Hostel J: main tumhare sath banglore jaa paunga ki nhi
+7/4/22, 11:57 PM - Hemant Hostel J: bc tum toh chale jaoge
+7/4/22, 11:57 PM - Chinmay: arrey mad chudao bc mujhe tension nado
+7/4/22, 11:57 PM - Hemant Hostel J: bhai kya tension
+7/4/22, 11:58 PM - Hemant Hostel J: aur bata kya karta hai aaj kal
+7/4/22, 11:58 PM - Hemant Hostel J: gym kaisa chal raha tera?
+7/4/22, 11:58 PM - Chinmay: gym nahi jaara aajkal
+7/4/22, 11:58 PM - Chinmay: mann sa nahi karra
+7/4/22, 11:58 PM - Chinmay: ques kar bsdk
+7/5/22, 12:12 AM - Chinmay: #include<bits/stdc++.h>
+int calc(int i,vector<pair<int,int>>adj[],int dis,vector<int>&vis,int n,vector<int>&par)
+{
+    vis[i]=1;
+    queue<pair<int,int>>q;
+    q.push({i,0});
+    
+    while(!q.empty())
+    {
+        int node=q.front().first;
+        int temp=q.front().second;
+        q.pop();
+        
+        for(auto x:adj[node])
+        {
+            int ts=temp+x.second;
+            if(vis[x.first]==-1 and ts<=dis)
+            {
+                q.push({x.first,ts});
+                vis[x.first]=1;
+                //par[x.first]=node;
+            }
+//             else if(ts<=dis and par[x.first]!=node)
+//             {
+//                 par[x.first]=node;
+//                 q.push({x.first,ts});
+//             }
+            else if(vis[x.first]!=-1)
+            {
+                for(auto pt:adj[x.first])
+                {
+                    if(vis[pt.first]==-1 and ts+pt.second<=dis)
+                        q.push({pt.first,ts+pt.second});
+                }
+            }
+        }
+    }
+    int c=0;
+    for(int i=0;i<n;i++)
+    {
+     if(vis[i]!=-1)
+        c+=1;
+      
+    }
+    
+    return c;
+}
+int findTheCity(int n, vector<vector<int>> &edges, int d) 
+{
+	// Write your code here
+    int ans=0;
+    int t=1e6;
+    vector<pair<int,int>>adj[n];
+    vector<int>vis(n,-1);
+    vector<int>par(n,-1);
+    for(auto x:edges)
+    {
+        adj[x[0]].push_back({x[1],x[2]});
+        adj[x[1]].push_back({x[0],x[2]});
+    }
+    for(int i=0;i<n;i++)
+    {
+        int dis=d;
+        int p=calc(i,adj,dis,vis,n,par);
+        if(p<=t)
+        {
+            ans=i;
+            t=p;
+        }
+        fill(vis.begin(), vis.end(), -1);
+        fill(par.begin(), par.end(), -1);
+    }
+    return ans;
+}
+7/5/22, 12:12 AM - Chinmay: isse 5 test cases paas ho gye
+7/5/22, 12:12 AM - Chinmay: ab aage ta tu dekh
+7/5/22, 12:12 AM - Chinmay: mera dimag pakk gya
+7/5/22, 12:13 AM - Hemant Hostel J: bhai mere 6 hoo gaye priority que wala se
+7/5/22, 12:13 AM - Chinmay: bhejio
+7/5/22, 12:14 AM - Hemant Hostel J: #include<bits/stdc++.h>
+
+class Node{
+    public:
+    
+    int x;
+    int wt;
+    
+    Node(int xx,int distance){
+        this->x=xx;
+        this->wt=distance;
+    }
+};
+struct compare
+{
+    bool operator()(const Node & a, const Node & b)
+    {
+       return a.wt>b.wt;
+    }
+};
+
+int calc(int i,vector<pair<int,int>>adj[],int dis,vector<int>&vis,int n)
+{
+    vis[i]=1;
+    priority_queue<Node,vector<Node>,compare> pq;
+    
+    
+    Node t=Node(i,0);
+    pq.push(t);
+    
+    while(!pq.empty())
+    {
+        int node=pq.top().x;
+        int temp=pq.top().wt;
+        pq.pop();
+        
+        for(auto x:adj[node])
+        {
+            int ts=temp+x.second;
+            if(vis[x.first]==-1 and ts<=dis)
+            {
+                Node tem=Node(x.first,ts);
+                pq.push(tem);
+                vis[x.first]=1;
+            }
+        }
+    }
+    int c=0;
+    for(int i=0;i<n;i++)
+    {
+     
+        if(vis[i]!=-1){
+             c+=1;
+        }
+       
+      
+    }
+     
+
+    return c;
+}
+int findTheCity(int n, vector<vector<int>> &edges, int d) 
+{
+    // Write your code here
+    int ans=0;
+    int t=1e6;
+    vector<pair<int,int>>adj[n];
+    vector<int>vis(n,-1);
+    for(auto x:edges)
+    {
+        adj[x[0]].push_back({x[1],x[2]});
+        adj[x[1]].push_back({x[0],x[2]});
+    }
+    for(int i=0;i<n;i++)
+    {
+        int dis=d;
+        int p=calc(i,adj,dis,vis,n);
+        if(p<=t)
+        {
+            ans=i;
+            t=p;
+        }
+        fill(vis.begin(), vis.end(), -1);
+    }
+    return ans;
+}
+7/5/22, 12:15 AM - Chinmay: karra toh meine bhi yhi hi hai vaise
+7/5/22, 12:15 AM - Hemant Hostel J: tune priority que lagayi?
+7/5/22, 12:15 AM - Chinmay: nahi matlab
+7/5/22, 12:16 AM - Chinmay: issi logic se
+7/5/22, 12:16 AM - Hemant Hostel J: aacha
+7/5/22, 12:16 AM - Chinmay: dekh tu ye ques
+7/5/22, 12:16 AM - Chinmay: mein sone jaara
+7/5/22, 12:16 AM - Chinmay: subah bhej diyo agar ho jaye
+7/5/22, 12:20 AM - Hemant Hostel J: hmm
+7/5/22, 12:34 AM - Hemant Hostel J: test case galat hai wo yaar
+7/5/22, 12:34 AM - Hemant Hostel J: mere ko toh aisa lag raha hai
+7/5/22, 9:59 AM - Chinmay: Hua vo ques?
+7/5/22, 10:25 AM - Hemant Hostel J: Nhi
+7/5/22, 10:25 AM - Hemant Hostel J: Test case galat lag raha bhai
+7/5/22, 10:25 AM - Hemant Hostel J: Report maar diya tha
+7/5/22, 10:44 AM - Chinmay: Oh accha
+7/5/22, 10:45 AM - Hemant Hostel J: Tu bhi dekh
+7/5/22, 10:45 AM - Hemant Hostel J: Print kara ke
+7/5/22, 10:45 AM - Hemant Hostel J: 4hi aana chahiye
+7/5/22, 10:45 AM - Chinmay: Mein toh soln dekhne ki sochra
+7/5/22, 10:45 AM - Hemant Hostel J: Hai hi nhi
+7/5/22, 10:45 AM - Chinmay: Test case bhej
+7/5/22, 10:45 AM - Hemant Hostel J: Discuss main
+7/5/22, 10:45 AM - Chinmay: Solution khol sakte hai
+7/5/22, 10:45 AM - Hemant Hostel J: Laptop band hai
+7/5/22, 10:45 AM - Hemant Hostel J: Aacha
+7/5/22, 10:45 AM - Hemant Hostel J: Wo dekh ke tu bata
+7/5/22, 10:46 AM - Chinmay: Hana dekhunga
+7/5/22, 10:46 AM - Hemant Hostel J: Bc ye toh
+Bhul hi gaya
+7/5/22, 10:46 AM - Hemant Hostel J: Tune Pepcoding wala graph kar liya
+7/5/22, 10:46 AM - Hemant Hostel J: ?
+7/5/22, 10:47 AM - Chinmay: Naah
+Karna hai
+7/5/22, 10:47 AM - Chinmay: Aajkal toh binary search Kar rha hun
+7/5/22, 11:46 AM - Hemant Hostel J: Aacha
+7/5/22, 12:36 PM - Chinmay: https://www.codingninjas.com/codestudio/problems/shortest-alternate-colored-path_1281318?topList=top-graphs-interview-questions&leftPanelTab=1
+7/5/22, 12:47 PM - Chinmay: Chor ho gya
+7/5/22, 8:14 PM - Chinmay: Jobathon dera.
+7/5/22, 8:14 PM - Chinmay: ?
+7/5/22, 8:19 PM - Hemant Hostel J: Bc bhara hi nhi
+7/5/22, 8:19 PM - Hemant Hostel J: Aaj hai kya?
+7/5/22, 9:11 PM - Chinmay: Haan
+7/5/22, 9:11 PM - Chinmay: <Media omitted>
+7/5/22, 9:11 PM - Chinmay: <Media omitted>
+7/5/22, 9:11 PM - Chinmay: Ye kario
+7/5/22, 9:34 PM - Hemant Hostel J: Hua?
+7/5/22, 9:40 PM - Chinmay: Naah
+Graph wala kar rha tha
+7/5/22, 9:40 PM - Chinmay: Usme WA aa gya
+7/6/22, 5:32 PM - Hemant Hostel J: Bhai patla hoo gaya main
+7/6/22, 5:32 PM - Hemant Hostel J: Double chin bhi kam hoo rahe
+7/6/22, 6:09 PM - Chinmay: Arrey launde
+Gazab
+Chick magnet banega
+7/7/22, 10:55 PM - Hemant Hostel J: https://leetcode.com/problems/path-with-minimum-effort/
+7/7/22, 10:55 PM - Hemant Hostel J: bhai ye solve kar
+7/7/22, 11:08 PM - Chinmay: https://leetcode.com/problems/number-of-people-aware-of-a-secret/
+7/7/22, 11:09 PM - Chinmay: tu ye kar
+7/7/22, 11:09 PM - Hemant Hostel J: bsdk mera kar
+7/7/22, 11:09 PM - Hemant Hostel J: teri gand main joor hai toh
+7/7/22, 11:09 PM - Chinmay: nahi hai bhai😂😂
+7/7/22, 11:11 PM - Chinmay: gaandu sa ques hai tera
+7/7/22, 11:11 PM - Hemant Hostel J: easy hai naa
+7/7/22, 11:11 PM - Chinmay: lawda easy
+7/7/22, 11:15 PM - Hemant Hostel J: gandu kyo bola phir
+7/7/22, 11:15 PM - Chinmay: gaandu ques hai kyunki
+7/7/22, 11:15 PM - Chinmay: lagna bfs hi hai par salla variations se
+7/7/22, 11:35 PM - Chinmay: class Solution {
+public:
+    int minimumEffortPath(vector<vector<int>>& heights) {
+        
+         int M = heights.size(), N = heights[0].size();
+        
+        vector<vector<int>> path(M, vector<int>(N, INT_MAX));
+        queue<pair<int, int>> Q;
+        Q.push({0, 0}); 
+        path[0][0] = 0;
+      
+        int dir[4][2] = {{1,0}, {-1,0}, {0,1}, {0,-1}};
+        
+        while (!Q.empty()) {
+            pair<int, int> curr = Q.front();
+            Q.pop();
+            int i = curr.first, j = curr.second;
+            for (auto d: dir) { 
+                int ri = i + d[0], rj = j + d[1];
+                if (ri >= 0 && ri < M && rj >= 0 && rj < N) {
+                    int diff = abs(heights[i][j] - heights[ri][rj]);
+                    int maxval = max(path[i][j], diff);
+                    if (maxval < path[ri][rj]) { 
+                        path[ri][rj] = maxval;
+                        Q.push({ri, rj});
+                    }
+                }
+            }
+        }
+        return path[M-1][N-1];
+    }
+};
+7/7/22, 11:35 PM - Chinmay: chalra ye
+7/7/22, 11:36 PM - Hemant Hostel J: Ruk bhai
+7/7/22, 11:38 PM - Hemant Hostel J: Ye kaise socha tune?
+7/7/22, 11:39 PM - Hemant Hostel J: Topper log
+7/7/22, 11:43 PM - Hemant Hostel J: o join the video meeting, click this link: https://meet.google.com/sph-xsar-vwb
+Otherwise, to join by phone, dial +1 720-439-7107 and enter this PIN: 366 358 301#
+7/8/22, 11:02 PM - Chinmay: https://www.codingninjas.com/codestudio/contests/codestudio-weekend-contest-29/5517033/problems/16809?leftPanelTab=0
+7/8/22, 11:02 PM - Chinmay: bhai ye kario zra , aaj ka codestudio ka virtual contest de rha tha uska hai
+7/9/22, 5:02 AM - Hemant Hostel J: iss contest ke medimum hoo gaye tere se
+7/9/22, 5:02 AM - Hemant Hostel J: bc mujh se nhi hua ek bhi
+7/9/22, 5:02 AM - Hemant Hostel J: 🥲
+7/9/22, 6:05 AM - Hemant Hostel J: meri gand fat gayi ye contest deke
+7/9/22, 6:05 AM - Hemant Hostel J: bhai ismain stack se hi aa rakhe hai question saare
+7/9/22, 6:05 AM - Hemant Hostel J: ig
+7/9/22, 6:52 AM - Hemant Hostel J: https://www.codingninjas.com/codestudio/contests/codestudio-weekend-contest-28/5265940/problems/17651?leftPanelTab=0
+7/9/22, 6:52 AM - Hemant Hostel J: ye ques dekh bhai
+7/9/22, 11:06 AM - Chinmay: Mujhse pehle 2 hi huye
+7/9/22, 11:06 AM - Chinmay: 3 brute force pata thi lekin kiya nahi
+7/9/22, 11:06 AM - Chinmay: 4th kiya Lekin vo memoize nahi ho paya
+7/9/22, 11:07 AM - Chinmay: Bas brute recursive approach hi likhi. Ek baar bataio kaise hoga ye
+7/9/22, 12:42 PM - Chinmay: bhai ye 4th ques jaldi dekh dimag ka bhosda ho rha hai
+7/9/22, 12:47 PM - Hemant Hostel J: bhai kyo karni hai itni dsa
+7/9/22, 12:47 PM - Hemant Hostel J: pareshan hooo gaya hu
+7/9/22, 12:47 PM - Hemant Hostel J: thak gaya hu
+7/9/22, 12:50 PM - Chinmay: Ho gya ques bhai
+Koi nhi
+7/9/22, 12:50 PM - Hemant Hostel J: bhai ab maine sochna start kiya hai
+7/9/22, 12:51 PM - Hemant Hostel J: dp ka lag raha hai
+7/9/22, 12:51 PM - Chinmay: Tu thak nahi gya tha 😂
+7/9/22, 12:51 PM - Hemant Hostel J: yaar ab khole ke dekha hai
+7/9/22, 12:51 PM - Hemant Hostel J: subhe se time pass kar raha tha
+7/9/22, 12:52 PM - Chinmay: Salle tu soya hi 7 baje tha subah ke
+7/9/22, 12:52 PM - Chinmay: Uth bhi gya?
+7/9/22, 12:52 PM - Hemant Hostel J: bsdk maine 5 baje utha tha
+7/9/22, 12:52 PM - Hemant Hostel J: tera message dekha
+7/9/22, 12:52 PM - Hemant Hostel J: phir contest diye
+7/9/22, 12:52 PM - Hemant Hostel J: 2 3-3 question kiya
+7/9/22, 12:53 PM - Hemant Hostel J: bas
+7/9/22, 12:53 PM - Chinmay: Salla contest ka 3rd ques kaise hoga O(n) mein.
+7/9/22, 12:53 PM - Chinmay: Kya?
+7/9/22, 12:53 PM - Hemant Hostel J: kuch nhi bhai
+7/9/22, 12:54 PM - Hemant Hostel J: placement lagva de bhai
+7/9/22, 12:54 PM - Hemant Hostel J: ab sahan nhi hoo rahi
+7/9/22, 12:54 PM - Chinmay: Bhai mujhse khud ques nahi hote
+7/9/22, 12:54 PM - Chinmay: Teri placement kaha se lag a du
+7/9/22, 12:54 PM - Chinmay: Salla Kal ke contest mein easy sochne mein 25 min lag gye the
+7/9/22, 1:04 PM - Hemant Hostel J: bhai
+7/9/22, 1:04 PM - Hemant Hostel J: yaar ye ques kar raha
+7/9/22, 1:05 PM - Hemant Hostel J: par saala memoize kaise maru wo soch raha
+7/9/22, 1:27 PM - Hemant Hostel J: bhai kya gandu question tha bhai
+7/9/22, 1:54 PM - Chinmay: Haan ussi mein mujhe bhi musibat aayi thi 😂
+7/9/22, 4:00 PM - Chinmay: bhai jo tune ques bheja vo toh ho hi nhi rha
+7/9/22, 4:00 PM - Chinmay: mein dp se try kar rha hun
+7/9/22, 4:26 PM - Chinmay: #include<bits/stdc++.h>
+unordered_set<string>s;
+int calc(string t,int x)
+{
+    int temp=stoi(t);
+    if(temp<10 and temp%x!=0)
+        return 1e8;
+    else if(temp<10 and temp%x==0)
+    {
+        int p=temp/x;
+        if(p==1)
+            return 1;
+        return (p-1);
+    }
+        
+//     if(temp%10==0)
+//         s.insert(t);
+    
+    string t1=t;
+    reverse(t1.begin(),t1.end());
+    reverse(t1.begin()+1,t1.end());
+    int temp2=stoi(t1);
+    if(temp%x!=0 and temp2%x!=0)
+        return 1e8;
+   // cout<<temp<<endl;
+    if(temp%x==0 and s.count(t)==0)
+    {
+        s.insert(t);
+        int t2=temp/x;
+        string t3=to_string(t2);
+       // cout<<t3<<endl;
+       
+        int m1=1+calc(t3,x);
+       
+        int m2=1+calc(t1,x);
+       
+        return min(m1,m2);
+       // return min(1+calc(t1,x),1+calc(t3,x));
+    }
+    else if(temp%x!=0 and s.count(t)==0)
+    {
+        s.insert(t);
+       // cout<<t1<<endl;
+        return 1+calc(t1,x);
+    }
+    return 1e8;
+}
+int minimumCoins(int n, int x)
+{
+    // Write your code here.
+    string t=to_string(n);
+    int k=calc(t,x);
+    if(k>=1e8)
+        return -1;
+    return k;
+}
+7/9/22, 4:26 PM - Chinmay: bhai iss code se 7/11 hi pass hore
+7/9/22, 4:27 PM - Chinmay: aage ka smjh nahi aara
+7/9/22, 5:06 PM - Chinmay: https://www.codingninjas.com/codestudio/problems/distinct-subsequences_799558?topList=top-dynamic-programming-questions&leftPanelTab=0
+7/9/22, 5:06 PM - Chinmay: ye dekhio
+7/9/22, 5:36 PM - Hemant Hostel J: bhai koi maths ka formula lagega kya isamin
+7/9/22, 5:36 PM - Hemant Hostel J: ?
+7/9/22, 5:45 PM - Hemant Hostel J: hua kya bhai?
+7/9/22, 6:27 PM - Hemant Hostel J: #include<bits/stdc++.h>
+int distinctSubsequences(string s) 
+{
+    
+    int mod=1e9+7;
+    
+    vector<int> dp(s.size()+1,0);
+    vector<int> last(26,-1);
+    dp[0]=1;
+    
+    
+    map<char,int> mymap;
+    
+    
+    for(int i=1;i<=s.size();i++){
+        
+        dp[i]=((dp[i-1]%mod)*(2%mod))%mod;
+        
+        if(mymap.find(s[i-1])!=mymap.end()){
+            
+            dp[i]=((dp[i]%mod)+(-dp[mymap[s[i-1]]-1]+mod)%mod)%mod;
+        }
+        
+        mymap[s[i-1]]=i;
+        
+    }
+    return dp[s.size()];
+    
+    
+    return dp[s.size()];
+}
+7/9/22, 6:46 PM - Chinmay: Bhai thoda Smjha de
+7/9/22, 6:51 PM - Chinmay: Ye kaise hua?
+7/9/22, 6:52 PM - Hemant Hostel J: Are joo repeat hua uski last occurance par pade dp ki value- karni hai
+7/9/22, 6:53 PM - Chinmay: Iska thought process kya tha?
+7/9/22, 6:53 PM - Hemant Hostel J: Abcc bana ke dekh
+7/9/22, 6:53 PM - Hemant Hostel J: A par khatam hone wale A
+7/9/22, 6:53 PM - Chinmay: Paper pe bana
+Aur bhej
+7/9/22, 6:54 PM - Hemant Hostel J: B pe khatan hone wale (*, a, b, ab)
+7/9/22, 6:55 PM - Hemant Hostel J: C (*, a, b, ab  , c, ac, bc, abc)
+7/9/22, 6:55 PM - Chinmay: Haan Sahi baat hai fir
+7/9/22, 6:57 PM - Chinmay: Fir
+7/9/22, 7:00 PM - Hemant Hostel J: C (*, a, b, ab  , c, ac, bc, abc,    c, ac, bc, abc  , cc, acc, bcc, abcc,)
+7/9/22, 7:01 PM - Hemant Hostel J: Pehel 8 same aaye hai
+7/9/22, 7:01 PM - Chinmay: Hmm
+7/9/22, 7:23 PM - Chinmay: Aaj Leetcode contest dega?
+7/9/22, 9:22 PM - Hemant Hostel J: nhi de raha bhai main
+7/9/22, 9:25 PM - Hemant Hostel J: bhai tu de raha hai?
+7/9/22, 9:25 PM - Chinmay: lawde lag gye
+7/9/22, 9:25 PM - Chinmay: 1 ques hua
+7/9/22, 9:25 PM - Chinmay: 2nd mein 8 wrong submssion
+7/9/22, 9:25 PM - Hemant Hostel J: aacha hai nhi diya
+7/9/22, 9:25 PM - Hemant Hostel J: kal uth jayiyo bhai
+7/9/22, 9:25 PM - Hemant Hostel J: samsung ka denga
+7/9/22, 9:26 PM - Hemant Hostel J: bhai oops aur project dekh liye tune
+7/9/22, 9:26 PM - Hemant Hostel J: ?
+7/9/22, 9:26 PM - Hemant Hostel J: resume update maar liya?
+7/9/22, 9:28 PM - Hemant Hostel J: bole bhai
+7/9/22, 9:29 PM - Chinmay: samsung kaha se aagya
+7/9/22, 9:29 PM - Chinmay: project ka fuck nahi dera
+7/9/22, 9:29 PM - Chinmay: yash bhaiya ne bola
+7/9/22, 9:29 PM - Chinmay: ki zarori nahi hai
+7/9/22, 9:29 PM - Chinmay: raghav ne bhi
+7/9/22, 9:29 PM - Chinmay: oops padh li hai meine
+7/9/22, 9:29 PM - Hemant Hostel J: kaha se?
+7/9/22, 9:29 PM - Chinmay: saurabh shukla
+7/9/22, 9:29 PM - Chinmay: aur aise hi videos se
+7/9/22, 9:30 PM - Hemant Hostel J: uska naam mat le uska resume bahut aacha tha lode
+7/9/22, 9:31 PM - Chinmay: mein project nahi karra
+7/9/22, 9:31 PM - Chinmay: abhi sirf dsa aur core pe dhyaan
+7/9/22, 9:31 PM - Chinmay: vaise hi aaj ke contest mein lawde lag gye
+7/9/22, 9:31 PM - Hemant Hostel J: kitne hue?
+7/9/22, 9:32 PM - Chinmay: 1
+7/9/22, 9:32 PM - Hemant Hostel J: behenchod
+7/9/22, 9:33 PM - Chinmay: Madarchod ques the
+7/9/22, 9:33 PM - Chinmay: 2nd mein 8 wrong submissions
+7/9/22, 9:33 PM - Chinmay: Isse accha toh codestudio wala gya tha
+Jabki mujhe laga tha Leetcode wala usse zyada aasan hota hai
+7/9/22, 10:15 PM - Chinmay: kya padh rha hai tu bhai
+7/9/22, 10:16 PM - Hemant Hostel J: 2nd question kar raha hu
+7/9/22, 10:16 PM - Hemant Hostel J: hua tere se
+7/9/22, 10:16 PM - Chinmay: naah meine jo likha tha usse 31/51 cases hi paas huye
+7/9/22, 10:16 PM - Chinmay: ab soln dekh liya
+7/9/22, 10:17 PM - Chinmay: kal 8 baje bhi hai contest
+7/9/22, 10:17 PM - Chinmay: tu dega?
+7/9/22, 10:18 PM - Hemant Hostel J: maine nhi dekha mujhe mat batana
+7/9/22, 10:19 PM - Chinmay: ok
+7/9/22, 10:19 PM - Hemant Hostel J: bhai samsung ka test hai
+7/9/22, 10:19 PM - Hemant Hostel J: wo dunga
+7/9/22, 10:19 PM - Chinmay: bc ye kab aaya
+7/9/22, 10:19 PM - Hemant Hostel J: bhaiya ka test hai
+7/9/22, 10:19 PM - Hemant Hostel J: bataya toh tha
+7/9/22, 10:19 PM - Hemant Hostel J: lode
+7/9/22, 10:19 PM - Hemant Hostel J: mera nhi gandu
+7/9/22, 10:19 PM - Chinmay: ohhh , kitne baje
+7/9/22, 10:19 PM - Hemant Hostel J: 9 se hai
+7/9/22, 10:19 PM - Hemant Hostel J: 9:30 baje start karunga
+7/9/22, 10:19 PM - Chinmay: fir toh mein uth jaunga
+7/9/22, 10:20 PM - Chinmay: bhej diyo
+7/9/22, 10:20 PM - Hemant Hostel J: haa
+7/9/22, 10:20 PM - Hemant Hostel J: ismain dono array sort honge
+7/9/22, 10:20 PM - Hemant Hostel J: phir ismain lagegi sliding window
+7/9/22, 10:20 PM - Hemant Hostel J: ?
+7/9/22, 10:20 PM - Hemant Hostel J: aisa kuch hoga kya
+7/9/22, 10:20 PM - Chinmay: khud soch
+7/9/22, 10:20 PM - Chinmay: 1 ghante tak kar
+7/9/22, 10:21 PM - Chinmay: fir ans dekh lito
+7/9/22, 10:21 PM - Chinmay: lawda sa ques hai
+7/9/22, 10:21 PM - Chinmay: dislikes dekh kitne aa gye abhi se
+7/9/22, 10:57 PM - Chinmay: class Solution {
+public:
+    int calc(vector<int>& nums, int k,int ind,int n)
+    {
+        if(ind>=n)
+            return -1e8;
+        if(ind==n-1)
+        {
+           
+            return nums[ind];
+        }
+        int ans=0;
+        for(int i=ind+1;i<=min(ind+k,n-1);i++)
+        {
+           
+            ans=max(ans,nums[ind]+calc(nums,k,i,n));
+                 
+        }
+        return ans;
+    }
+    int maxResult(vector<int>& nums, int k) {
+        
+        int n=nums.size();
+        return calc(nums,k,0,n);
+        
+        
+    }
+};
+7/10/22, 11:19 AM - Chinmay: Ye ques kaise hoga salle?
+7/10/22, 12:24 PM - Chinmay: https://www.codingninjas.com/codestudio/problems/calculate-the-height-of-binary-tree-using-inorder-and-level-order-traversal_841416?topList=striver-sde-sheet-problems&leftPanelTab=3
+7/10/22, 12:25 PM - Chinmay: ye ques dekh bada madarchod hai
+7/10/22, 5:43 PM - Hemant Hostel J: Bahar aa gaya main
+7/10/22, 5:43 PM - Chinmay: Tu kaise bahar aa gya
+7/10/22, 5:43 PM - Chinmay: Tujhse ye expect nahi karta mein
+7/10/22, 5:46 PM - Hemant Hostel J: Sunday hai aaj
+7/10/22, 6:00 PM - Chinmay: Tumhare liye koi Sunday nahi hai
+7/10/22, 6:00 PM - Chinmay: Padhne jao bsdk
+7/10/22, 6:52 PM - Hemant Hostel J: Hat bc
+7/12/22, 1:00 PM - Chinmay: https://www.codingninjas.com/codestudio/problems/validate-binary-tree-nodes_1281195?topList=top-graphs-interview-questions&leftPanelTab=1
+7/12/22, 1:39 PM - Hemant Hostel J: Bhai main project bana raha ye week iske baad time nhi hai
+7/12/22, 1:39 PM - Hemant Hostel J: Main dsa ke ques baad main karunga 11-20
+7/12/22, 1:39 PM - Hemant Hostel J: Resume update
+7/12/22, 1:39 PM - Hemant Hostel J: Hostel aa kar dsa ke alava kuch nhi karna hai
+7/12/22, 1:40 PM - Hemant Hostel J: Bhai tu college kab jayega
+7/12/22, 1:40 PM - Hemant Hostel J: ?
+7/12/22, 1:49 PM - Chinmay: 23 ko shyd
+7/12/22, 2:53 PM - Hemant Hostel J: Aacha
+7/12/22, 2:53 PM - Hemant Hostel J: Chal main bhi aa jaunga 25 tak
+7/12/22, 2:54 PM - Hemant Hostel J: Phir roj question hi lagayenge
+7/12/22, 3:09 PM - Chinmay: Core kaisi chalri?
+7/12/22, 3:17 PM - Hemant Hostel J: Bhai chal rahi hai
+7/12/22, 3:17 PM - Hemant Hostel J: Notes bana liye hai dbms aur os ke aache se
+7/12/22, 3:18 PM - Hemant Hostel J: Sql aur oops bacha hai
+7/12/22, 3:19 PM - Chinmay: Yeahh laundee
+Company fodne ke liye taiyaar baitha hai
+7/12/22, 3:20 PM - Hemant Hostel J: Nhi bhai
+7/12/22, 3:20 PM - Hemant Hostel J: Dsa karni padegi aache se
+7/12/22, 3:20 PM - Hemant Hostel J: Jab college aayenge
+7/12/22, 3:21 PM - Hemant Hostel J: Roj 12 question karenge
+7/12/22, 3:21 PM - Hemant Hostel J: Jab tak lag nhi jaati job
+7/12/22, 3:21 PM - Hemant Hostel J: Tune resume update maar liya
+7/12/22, 3:21 PM - Hemant Hostel J: ?
+7/12/22, 3:44 PM - Chinmay: Naah
+Kuch marne layak nahi abhi
+7/12/22, 3:51 PM - Hemant Hostel J: Update nhi maarega
+7/12/22, 3:51 PM - Hemant Hostel J: ?
+7/12/22, 3:55 PM - Chinmay: Kya Maru?
+7/12/22, 4:23 PM - Hemant Hostel J: Kuch bhi
+7/12/22, 4:23 PM - Hemant Hostel J: Ml ka kuch daal de
+7/12/22, 4:23 PM - Hemant Hostel J: Fancy saa banake
+7/12/22, 4:23 PM - Hemant Hostel J: 2 din main
+7/12/22, 4:27 PM - Chinmay: Chatbot using NLP karke kuch daldu?
+7/12/22, 4:29 PM - Hemant Hostel J: Haa aache hote hai chatbot
+7/12/22, 4:32 PM - Hemant Hostel J: https://www.crio.do/blog/5-interesting-machine-learning-projects/?gclid=CjwKCAjwt7SWBhAnEiwAx8ZLapKw38I3aWerxcbTWo_8VYJegWZOJCTVcGJlzwhrkv7cgRUlkfL2pRoCw9UQAvD_BwE
+7/12/22, 4:32 PM - Hemant Hostel J: Ye dekh koi bhi bana le iss topic par
+7/12/22, 4:32 PM - Hemant Hostel J: Ek baar resume bhejiyo
+7/12/22, 4:32 PM - Hemant Hostel J: Tera
+7/12/22, 4:35 PM - Hemant Hostel J: Maine mera joo abhi resume daala hai usmain saal 1/3rd main toh 10th 12th aur cg daali hai
+7/12/22, 4:35 PM - Hemant Hostel J: Phir bhi space bach raha hai
+7/12/22, 4:42 PM - Chinmay: Ruk
+WhatsApp Web khulne de
+7/12/22, 4:45 PM - Chinmay: <Media omitted>
+7/12/22, 4:45 PM - Chinmay: apna bhi bhej
+7/12/22, 4:46 PM - Chinmay: dekhna hai agar mein aur add kar saku kyunki mera bhi khali hai
+7/12/22, 4:51 PM - Hemant Hostel J: Same hi hai apna
+7/12/22, 4:51 PM - Hemant Hostel J: Maine update nhi maara hai
+7/12/22, 4:51 PM - Chinmay: Behj bc
+7/12/22, 4:51 PM - Chinmay: Bhej
+7/12/22, 4:52 PM - Hemant Hostel J: Ruk
+7/12/22, 4:52 PM - Hemant Hostel J: Vansh ka bhi mang
+7/12/22, 4:52 PM - Chinmay: Naah
+7/12/22, 4:53 PM - Hemant Hostel J: <Media omitted>
+7/12/22, 4:53 PM - Hemant Hostel J: Mera tere se jyada khali hai
+7/12/22, 4:54 PM - Chinmay: Coursework daal du mein bhi?
+7/12/22, 4:54 PM - Hemant Hostel J: Daal de
+7/12/22, 4:54 PM - Hemant Hostel J: Mere course main nhi aate naa ye subject
+7/12/22, 4:55 PM - Chinmay: Hmm ye daal dunga
+7/12/22, 4:55 PM - Hemant Hostel J: 10th class hata denge
+7/12/22, 4:56 PM - Hemant Hostel J: Tune ek intern daali thi techno colab ki
+7/12/22, 4:56 PM - Hemant Hostel J: Hata di
+7/12/22, 4:56 PM - Hemant Hostel J: ?
+7/12/22, 4:56 PM - Chinmay: Haan
+Fayda nahi laga kuch uska
+7/12/22, 4:56 PM - Hemant Hostel J: Jab tu interview dene gaya tha
+7/12/22, 4:57 PM - Hemant Hostel J: Resume dekh ke kuch bola tha?
+7/12/22, 4:57 PM - Hemant Hostel J: Matlab importance thi yaa phir core pe kud gaya sidha
+7/12/22, 4:57 PM - Chinmay: Usne dekha ki zyada kuch hai nahi intern mein
+7/12/22, 4:58 PM - Chinmay: Isliye pucha nahi
+7/12/22, 4:58 PM - Chinmay: Seedha core mein ghus gya tha
+7/12/22, 4:58 PM - Hemant Hostel J: Usmain bhi saale lode ne computer network pucha
+7/12/22, 4:59 PM - Chinmay: Bhai Hemant
+Thoda are lagna start ho gya hai
+7/12/22, 4:59 PM - Chinmay: Salla cisco aa hi gyi
+7/12/22, 4:59 PM - Chinmay: Pata nahi kitne le jayegi
+7/12/22, 4:59 PM - Chinmay: Kya cg cut rkhegi
+7/12/22, 4:59 PM - Hemant Hostel J: Bhai tension mat le
+7/12/22, 4:59 PM - Hemant Hostel J: Placement lag jayegi
+7/12/22, 4:59 PM - Hemant Hostel J: Bhaiya ne kaha hai hope nhi haarni
+7/12/22, 4:59 PM - Chinmay: Acchi lagegi
+Itni skill hai ham mein?
+7/12/22, 5:00 PM - Chinmay: Dsa itni acchi hai?
+7/12/22, 5:00 PM - Hemant Hostel J: Meri jaise ki lag gayi tumhari toh bahut aachi lagegi
+7/12/22, 5:00 PM - Chinmay: Teri jaisi
+Madarchod sabse aachi dsa hai teri
+Vansh ke baad
+7/12/22, 5:01 PM - Hemant Hostel J: Bhai dsa ka ye ho dice chiz hai ek aadha project bana rat le interview main bolne ka content hi milega
+7/12/22, 5:01 PM - Hemant Hostel J: Aur hostel aa kar pressure main dsa ke alava kuch nhi hoga
+7/12/22, 5:02 PM - Chinmay: Hmm
+Project fir 2 Dinn mein hi karunga
+Abhi oops thodi karni hai
+7/12/22, 5:02 PM - Chinmay: Fir dbms revise karunga jo Kari thi
+7/12/22, 5:02 PM - Hemant Hostel J: Haa
+7/12/22, 5:02 PM - Chinmay: Toh hai. Dinn mein project hi ratt leta hun
+7/12/22, 5:02 PM - Chinmay: 2
+7/12/22, 5:02 PM - Hemant Hostel J: Communication par focus karenge
+7/12/22, 5:02 PM - Chinmay: Yessss
+7/12/22, 5:02 PM - Hemant Hostel J: Roj ek dusre se
+7/12/22, 5:03 PM - Hemant Hostel J: Interview lenge
+7/12/22, 5:03 PM - Chinmay: Tu 25 ko ayega?
+7/12/22, 5:03 PM - Hemant Hostel J: Haa
+7/12/22, 5:03 PM - Chinmay: Ohkkk
+7/12/22, 5:03 PM - Chinmay: Chal mein sone jaara
+7/12/22, 5:03 PM - Hemant Hostel J: Gym nhi jaata
+7/12/22, 5:03 PM - Chinmay: Kuch dino mein vapis aana hai
+1500 rupai waste nahi karra
+7/12/22, 5:03 PM - Hemant Hostel J: Aacha
+7/12/22, 5:04 PM - Hemant Hostel J: Sahi hai
+7/13/22, 10:05 PM - Chinmay: Tu codestudio ka contest dera aaj ka?
+7/13/22, 10:48 PM - Hemant Hostel J: Nhi bhai
+7/13/22, 10:48 PM - Hemant Hostel J: Main project hi bana raha yaar
+7/13/22, 10:49 PM - Hemant Hostel J: Tu kitne question karta hai
+7/13/22, 10:49 PM - Hemant Hostel J: ?
+7/13/22, 10:49 PM - Hemant Hostel J: Din ke
+7/13/22, 10:49 PM - Chinmay: Jab tak mann kare
+7/13/22, 10:49 PM - Hemant Hostel J: Aacha
+7/13/22, 10:49 PM - Hemant Hostel J: Yaar project le chakkar main 3din hoo gaye
+7/13/22, 10:49 PM - Chinmay: Bekar Tha aaj ka contwst
+7/13/22, 10:49 PM - Hemant Hostel J: Dsa nhi ki
+7/13/22, 10:50 PM - Chinmay: Aasan Matlab
+Tere level ke liye nahi th
+7/13/22, 10:50 PM - Hemant Hostel J: Bhai mera level hai hi kya
+7/13/22, 10:50 PM - Hemant Hostel J: Offcampus apply kiya tune kahi
+7/13/22, 10:50 PM - Hemant Hostel J: ?
+7/13/22, 10:50 PM - Chinmay: Abe Sahi mein aasan the
+7/13/22, 10:50 PM - Chinmay: Ek kiya bas
+7/13/22, 10:50 PM - Hemant Hostel J: Kaha
+7/13/22, 10:50 PM - Chinmay: Vo cisco ideathon
+7/13/22, 10:50 PM - Hemant Hostel J: Bc
+7/13/22, 10:51 PM - Hemant Hostel J: Mujhe bhi bata deta
+7/13/22, 10:51 PM - Chinmay: Meine aaj hi bhara
+7/13/22, 10:51 PM - Hemant Hostel J: Aacha
+7/13/22, 10:51 PM - Hemant Hostel J: Hai kya usmain
+7/13/22, 10:51 PM - Hemant Hostel J: Coding karaayenge kya
+7/13/22, 10:51 PM - Hemant Hostel J: ?
+7/13/22, 10:52 PM - Chinmay: Pata nahi
+7/13/22, 10:52 PM - Chinmay: Abhi bhi bhar sakta hai tu
+7/13/22, 10:52 PM - Hemant Hostel J: Yaa phir project hackathon type
+7/13/22, 10:52 PM - Chinmay: Pata nahi bhai
+Bas bhar diya
+7/13/22, 10:52 PM - Hemant Hostel J: Bhar deta hu
+7/13/22, 10:52 PM - Chinmay: Vaise Kal uska ppt hai
+7/13/22, 10:52 PM - Chinmay: Vo attend kar diyo
+7/13/22, 10:53 PM - Hemant Hostel J: Haa
+7/13/22, 10:53 PM - Chinmay: Mujhe bhi yaad dila diyo salls
+7/13/22, 10:53 PM - Chinmay: Salle
+7/13/22, 10:53 PM - Hemant Hostel J: Haa
+7/13/22, 10:54 PM - Chinmay: Codestudio pe beginner walle contest dene ki zarorat nahi hai hame
+7/13/22, 10:54 PM - Chinmay: Jo weekly wale hote hai vo acche hote hai
+7/13/22, 10:54 PM - Hemant Hostel J: Bhai dsa karenge hostel aa kar pel ke
+7/13/22, 10:54 PM - Hemant Hostel J: Mock interview lenge
+7/13/22, 10:54 PM - Hemant Hostel J: Ek dusre ka
+7/13/22, 10:54 PM - Chinmay: Yusssss
+Bccccc
+7/13/22, 10:55 PM - Chinmay: Salla core karne ka. Mann nahi kar rha mera
+7/13/22, 10:55 PM - Chinmay: Kaise karu bro?
+7/13/22, 10:55 PM - Hemant Hostel J: Tune notes bana rakhe hai
+7/13/22, 10:55 PM - Hemant Hostel J: ?
+7/13/22, 10:55 PM - Chinmay: Yusss
+7/13/22, 10:57 PM - Hemant Hostel J: College ka naam kyo nhi aa raha bc
+7/13/22, 10:57 PM - Hemant Hostel J: Others daalna hai kya
+7/13/22, 10:57 PM - Chinmay: Others daalde
+7/13/22, 10:59 PM - Hemant Hostel J: Last 6 months main apper toh hua tha main
+7/13/22, 10:59 PM - Chinmay: Kisme?
+7/13/22, 10:59 PM - Hemant Hostel J: Intern ke liye aayi thi naa tab
+7/13/22, 11:00 PM - Chinmay: Haan
+Meine nahi bhari thi tab
+7/13/22, 11:02 PM - Hemant Hostel J: Tera approval aa gaya
+7/13/22, 11:02 PM - Hemant Hostel J: ?
+7/14/22, 12:25 AM - Chinmay: Naah
+7/14/22, 5:15 PM - Chinmay: Tune Salesforce bhara?
+7/14/22, 5:15 PM - Hemant Hostel J: Nhi
+7/14/22, 5:15 PM - Hemant Hostel J: Tune?
+7/14/22, 5:15 PM - Hemant Hostel J: Bharna hai kya?
+7/14/22, 5:16 PM - Chinmay: Usse 1 saal ke liye 3 job posting ke liye bhar sakte hai
+7/14/22, 5:16 PM - Chinmay: Pichla koi test toh nahi hua tha na apna
+7/14/22, 5:16 PM - Hemant Hostel J: Yrr apply kiya tha
+7/14/22, 5:16 PM - Hemant Hostel J: Naam nhi aaya tha
+7/14/22, 5:16 PM - Hemant Hostel J: Intern ke time
+7/14/22, 5:17 PM - Chinmay: Accha
+Tu vo count hoga?
+7/14/22, 5:17 PM - Hemant Hostel J: Pata nhi
+7/14/22, 5:17 PM - Hemant Hostel J: Bhai badhiya english bole rahe hai
+7/14/22, 5:17 PM - Chinmay: Bhai gazab angrezi
+7/14/22, 5:18 PM - Chinmay: Ek dum fluent
+7/14/22, 5:18 PM - Chinmay: Sahi pronunciation
+7/14/22, 5:18 PM - Chinmay: Without stuttering
+7/14/22, 5:30 PM - Hemant Hostel J: Ye log network ki baat kar rahe
+7/14/22, 5:30 PM - Hemant Hostel J: Bc padha hi nhi hai computer network
+7/14/22, 5:30 PM - Chinmay: Csico mein computer network hi puchi jaati hai
+7/14/22, 5:31 PM - Hemant Hostel J: Ye leo
+7/14/22, 5:31 PM - Chinmay: Padho beta.
+Computer network
+Abhi sql bhi karna hai
+Dsa toh chal hi rhi hai
+7/14/22, 5:31 PM - Chinmay: Upar se apti start nahi kiya
+7/14/22, 5:31 PM - Chinmay: Na hi English sudhari
+7/14/22, 5:34 PM - Chinmay: Ye scmhrd kaunsa college hai?
+7/14/22, 5:34 PM - Chinmay: Salla Inke baccho ne sare ques puch rkhe hai
+7/14/22, 5:34 PM - Hemant Hostel J: Pata nhi
+7/14/22, 5:35 PM - Hemant Hostel J: Milni placement toh apne college walo ko hai
+7/14/22, 5:35 PM - Chinmay: Itna confidence 😂😂😂😂
+7/14/22, 5:35 PM - Chinmay: Hemant tu hi fod dega
+Cisco toh tere liye choti company hai
+7/14/22, 5:36 PM - Hemant Hostel J: Yaha nhi kahi aur
+7/14/22, 5:36 PM - Hemant Hostel J: Hoga
+7/14/22, 5:36 PM - Hemant Hostel J: Par hoga bhai
+7/14/22, 5:36 PM - Hemant Hostel J: Tera bhi hoga
+7/14/22, 5:36 PM - Hemant Hostel J: Mera bhi hoga
+7/14/22, 5:36 PM - Hemant Hostel J: Bharosa rakh
+7/14/22, 5:36 PM - Chinmay: Yesss
+Bas 10+ ho jaye
+7/14/22, 5:36 PM - Chinmay: Fir Offcampus fodenge
+7/14/22, 5:36 PM - Hemant Hostel J: 12+ le kar chal
+7/14/22, 5:36 PM - Chinmay: 10 base hai bc
+7/14/22, 5:36 PM - Chinmay: Base pay
+7/14/22, 5:36 PM - Hemant Hostel J: Aacha
+7/14/22, 5:37 PM - Chinmay: Bas itni ki companies aati rhe
+7/14/22, 5:37 PM - Chinmay: 250 baccho ki 15 se upar lagi hai
+7/14/22, 5:37 PM - Chinmay: Hamari bhi lag jaye
+7/14/22, 5:38 PM - Hemant Hostel J: Haa bhai
+7/14/22, 5:38 PM - Chinmay: Yesss chahe diwali ke baad hi lage
+7/14/22, 5:38 PM - Chinmay: Lekin acchi lagegi
+7/14/22, 5:39 PM - Hemant Hostel J: Diwali tak nhi lagi
+7/14/22, 5:39 PM - Hemant Hostel J: Toh padhne ke liye kuch bacha hi nhi hoga
+7/14/22, 5:39 PM - Chinmay: Toh ghar Jaan mushkil ho jayega 😂
+7/14/22, 5:39 PM - Hemant Hostel J: Lag jayegi
+7/14/22, 5:39 PM - Chinmay: Jaana
+7/14/22, 5:39 PM - Hemant Hostel J: Yaar mehenat kar rakhi hai apan ne
+7/14/22, 5:40 PM - Hemant Hostel J: Bakhi toh god knows
+7/14/22, 5:40 PM - Chinmay: Meri ek dost hai
+Usne Inn 2 mahine mein dsa ki hai
+Core bhi ki hai
+7/14/22, 5:40 PM - Chinmay: Bc ham toh 3rd year se kar rhe hai
+7/14/22, 5:40 PM - Chinmay: Lekin online hai
+Kuch nahi pata
+7/14/22, 5:40 PM - Hemant Hostel J: Bhai opportunity nhi mili abhi tak
+7/14/22, 5:40 PM - Hemant Hostel J: Yrrr
+7/14/22, 5:41 PM - Hemant Hostel J: Tu wo bhi dekh
+7/14/22, 5:41 PM - Chinmay: Mujhe milli bhi thi
+Bc kismat chutiya nikali 😂
+7/14/22, 5:41 PM - Chinmay: Koi nahi
+Jinn bhaiya ka 1.8 crore ka laga vo bhi 30 se 40 companies se reject huye the
+7/14/22, 5:41 PM - Hemant Hostel J: Bhai tu miss karna chahata tha usse
+7/14/22, 5:41 PM - Hemant Hostel J: Wohi bhai
+7/14/22, 5:41 PM - Hemant Hostel J: Itna mat soch
+7/14/22, 5:42 PM - Chinmay: Uss samay toh Haan
+Bc salla fir package badha diya chutiyo ne
+7/14/22, 5:47 PM - Hemant Hostel J: Who have the biggest lund
+7/14/22, 5:47 PM - Hemant Hostel J: Ye bhi puch loo
+7/14/22, 5:47 PM - Chinmay: Mera Lund sabse bada hai
+7/14/22, 5:47 PM - Chinmay: *has
+7/14/22, 5:48 PM - Hemant Hostel J: Ok
+7/15/22, 1:54 PM - Hemant Hostel J: <Media omitted>
+7/15/22, 1:55 PM - Hemant Hostel J: bhai ye dkehiyo kaisa lag raha
+7/15/22, 1:55 PM - Hemant Hostel J: aur image search kariyo background ke liye
+7/15/22, 1:55 PM - Hemant Hostel J: koi quotes hoo yaa kuch aur
+7/15/22, 1:58 PM - Chinmay: Quizard naam rkh de
+7/15/22, 1:58 PM - Hemant Hostel J: ok
